@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 236.0, 129.0, 1205.0, 875.0 ],
+		"rect" : [ 11.0, 95.0, 1264.0, 611.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,9 +40,73 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-37",
+					"format" : 6,
+					"id" : "obj-17",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 486.75, 523.5, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-19",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 486.75, 556.5, 139.0, 22.0 ],
+					"text" : "/atem/dsk/1/mask/left $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-16",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 311.5, 532.5, 139.0, 35.0 ],
+					"presentation_linecount" : 2,
+					"text" : "/atem/usk/1/mask/left 1.828"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"format" : 6,
+					"id" : "obj-13",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 401.0, 445.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 322.75, 488.5, 139.0, 22.0 ],
+					"text" : "/atem/usk/1/mask/left $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-14",
 					"maxclass" : "newobj",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
@@ -55,7 +119,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 59.0, 104.0, 640.0, 480.0 ],
+						"rect" : [ 59.0, 104.0, 760.0, 959.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -83,54 +147,41 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
-									"args" : [ "/atem/face/me/1/usk/1" ],
-									"bgmode" : 1,
-									"border" : 1,
-									"clickthrough" : 0,
-									"enablehscroll" : 0,
-									"enablevscroll" : 0,
-									"id" : "obj-36",
-									"lockeddragscroll" : 0,
-									"lockedsize" : 0,
-									"maxclass" : "bpatcher",
-									"name" : "atem.view.maxpat",
-									"numinlets" : 0,
+									"id" : "obj-9",
+									"maxclass" : "dict.view",
+									"numinlets" : 1,
 									"numoutlets" : 0,
-									"offset" : [ 0.0, 0.0 ],
-									"patching_rect" : [ 1.0, 202.5, 584.0, 203.0 ],
-									"viewvisibility" : 1
+									"patching_rect" : [ 50.0, 100.0, 613.0, 790.0 ]
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"args" : [ "/atem/face/me/1/usk/1" ],
-									"bgmode" : 1,
-									"border" : 1,
-									"clickthrough" : 0,
-									"enablehscroll" : 0,
-									"enablevscroll" : 0,
-									"id" : "obj-14",
-									"lockeddragscroll" : 0,
-									"lockedsize" : 0,
-									"maxclass" : "bpatcher",
-									"name" : "atem.view.maxpat",
+									"comment" : "",
+									"id" : "obj-13",
+									"index" : 1,
+									"maxclass" : "inlet",
 									"numinlets" : 0,
-									"numoutlets" : 0,
-									"offset" : [ 0.0, 0.0 ],
-									"patching_rect" : [ 1.0, 0.0, 584.0, 203.0 ],
-									"viewvisibility" : 1
+									"numoutlets" : 1,
+									"outlettype" : [ "dictionary" ],
+									"patching_rect" : [ 50.0, 40.0, 30.0, 30.0 ]
 								}
 
 							}
  ],
-						"lines" : [  ]
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-9", 0 ],
+									"source" : [ "obj-13", 0 ]
+								}
+
+							}
+ ]
 					}
 ,
-					"patching_rect" : [ 630.0, 176.5, 584.0, 22.0 ],
+					"patching_rect" : [ 100.0, 430.0, 100.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -144,73 +195,120 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-35",
-					"maxclass" : "toggle",
+					"id" : "obj-4",
+					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 120.0, 308.0, 24.0, 24.0 ]
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 100.0, 324.0, 60.0, 22.0 ],
+					"text" : "loadmess"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-33",
+					"id" : "obj-3",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 100.0, 359.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-15",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 4,
+					"outlettype" : [ "dictionary", "", "", "" ],
+					"patching_rect" : [ 100.0, 395.0, 57.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"embed" : 0,
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "dict span"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-12",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 152.0, 488.5, 121.0, 22.0 ],
+					"text" : "/atem/usk/1/luma/clip"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 428.0, 348.0, 29.5, 22.0 ],
+					"text" : "dve"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 358.0, 348.0, 46.0, 22.0 ],
+					"text" : "pattern"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-8",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 120.0, 350.0, 152.0, 22.0 ],
-					"text" : "s /atem/face/me/0/usk/1/tie"
+					"patching_rect" : [ 355.75, 395.0, 174.0, 22.0 ],
+					"text" : "s /atem/usk/1/type"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-30",
+					"id" : "obj-6",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 274.5, 170.0, 132.0, 22.0 ],
+					"text" : "/atem/send-status"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 14.0,
+					"id" : "obj-5",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 620.0, 715.0, 243.0, 22.0 ],
-					"text" : "atem /atem/face/me/0/usk/1"
+					"patching_rect" : [ 432.0, 14.0, 146.0, 24.0 ],
+					"text" : "m-e.model /atem"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-29",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 43.0, 796.0, 101.0, 22.0 ],
-					"text" : "atem /atem/usk/1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ "/atem/usk/1" ],
-					"bgmode" : 1,
-					"border" : 1,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-27",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "atem.view.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 14.0, 576.5, 584.0, 203.0 ],
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ "/atem/face/me/0/usk/1" ],
+					"args" : [ "/atem" ],
 					"bgmode" : 1,
 					"border" : 1,
 					"clickthrough" : 0,
@@ -220,46 +318,12 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "atem.view.maxpat",
+					"name" : "m-e.view.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 608.0, 470.5, 584.0, 203.0 ],
+					"patching_rect" : [ 589.0, 5.0, 659.0, 540.0 ],
 					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-24",
-					"maxclass" : "toggle",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 424.0, 368.0, 24.0, 24.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-20",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 424.0, 416.0, 140.0, 22.0 ],
-					"text" : "s /atem/face/usk/1/on-air"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-19",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 351.0, 321.0, 147.0, 22.0 ]
 				}
 
 			}
@@ -270,30 +334,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 229.0, 67.0, 207.0, 22.0 ],
-					"text" : "/atem/usk/1/tie 0"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-11",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 517.0, 51.0, 63.0, 22.0 ],
-					"text" : "atem.view"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-8",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 612.0, 4.5, 243.0, 22.0 ],
-					"text" : "atem /atem/face/me/1/usk/1"
+					"patching_rect" : [ 237.0, 87.0, 207.0, 22.0 ],
+					"text" : "/atem/usk/1/fly/enable false"
 				}
 
 			}
@@ -304,19 +346,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 342.0, 190.0, 173.0, 22.0 ],
+					"patching_rect" : [ 381.0, 220.0, 173.0, 22.0 ],
 					"text" : "/atem/face/me/1/transition/auto"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-79",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 624.0, 687.5, 363.0, 20.0 ],
-					"text" : "ATEM SOFTWARE CONTROL REPOND EN ENLEVANT LE ME/1"
 				}
 
 			}
@@ -533,7 +564,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 169.5, 185.0, 82.0, 22.0 ],
+					"patching_rect" : [ 145.0, 276.0, 82.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -552,7 +583,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 241.0, 104.0, 130.0, 22.0 ],
+					"patching_rect" : [ 248.0, 130.0, 130.0, 22.0 ],
 					"text" : "/atem/face/send-status"
 				}
 
@@ -565,8 +596,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 169.5, 268.0, 141.0, 35.0 ],
-					"text" : "/atem/face/me/0/usk/2/tie 0"
+					"patching_rect" : [ 248.0, 269.5, 141.0, 35.0 ],
+					"text" : "/atem/input/10011/short-name PVW"
 				}
 
 			}
@@ -576,7 +607,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 75.0, 250.0, 56.0, 22.0 ],
+					"patching_rect" : [ 82.0, 276.0, 56.0, 22.0 ],
 					"text" : "print >>>"
 				}
 
@@ -588,7 +619,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 75.0, 144.0, 104.0, 22.0 ],
+					"patching_rect" : [ 82.0, 170.0, 104.0, 22.0 ],
 					"text" : "udpreceive 5000"
 				}
 
@@ -600,7 +631,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 75.0, 24.0, 145.0, 22.0 ],
+					"patching_rect" : [ 82.0, 50.0, 145.0, 22.0 ],
 					"text" : "r _udpsend"
 				}
 
@@ -611,13 +642,71 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 75.0, 99.0, 145.0, 22.0 ],
-					"text" : "udpsend 10.10.10.3 3333"
+					"patching_rect" : [ 82.0, 125.0, 145.0, 22.0 ],
+					"text" : "udpsend 10.10.10.2 3333"
 				}
 
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"order" : 1,
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-16", 1 ],
+					"order" : 0,
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
 					"order" : 2,
@@ -643,15 +732,22 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-20", 0 ],
-					"source" : [ "obj-24", 0 ]
+					"destination" : [ "obj-15", 0 ],
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-33", 0 ],
-					"source" : [ "obj-35", 0 ]
+					"destination" : [ "obj-3", 0 ],
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-6", 0 ]
 				}
 
 			}
@@ -687,14 +783,28 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "atem.maxpat",
+				"name" : "keyer.model.maxpat",
 				"bootpath" : "~/Documents/GITs/atem-control",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "atem.view.maxpat",
+				"name" : "keyer.view.maxpat",
+				"bootpath" : "~/Documents/GITs/atem-control",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "m-e.model.maxpat",
+				"bootpath" : "~/Documents/GITs/atem-control",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "m-e.view.maxpat",
 				"bootpath" : "~/Documents/GITs/atem-control",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
