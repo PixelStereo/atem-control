@@ -119,7 +119,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
 									"patching_rect" : [ 308.0, 357.0, 161.0, 22.0 ],
-									"text" : "span.message transition::cut"
+									"text" : "span.message transition/cut"
 								}
 
 							}
@@ -132,7 +132,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
 									"patching_rect" : [ 363.0, 428.0, 169.0, 22.0 ],
-									"text" : "span.message transition::auto"
+									"text" : "span.message transition/auto"
 								}
 
 							}
@@ -193,7 +193,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 268.0, 287.0, 174.0, 22.0 ],
-									"text" : "span.param.dec transition::rate"
+									"text" : "span.param.dec transition/rate"
 								}
 
 							}
@@ -206,7 +206,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 85.0, 144.0, 195.0, 22.0 ],
-									"text" : "span.param.dec transition::position"
+									"text" : "span.param.dec transition/position"
 								}
 
 							}
@@ -219,7 +219,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 175.0, 222.0, 170.0, 22.0 ],
-									"text" : "span.param.bool transition::ftb"
+									"text" : "span.param.bool transition/ftb"
 								}
 
 							}
@@ -232,7 +232,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 15.0, 66.0, 171.0, 22.0 ],
-									"text" : "span.param.dec transition::bar"
+									"text" : "span.param.dec transition/bar"
 								}
 
 							}
