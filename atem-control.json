@@ -1,8 +1,8 @@
 {
 	"projectinfo" : 	{
 		"created" : "2022-02-13T23:28:37",
-		"lastopened" : "2022-02-13T23:28:37",
-		"lastsaved" : "2022-02-14T01:30:23",
+		"lastopened" : "2022-02-14T17:38:07",
+		"lastsaved" : "2022-02-14T17:45:07",
 		"appname" : "span",
 		"appversion" : 		{
 			"major" : 0,
@@ -403,7 +403,7 @@
 						"type" : "string",
 						"unit" : "none",
 						"initval" : "<none>",
-						"value" : "dve"
+						"value" : "luma"
 					}
 ,
 					"tie" : 					{
@@ -431,70 +431,70 @@
 						"clipmode" : "both",
 						"ramp" : 0,
 						"rampfunction" : "none",
-						"value" : 1
+						"value" : 0
 					}
 ,
 					"luma" : 					{
 						"clip" : 						{
-							"value" : 0.066
+							"value" : 0.580999970436096
 						}
 ,
 						"gain" : 						{
-							"value" : 0.272
+							"value" : 0.216000005602837
 						}
 ,
 						"pre-multiplied" : 						{
-							"value" : 1
+							"value" : 0
 						}
 ,
 						"inverse" : 						{
-							"value" : 1
+							"value" : 0
 						}
 
 					}
 ,
 					"chroma" : 					{
 						"hue" : 						{
-							"value" : 228.907000000000011
+							"value" : 0.0
 						}
 ,
 						"gain" : 						{
-							"value" : 0.901
+							"value" : 0.0
 						}
 ,
 						"y-suppress" : 						{
-							"value" : 0.651
+							"value" : 0.0
 						}
 ,
 						"lift" : 						{
-							"value" : 0.357
+							"value" : 0.0
 						}
 ,
 						"narrow" : 						{
-							"value" : 1
+							"value" : 0
 						}
 
 					}
 ,
 					"fly" : 					{
 						"rotation" : 						{
-							"value" : 33.277999999999999
+							"value" : 0.0
 						}
 ,
 						"position-x" : 						{
-							"value" : -82.0
+							"value" : 0.0
 						}
 ,
 						"position-y" : 						{
-							"value" : 6.0
+							"value" : 0.0
 						}
 ,
 						"size-y" : 						{
-							"value" : 0.709
+							"value" : 0.0
 						}
 ,
 						"size-x" : 						{
-							"value" : 0.627
+							"value" : 0.0
 						}
 ,
 						"enable" : 						{
@@ -503,6 +503,10 @@
 ,
 						"rate" : 						{
 							"value" : 1
+						}
+,
+						"enabled" : 						{
+							"value" : 0
 						}
 
 					}
@@ -548,1098 +552,32 @@
 ,
 					"source" : 					{
 						"cut" : 						{
-							"value" : 1001
+							"value" : 1
 						}
 ,
 						"fill" : 						{
-							"value" : 2000
+							"value" : 4
 						}
 
+					}
+,
+					"fly/enabled" : 					{
+						"description" : "none",
+						"class" : "parameter",
+						"type" : "boolean",
+						"unit" : "none",
+						"initval" : 0,
+						"range" : [ 0, 1 ],
+						"repetition" : 1,
+						"clipmode" : "both",
+						"ramp" : 0,
+						"rampfunction" : "none",
+						"value" : 0
 					}
 
 				}
 ,
 				"2" : 				{
-					"fly/rotation" : 					{
-						"description" : "none",
-						"class" : "parameter",
-						"type" : "decimal",
-						"unit" : "none",
-						"initval" : 0,
-						"repetition" : 1,
-						"range" : [ 0, 0 ],
-						"clipmode" : "none",
-						"ramp" : 1,
-						"rampfunction" : "none",
-						"value" : 0
-					}
-,
-					"fly/size-y" : 					{
-						"description" : "none",
-						"class" : "parameter",
-						"type" : "decimal",
-						"unit" : "none",
-						"initval" : 0,
-						"repetition" : 1,
-						"range" : [ 0, 0 ],
-						"clipmode" : "none",
-						"ramp" : 1,
-						"rampfunction" : "none",
-						"value" : 0
-					}
-,
-					"fly/position-y" : 					{
-						"description" : "none",
-						"class" : "parameter",
-						"type" : "decimal",
-						"unit" : "none",
-						"initval" : 0,
-						"repetition" : 1,
-						"range" : [ 0, 0 ],
-						"clipmode" : "none",
-						"ramp" : 1,
-						"rampfunction" : "none",
-						"value" : 0
-					}
-,
-					"fly/size-x" : 					{
-						"description" : "none",
-						"class" : "parameter",
-						"type" : "decimal",
-						"unit" : "none",
-						"initval" : 0,
-						"repetition" : 1,
-						"range" : [ 0, 0 ],
-						"clipmode" : "none",
-						"ramp" : 1,
-						"rampfunction" : "none",
-						"value" : 0
-					}
-,
-					"fly/position-x" : 					{
-						"description" : "none",
-						"class" : "parameter",
-						"type" : "decimal",
-						"unit" : "none",
-						"initval" : 0,
-						"repetition" : 1,
-						"range" : [ 0, 0 ],
-						"clipmode" : "none",
-						"ramp" : 1,
-						"rampfunction" : "none",
-						"value" : 0
-					}
-,
-					"fly/enable" : 					{
-						"description" : "none",
-						"class" : "parameter",
-						"type" : "boolean",
-						"unit" : "none",
-						"initval" : 0,
-						"range" : [ 0, 1 ],
-						"repetition" : 1,
-						"clipmode" : "both",
-						"ramp" : 0,
-						"rampfunction" : "none",
-						"value" : 0
-					}
-,
-					"fly/rate" : 					{
-						"description" : "none",
-						"class" : "parameter",
-						"type" : "integer",
-						"unit" : "none",
-						"initval" : 0,
-						"repetition" : 1,
-						"clipmode" : "none",
-						"range" : [ 0, 0 ],
-						"ramp" : 0,
-						"rampfunction" : "none",
-						"value" : 0
-					}
-,
-					"dve/border-saturation" : 					{
-						"description" : "none",
-						"class" : "parameter",
-						"type" : "decimal",
-						"unit" : "none",
-						"initval" : 0,
-						"repetition" : 1,
-						"range" : [ 0, 0 ],
-						"clipmode" : "none",
-						"ramp" : 1,
-						"rampfunction" : "none",
-						"value" : 0
-					}
-,
-					"dve/border-luma" : 					{
-						"description" : "none",
-						"class" : "parameter",
-						"type" : "decimal",
-						"unit" : "none",
-						"initval" : 0,
-						"repetition" : 1,
-						"range" : [ 0, 0 ],
-						"clipmode" : "none",
-						"ramp" : 1,
-						"rampfunction" : "none",
-						"value" : 0
-					}
-,
-					"dve/enabled" : 					{
-						"description" : "none",
-						"class" : "parameter",
-						"type" : "boolean",
-						"unit" : "none",
-						"initval" : 0,
-						"range" : [ 0, 1 ],
-						"repetition" : 1,
-						"clipmode" : "both",
-						"ramp" : 0,
-						"rampfunction" : "none",
-						"value" : 0
-					}
-,
-					"dve/border-softness-inner" : 					{
-						"description" : "none",
-						"class" : "parameter",
-						"type" : "decimal",
-						"unit" : "none",
-						"initval" : 0,
-						"repetition" : 1,
-						"range" : [ 0, 0 ],
-						"clipmode" : "none",
-						"ramp" : 1,
-						"rampfunction" : "none",
-						"value" : 0
-					}
-,
-					"dve/border-hue" : 					{
-						"description" : "none",
-						"class" : "parameter",
-						"type" : "decimal",
-						"unit" : "none",
-						"initval" : 0,
-						"repetition" : 1,
-						"range" : [ 0, 0 ],
-						"clipmode" : "none",
-						"ramp" : 1,
-						"rampfunction" : "none",
-						"value" : 0
-					}
-,
-					"dve/border-opacity" : 					{
-						"description" : "none",
-						"class" : "parameter",
-						"type" : "decimal",
-						"unit" : "none",
-						"initval" : 0,
-						"repetition" : 1,
-						"range" : [ 0, 0 ],
-						"clipmode" : "none",
-						"ramp" : 1,
-						"rampfunction" : "none",
-						"value" : 0
-					}
-,
-					"dve/border-width-outer" : 					{
-						"description" : "none",
-						"class" : "parameter",
-						"type" : "decimal",
-						"unit" : "none",
-						"initval" : 0,
-						"repetition" : 1,
-						"range" : [ 0, 0 ],
-						"clipmode" : "none",
-						"ramp" : 1,
-						"rampfunction" : "none",
-						"value" : 0
-					}
-,
-					"dve/border-width-inner" : 					{
-						"description" : "none",
-						"class" : "parameter",
-						"type" : "decimal",
-						"unit" : "none",
-						"initval" : 0,
-						"repetition" : 1,
-						"range" : [ 0, 0 ],
-						"clipmode" : "none",
-						"ramp" : 1,
-						"rampfunction" : "none",
-						"value" : 0
-					}
-,
-					"dve/border-softness-outer" : 					{
-						"description" : "none",
-						"class" : "parameter",
-						"type" : "decimal",
-						"unit" : "none",
-						"initval" : 0,
-						"repetition" : 1,
-						"range" : [ 0, 0 ],
-						"clipmode" : "none",
-						"ramp" : 1,
-						"rampfunction" : "none",
-						"value" : 0
-					}
-,
-					"chroma/narrow" : 					{
-						"description" : "none",
-						"class" : "parameter",
-						"type" : "boolean",
-						"unit" : "none",
-						"initval" : 0,
-						"range" : [ 0, 1 ],
-						"repetition" : 1,
-						"clipmode" : "both",
-						"ramp" : 0,
-						"rampfunction" : "none",
-						"value" : 0
-					}
-,
-					"chroma/y-suppress" : 					{
-						"description" : "none",
-						"class" : "parameter",
-						"type" : "decimal",
-						"unit" : "none",
-						"initval" : 0,
-						"repetition" : 1,
-						"range" : [ 0, 0 ],
-						"clipmode" : "none",
-						"ramp" : 1,
-						"rampfunction" : "none",
-						"value" : 0
-					}
-,
-					"chroma/lift" : 					{
-						"description" : "none",
-						"class" : "parameter",
-						"type" : "decimal",
-						"unit" : "none",
-						"initval" : 0,
-						"repetition" : 1,
-						"range" : [ 0, 0 ],
-						"clipmode" : "none",
-						"ramp" : 1,
-						"rampfunction" : "none",
-						"value" : 0
-					}
-,
-					"chroma/gain" : 					{
-						"description" : "none",
-						"class" : "parameter",
-						"type" : "decimal",
-						"unit" : "none",
-						"initval" : 0,
-						"repetition" : 1,
-						"range" : [ 0, 0 ],
-						"clipmode" : "none",
-						"ramp" : 1,
-						"rampfunction" : "none",
-						"value" : 0
-					}
-,
-					"chroma/hue" : 					{
-						"description" : "none",
-						"class" : "parameter",
-						"type" : "decimal",
-						"unit" : "none",
-						"initval" : 0,
-						"repetition" : 1,
-						"range" : [ 0, 0 ],
-						"clipmode" : "none",
-						"ramp" : 1,
-						"rampfunction" : "none",
-						"value" : 0
-					}
-,
-					"luma/pre-multiplied" : 					{
-						"description" : "none",
-						"class" : "parameter",
-						"type" : "boolean",
-						"unit" : "none",
-						"initval" : 0,
-						"range" : [ 0, 1 ],
-						"repetition" : 1,
-						"clipmode" : "both",
-						"ramp" : 0,
-						"rampfunction" : "none",
-						"value" : 0
-					}
-,
-					"luma/gain" : 					{
-						"description" : "none",
-						"class" : "parameter",
-						"type" : "decimal",
-						"unit" : "none",
-						"initval" : 0,
-						"repetition" : 1,
-						"range" : [ 0, 0 ],
-						"clipmode" : "none",
-						"ramp" : 1,
-						"rampfunction" : "none",
-						"value" : 0
-					}
-,
-					"luma/clip" : 					{
-						"description" : "none",
-						"class" : "parameter",
-						"type" : "decimal",
-						"unit" : "none",
-						"initval" : 0,
-						"repetition" : 1,
-						"range" : [ 0, 0 ],
-						"clipmode" : "none",
-						"ramp" : 1,
-						"rampfunction" : "none",
-						"value" : 0
-					}
-,
-					"luma/inverse" : 					{
-						"description" : "none",
-						"class" : "parameter",
-						"type" : "boolean",
-						"unit" : "none",
-						"initval" : 0,
-						"range" : [ 0, 1 ],
-						"repetition" : 1,
-						"clipmode" : "both",
-						"ramp" : 0,
-						"rampfunction" : "none",
-						"value" : 0
-					}
-,
-					"source/cut" : 					{
-						"description" : "none",
-						"class" : "parameter",
-						"type" : "integer",
-						"unit" : "none",
-						"initval" : 0,
-						"repetition" : 1,
-						"clipmode" : "none",
-						"range" : [ 0, 0 ],
-						"ramp" : 0,
-						"rampfunction" : "none",
-						"value" : 0
-					}
-,
-					"source/fill" : 					{
-						"description" : "none",
-						"class" : "parameter",
-						"type" : "integer",
-						"unit" : "none",
-						"initval" : 0,
-						"repetition" : 1,
-						"clipmode" : "none",
-						"range" : [ 0, 0 ],
-						"ramp" : 0,
-						"rampfunction" : "none",
-						"value" : 0
-					}
-,
-					"type" : 					{
-						"class" : "parameter",
-						"type" : "string",
-						"unit" : "none",
-						"initval" : "<none>",
-						"value" : "chroma"
-					}
-,
-					"tie" : 					{
-						"description" : "none",
-						"class" : "parameter",
-						"type" : "boolean",
-						"unit" : "none",
-						"initval" : 0,
-						"range" : [ 0, 1 ],
-						"repetition" : 1,
-						"clipmode" : "both",
-						"ramp" : 0,
-						"rampfunction" : "none",
-						"value" : 1
-					}
-,
-					"on-air" : 					{
-						"description" : "none",
-						"class" : "parameter",
-						"type" : "boolean",
-						"unit" : "none",
-						"initval" : 0,
-						"range" : [ 0, 1 ],
-						"repetition" : 1,
-						"clipmode" : "both",
-						"ramp" : 0,
-						"rampfunction" : "none",
-						"value" : 1
-					}
-,
-					"fly" : 					{
-						"rotation" : 						{
-							"value" : 176.25200000000001
-						}
-,
-						"size-y" : 						{
-							"value" : 0.846
-						}
-,
-						"position-y" : 						{
-							"value" : 30.0
-						}
-,
-						"size-x" : 						{
-							"value" : 0.257
-						}
-,
-						"position-x" : 						{
-							"value" : -38.698999999999998
-						}
-,
-						"enable" : 						{
-							"value" : 1
-						}
-,
-						"rate" : 						{
-							"value" : 1
-						}
-
-					}
-,
-					"dve" : 					{
-						"border-saturation" : 						{
-							"value" : 0.0
-						}
-,
-						"border-luma" : 						{
-							"value" : 0.0
-						}
-,
-						"enabled" : 						{
-							"value" : 1
-						}
-,
-						"border-softness-inner" : 						{
-							"value" : 0.0
-						}
-,
-						"border-hue" : 						{
-							"value" : 0.0
-						}
-,
-						"border-opacity" : 						{
-							"value" : 0.0
-						}
-,
-						"border-width-outer" : 						{
-							"value" : 0.0
-						}
-,
-						"border-width-inner" : 						{
-							"value" : 0.0
-						}
-,
-						"border-softness-outer" : 						{
-							"value" : 0.0
-						}
-
-					}
-,
-					"chroma" : 					{
-						"narrow" : 						{
-							"value" : 1
-						}
-,
-						"y-suppress" : 						{
-							"value" : 0.724
-						}
-,
-						"lift" : 						{
-							"value" : 0.371
-						}
-,
-						"gain" : 						{
-							"value" : 0.474
-						}
-,
-						"hue" : 						{
-							"value" : 96.590999999999994
-						}
-
-					}
-,
-					"luma" : 					{
-						"pre-multiplied" : 						{
-							"value" : 1
-						}
-,
-						"gain" : 						{
-							"value" : 0.566
-						}
-,
-						"clip" : 						{
-							"value" : 0.89
-						}
-,
-						"inverse" : 						{
-							"value" : 1
-						}
-
-					}
-,
-					"source" : 					{
-						"cut" : 						{
-							"value" : 2000
-						}
-,
-						"fill" : 						{
-							"value" : 1001
-						}
-
-					}
-
-				}
-,
-				"3" : 				{
-					"fly/rotation" : 					{
-						"description" : "none",
-						"class" : "parameter",
-						"type" : "decimal",
-						"unit" : "none",
-						"initval" : 0,
-						"repetition" : 1,
-						"range" : [ 0, 0 ],
-						"clipmode" : "none",
-						"ramp" : 1,
-						"rampfunction" : "none",
-						"value" : 0
-					}
-,
-					"fly/size-y" : 					{
-						"description" : "none",
-						"class" : "parameter",
-						"type" : "decimal",
-						"unit" : "none",
-						"initval" : 0,
-						"repetition" : 1,
-						"range" : [ 0, 0 ],
-						"clipmode" : "none",
-						"ramp" : 1,
-						"rampfunction" : "none",
-						"value" : 0
-					}
-,
-					"fly/position-y" : 					{
-						"description" : "none",
-						"class" : "parameter",
-						"type" : "decimal",
-						"unit" : "none",
-						"initval" : 0,
-						"repetition" : 1,
-						"range" : [ 0, 0 ],
-						"clipmode" : "none",
-						"ramp" : 1,
-						"rampfunction" : "none",
-						"value" : 0
-					}
-,
-					"fly/size-x" : 					{
-						"description" : "none",
-						"class" : "parameter",
-						"type" : "decimal",
-						"unit" : "none",
-						"initval" : 0,
-						"repetition" : 1,
-						"range" : [ 0, 0 ],
-						"clipmode" : "none",
-						"ramp" : 1,
-						"rampfunction" : "none",
-						"value" : 0
-					}
-,
-					"fly/position-x" : 					{
-						"description" : "none",
-						"class" : "parameter",
-						"type" : "decimal",
-						"unit" : "none",
-						"initval" : 0,
-						"repetition" : 1,
-						"range" : [ 0, 0 ],
-						"clipmode" : "none",
-						"ramp" : 1,
-						"rampfunction" : "none",
-						"value" : 0
-					}
-,
-					"fly/enable" : 					{
-						"description" : "none",
-						"class" : "parameter",
-						"type" : "boolean",
-						"unit" : "none",
-						"initval" : 0,
-						"range" : [ 0, 1 ],
-						"repetition" : 1,
-						"clipmode" : "both",
-						"ramp" : 0,
-						"rampfunction" : "none",
-						"value" : 0
-					}
-,
-					"fly/rate" : 					{
-						"description" : "none",
-						"class" : "parameter",
-						"type" : "integer",
-						"unit" : "none",
-						"initval" : 0,
-						"repetition" : 1,
-						"clipmode" : "none",
-						"range" : [ 0, 0 ],
-						"ramp" : 0,
-						"rampfunction" : "none",
-						"value" : 0
-					}
-,
-					"dve/border-saturation" : 					{
-						"description" : "none",
-						"class" : "parameter",
-						"type" : "decimal",
-						"unit" : "none",
-						"initval" : 0,
-						"repetition" : 1,
-						"range" : [ 0, 0 ],
-						"clipmode" : "none",
-						"ramp" : 1,
-						"rampfunction" : "none",
-						"value" : 0
-					}
-,
-					"dve/border-luma" : 					{
-						"description" : "none",
-						"class" : "parameter",
-						"type" : "decimal",
-						"unit" : "none",
-						"initval" : 0,
-						"repetition" : 1,
-						"range" : [ 0, 0 ],
-						"clipmode" : "none",
-						"ramp" : 1,
-						"rampfunction" : "none",
-						"value" : 0
-					}
-,
-					"dve/enabled" : 					{
-						"description" : "none",
-						"class" : "parameter",
-						"type" : "boolean",
-						"unit" : "none",
-						"initval" : 0,
-						"range" : [ 0, 1 ],
-						"repetition" : 1,
-						"clipmode" : "both",
-						"ramp" : 0,
-						"rampfunction" : "none",
-						"value" : 0
-					}
-,
-					"dve/border-softness-inner" : 					{
-						"description" : "none",
-						"class" : "parameter",
-						"type" : "decimal",
-						"unit" : "none",
-						"initval" : 0,
-						"repetition" : 1,
-						"range" : [ 0, 0 ],
-						"clipmode" : "none",
-						"ramp" : 1,
-						"rampfunction" : "none",
-						"value" : 0
-					}
-,
-					"dve/border-hue" : 					{
-						"description" : "none",
-						"class" : "parameter",
-						"type" : "decimal",
-						"unit" : "none",
-						"initval" : 0,
-						"repetition" : 1,
-						"range" : [ 0, 0 ],
-						"clipmode" : "none",
-						"ramp" : 1,
-						"rampfunction" : "none",
-						"value" : 0
-					}
-,
-					"dve/border-opacity" : 					{
-						"description" : "none",
-						"class" : "parameter",
-						"type" : "decimal",
-						"unit" : "none",
-						"initval" : 0,
-						"repetition" : 1,
-						"range" : [ 0, 0 ],
-						"clipmode" : "none",
-						"ramp" : 1,
-						"rampfunction" : "none",
-						"value" : 0
-					}
-,
-					"dve/border-width-outer" : 					{
-						"description" : "none",
-						"class" : "parameter",
-						"type" : "decimal",
-						"unit" : "none",
-						"initval" : 0,
-						"repetition" : 1,
-						"range" : [ 0, 0 ],
-						"clipmode" : "none",
-						"ramp" : 1,
-						"rampfunction" : "none",
-						"value" : 0
-					}
-,
-					"dve/border-width-inner" : 					{
-						"description" : "none",
-						"class" : "parameter",
-						"type" : "decimal",
-						"unit" : "none",
-						"initval" : 0,
-						"repetition" : 1,
-						"range" : [ 0, 0 ],
-						"clipmode" : "none",
-						"ramp" : 1,
-						"rampfunction" : "none",
-						"value" : 0
-					}
-,
-					"dve/border-softness-outer" : 					{
-						"description" : "none",
-						"class" : "parameter",
-						"type" : "decimal",
-						"unit" : "none",
-						"initval" : 0,
-						"repetition" : 1,
-						"range" : [ 0, 0 ],
-						"clipmode" : "none",
-						"ramp" : 1,
-						"rampfunction" : "none",
-						"value" : 0
-					}
-,
-					"chroma/narrow" : 					{
-						"description" : "none",
-						"class" : "parameter",
-						"type" : "boolean",
-						"unit" : "none",
-						"initval" : 0,
-						"range" : [ 0, 1 ],
-						"repetition" : 1,
-						"clipmode" : "both",
-						"ramp" : 0,
-						"rampfunction" : "none",
-						"value" : 0
-					}
-,
-					"chroma/y-suppress" : 					{
-						"description" : "none",
-						"class" : "parameter",
-						"type" : "decimal",
-						"unit" : "none",
-						"initval" : 0,
-						"repetition" : 1,
-						"range" : [ 0, 0 ],
-						"clipmode" : "none",
-						"ramp" : 1,
-						"rampfunction" : "none",
-						"value" : 0
-					}
-,
-					"chroma/lift" : 					{
-						"description" : "none",
-						"class" : "parameter",
-						"type" : "decimal",
-						"unit" : "none",
-						"initval" : 0,
-						"repetition" : 1,
-						"range" : [ 0, 0 ],
-						"clipmode" : "none",
-						"ramp" : 1,
-						"rampfunction" : "none",
-						"value" : 0
-					}
-,
-					"chroma/gain" : 					{
-						"description" : "none",
-						"class" : "parameter",
-						"type" : "decimal",
-						"unit" : "none",
-						"initval" : 0,
-						"repetition" : 1,
-						"range" : [ 0, 0 ],
-						"clipmode" : "none",
-						"ramp" : 1,
-						"rampfunction" : "none",
-						"value" : 0
-					}
-,
-					"chroma/hue" : 					{
-						"description" : "none",
-						"class" : "parameter",
-						"type" : "decimal",
-						"unit" : "none",
-						"initval" : 0,
-						"repetition" : 1,
-						"range" : [ 0, 0 ],
-						"clipmode" : "none",
-						"ramp" : 1,
-						"rampfunction" : "none",
-						"value" : 0
-					}
-,
-					"luma/pre-multiplied" : 					{
-						"description" : "none",
-						"class" : "parameter",
-						"type" : "boolean",
-						"unit" : "none",
-						"initval" : 0,
-						"range" : [ 0, 1 ],
-						"repetition" : 1,
-						"clipmode" : "both",
-						"ramp" : 0,
-						"rampfunction" : "none",
-						"value" : 0
-					}
-,
-					"luma/gain" : 					{
-						"description" : "none",
-						"class" : "parameter",
-						"type" : "decimal",
-						"unit" : "none",
-						"initval" : 0,
-						"repetition" : 1,
-						"range" : [ 0, 0 ],
-						"clipmode" : "none",
-						"ramp" : 1,
-						"rampfunction" : "none",
-						"value" : 0
-					}
-,
-					"luma/clip" : 					{
-						"description" : "none",
-						"class" : "parameter",
-						"type" : "decimal",
-						"unit" : "none",
-						"initval" : 0,
-						"repetition" : 1,
-						"range" : [ 0, 0 ],
-						"clipmode" : "none",
-						"ramp" : 1,
-						"rampfunction" : "none",
-						"value" : 0
-					}
-,
-					"luma/inverse" : 					{
-						"description" : "none",
-						"class" : "parameter",
-						"type" : "boolean",
-						"unit" : "none",
-						"initval" : 0,
-						"range" : [ 0, 1 ],
-						"repetition" : 1,
-						"clipmode" : "both",
-						"ramp" : 0,
-						"rampfunction" : "none",
-						"value" : 0
-					}
-,
-					"source/cut" : 					{
-						"description" : "none",
-						"class" : "parameter",
-						"type" : "integer",
-						"unit" : "none",
-						"initval" : 0,
-						"repetition" : 1,
-						"clipmode" : "none",
-						"range" : [ 0, 0 ],
-						"ramp" : 0,
-						"rampfunction" : "none",
-						"value" : 0
-					}
-,
-					"source/fill" : 					{
-						"description" : "none",
-						"class" : "parameter",
-						"type" : "integer",
-						"unit" : "none",
-						"initval" : 0,
-						"repetition" : 1,
-						"clipmode" : "none",
-						"range" : [ 0, 0 ],
-						"ramp" : 0,
-						"rampfunction" : "none",
-						"value" : 0
-					}
-,
-					"type" : 					{
-						"class" : "parameter",
-						"type" : "string",
-						"unit" : "none",
-						"initval" : "<none>",
-						"value" : "dve"
-					}
-,
-					"tie" : 					{
-						"description" : "none",
-						"class" : "parameter",
-						"type" : "boolean",
-						"unit" : "none",
-						"initval" : 0,
-						"range" : [ 0, 1 ],
-						"repetition" : 1,
-						"clipmode" : "both",
-						"ramp" : 0,
-						"rampfunction" : "none",
-						"value" : 1
-					}
-,
-					"on-air" : 					{
-						"description" : "none",
-						"class" : "parameter",
-						"type" : "boolean",
-						"unit" : "none",
-						"initval" : 0,
-						"range" : [ 0, 1 ],
-						"repetition" : 1,
-						"clipmode" : "both",
-						"ramp" : 0,
-						"rampfunction" : "none",
-						"value" : 1
-					}
-,
-					"fly" : 					{
-						"rotation" : 						{
-							"value" : 269.925000000000011
-						}
-,
-						"size-y" : 						{
-							"value" : 0.613
-						}
-,
-						"position-y" : 						{
-							"value" : 6.0
-						}
-,
-						"size-x" : 						{
-							"value" : 0.449
-						}
-,
-						"position-x" : 						{
-							"value" : 7.0
-						}
-,
-						"enable" : 						{
-							"value" : 1
-						}
-,
-						"rate" : 						{
-							"value" : 0
-						}
-
-					}
-,
-					"dve" : 					{
-						"border-saturation" : 						{
-							"value" : 0.0
-						}
-,
-						"border-luma" : 						{
-							"value" : 0.0
-						}
-,
-						"enabled" : 						{
-							"value" : 0
-						}
-,
-						"border-softness-inner" : 						{
-							"value" : 0.0
-						}
-,
-						"border-hue" : 						{
-							"value" : 0.0
-						}
-,
-						"border-opacity" : 						{
-							"value" : 0.0
-						}
-,
-						"border-width-outer" : 						{
-							"value" : 0.0
-						}
-,
-						"border-width-inner" : 						{
-							"value" : 0.0
-						}
-,
-						"border-softness-outer" : 						{
-							"value" : 0.0
-						}
-
-					}
-,
-					"chroma" : 					{
-						"narrow" : 						{
-							"value" : 0
-						}
-,
-						"y-suppress" : 						{
-							"value" : 0.739
-						}
-,
-						"lift" : 						{
-							"value" : 0.224
-						}
-,
-						"gain" : 						{
-							"value" : 0.577
-						}
-,
-						"hue" : 						{
-							"value" : 128.347000000000008
-						}
-
-					}
-,
-					"luma" : 					{
-						"pre-multiplied" : 						{
-							"value" : 1
-						}
-,
-						"gain" : 						{
-							"value" : 0.434
-						}
-,
-						"clip" : 						{
-							"value" : 0.419
-						}
-,
-						"inverse" : 						{
-							"value" : 1
-						}
-
-					}
-,
-					"source" : 					{
-						"cut" : 						{
-							"value" : 1001
-						}
-,
-						"fill" : 						{
-							"value" : 2000
-						}
-
-					}
-
-				}
-,
-				"4" : 				{
 					"fly/rotation" : 					{
 						"description" : "none",
 						"class" : "parameter",
@@ -2056,23 +994,23 @@
 ,
 					"fly" : 					{
 						"rotation" : 						{
-							"value" : 38.209000000000003
+							"value" : 0.0
 						}
 ,
 						"size-y" : 						{
-							"value" : 0.586
+							"value" : 0.0
 						}
 ,
 						"position-y" : 						{
-							"value" : -83.0
+							"value" : 0.0
 						}
 ,
 						"size-x" : 						{
-							"value" : 0.449
+							"value" : 0.0
 						}
 ,
 						"position-x" : 						{
-							"value" : -82.0
+							"value" : 0.0
 						}
 ,
 						"enable" : 						{
@@ -2080,6 +1018,568 @@
 						}
 ,
 						"rate" : 						{
+							"value" : 1
+						}
+,
+						"enabled" : 						{
+							"value" : 0
+						}
+
+					}
+,
+					"dve" : 					{
+						"border-saturation" : 						{
+							"value" : 0.0
+						}
+,
+						"border-luma" : 						{
+							"value" : 0.0
+						}
+,
+						"enabled" : 						{
+							"value" : 1
+						}
+,
+						"border-softness-inner" : 						{
+							"value" : 0.0
+						}
+,
+						"border-hue" : 						{
+							"value" : 0.0
+						}
+,
+						"border-opacity" : 						{
+							"value" : 0.0
+						}
+,
+						"border-width-outer" : 						{
+							"value" : 0.0
+						}
+,
+						"border-width-inner" : 						{
+							"value" : 0.0
+						}
+,
+						"border-softness-outer" : 						{
+							"value" : 0.0
+						}
+
+					}
+,
+					"chroma" : 					{
+						"narrow" : 						{
+							"value" : 0
+						}
+,
+						"y-suppress" : 						{
+							"value" : 0.0
+						}
+,
+						"lift" : 						{
+							"value" : 0.0
+						}
+,
+						"gain" : 						{
+							"value" : 0.0
+						}
+,
+						"hue" : 						{
+							"value" : 0.0
+						}
+
+					}
+,
+					"luma" : 					{
+						"pre-multiplied" : 						{
+							"value" : 0
+						}
+,
+						"gain" : 						{
+							"value" : 0.180000007152557
+						}
+,
+						"clip" : 						{
+							"value" : 0.347000002861023
+						}
+,
+						"inverse" : 						{
+							"value" : 0
+						}
+
+					}
+,
+					"source" : 					{
+						"cut" : 						{
+							"value" : 3
+						}
+,
+						"fill" : 						{
+							"value" : 5
+						}
+
+					}
+,
+					"fly/enabled" : 					{
+						"description" : "none",
+						"class" : "parameter",
+						"type" : "boolean",
+						"unit" : "none",
+						"initval" : 0,
+						"range" : [ 0, 1 ],
+						"repetition" : 1,
+						"clipmode" : "both",
+						"ramp" : 0,
+						"rampfunction" : "none",
+						"value" : 0
+					}
+
+				}
+,
+				"3" : 				{
+					"fly/rotation" : 					{
+						"description" : "none",
+						"class" : "parameter",
+						"type" : "decimal",
+						"unit" : "none",
+						"initval" : 0,
+						"repetition" : 1,
+						"range" : [ 0, 0 ],
+						"clipmode" : "none",
+						"ramp" : 1,
+						"rampfunction" : "none",
+						"value" : 0
+					}
+,
+					"fly/size-y" : 					{
+						"description" : "none",
+						"class" : "parameter",
+						"type" : "decimal",
+						"unit" : "none",
+						"initval" : 0,
+						"repetition" : 1,
+						"range" : [ 0, 0 ],
+						"clipmode" : "none",
+						"ramp" : 1,
+						"rampfunction" : "none",
+						"value" : 0
+					}
+,
+					"fly/position-y" : 					{
+						"description" : "none",
+						"class" : "parameter",
+						"type" : "decimal",
+						"unit" : "none",
+						"initval" : 0,
+						"repetition" : 1,
+						"range" : [ 0, 0 ],
+						"clipmode" : "none",
+						"ramp" : 1,
+						"rampfunction" : "none",
+						"value" : 0
+					}
+,
+					"fly/size-x" : 					{
+						"description" : "none",
+						"class" : "parameter",
+						"type" : "decimal",
+						"unit" : "none",
+						"initval" : 0,
+						"repetition" : 1,
+						"range" : [ 0, 0 ],
+						"clipmode" : "none",
+						"ramp" : 1,
+						"rampfunction" : "none",
+						"value" : 0
+					}
+,
+					"fly/position-x" : 					{
+						"description" : "none",
+						"class" : "parameter",
+						"type" : "decimal",
+						"unit" : "none",
+						"initval" : 0,
+						"repetition" : 1,
+						"range" : [ 0, 0 ],
+						"clipmode" : "none",
+						"ramp" : 1,
+						"rampfunction" : "none",
+						"value" : 0
+					}
+,
+					"fly/enable" : 					{
+						"description" : "none",
+						"class" : "parameter",
+						"type" : "boolean",
+						"unit" : "none",
+						"initval" : 0,
+						"range" : [ 0, 1 ],
+						"repetition" : 1,
+						"clipmode" : "both",
+						"ramp" : 0,
+						"rampfunction" : "none",
+						"value" : 0
+					}
+,
+					"fly/rate" : 					{
+						"description" : "none",
+						"class" : "parameter",
+						"type" : "integer",
+						"unit" : "none",
+						"initval" : 0,
+						"repetition" : 1,
+						"clipmode" : "none",
+						"range" : [ 0, 0 ],
+						"ramp" : 0,
+						"rampfunction" : "none",
+						"value" : 0
+					}
+,
+					"dve/border-saturation" : 					{
+						"description" : "none",
+						"class" : "parameter",
+						"type" : "decimal",
+						"unit" : "none",
+						"initval" : 0,
+						"repetition" : 1,
+						"range" : [ 0, 0 ],
+						"clipmode" : "none",
+						"ramp" : 1,
+						"rampfunction" : "none",
+						"value" : 0
+					}
+,
+					"dve/border-luma" : 					{
+						"description" : "none",
+						"class" : "parameter",
+						"type" : "decimal",
+						"unit" : "none",
+						"initval" : 0,
+						"repetition" : 1,
+						"range" : [ 0, 0 ],
+						"clipmode" : "none",
+						"ramp" : 1,
+						"rampfunction" : "none",
+						"value" : 0
+					}
+,
+					"dve/enabled" : 					{
+						"description" : "none",
+						"class" : "parameter",
+						"type" : "boolean",
+						"unit" : "none",
+						"initval" : 0,
+						"range" : [ 0, 1 ],
+						"repetition" : 1,
+						"clipmode" : "both",
+						"ramp" : 0,
+						"rampfunction" : "none",
+						"value" : 0
+					}
+,
+					"dve/border-softness-inner" : 					{
+						"description" : "none",
+						"class" : "parameter",
+						"type" : "decimal",
+						"unit" : "none",
+						"initval" : 0,
+						"repetition" : 1,
+						"range" : [ 0, 0 ],
+						"clipmode" : "none",
+						"ramp" : 1,
+						"rampfunction" : "none",
+						"value" : 0
+					}
+,
+					"dve/border-hue" : 					{
+						"description" : "none",
+						"class" : "parameter",
+						"type" : "decimal",
+						"unit" : "none",
+						"initval" : 0,
+						"repetition" : 1,
+						"range" : [ 0, 0 ],
+						"clipmode" : "none",
+						"ramp" : 1,
+						"rampfunction" : "none",
+						"value" : 0
+					}
+,
+					"dve/border-opacity" : 					{
+						"description" : "none",
+						"class" : "parameter",
+						"type" : "decimal",
+						"unit" : "none",
+						"initval" : 0,
+						"repetition" : 1,
+						"range" : [ 0, 0 ],
+						"clipmode" : "none",
+						"ramp" : 1,
+						"rampfunction" : "none",
+						"value" : 0
+					}
+,
+					"dve/border-width-outer" : 					{
+						"description" : "none",
+						"class" : "parameter",
+						"type" : "decimal",
+						"unit" : "none",
+						"initval" : 0,
+						"repetition" : 1,
+						"range" : [ 0, 0 ],
+						"clipmode" : "none",
+						"ramp" : 1,
+						"rampfunction" : "none",
+						"value" : 0
+					}
+,
+					"dve/border-width-inner" : 					{
+						"description" : "none",
+						"class" : "parameter",
+						"type" : "decimal",
+						"unit" : "none",
+						"initval" : 0,
+						"repetition" : 1,
+						"range" : [ 0, 0 ],
+						"clipmode" : "none",
+						"ramp" : 1,
+						"rampfunction" : "none",
+						"value" : 0
+					}
+,
+					"dve/border-softness-outer" : 					{
+						"description" : "none",
+						"class" : "parameter",
+						"type" : "decimal",
+						"unit" : "none",
+						"initval" : 0,
+						"repetition" : 1,
+						"range" : [ 0, 0 ],
+						"clipmode" : "none",
+						"ramp" : 1,
+						"rampfunction" : "none",
+						"value" : 0
+					}
+,
+					"chroma/narrow" : 					{
+						"description" : "none",
+						"class" : "parameter",
+						"type" : "boolean",
+						"unit" : "none",
+						"initval" : 0,
+						"range" : [ 0, 1 ],
+						"repetition" : 1,
+						"clipmode" : "both",
+						"ramp" : 0,
+						"rampfunction" : "none",
+						"value" : 0
+					}
+,
+					"chroma/y-suppress" : 					{
+						"description" : "none",
+						"class" : "parameter",
+						"type" : "decimal",
+						"unit" : "none",
+						"initval" : 0,
+						"repetition" : 1,
+						"range" : [ 0, 0 ],
+						"clipmode" : "none",
+						"ramp" : 1,
+						"rampfunction" : "none",
+						"value" : 0
+					}
+,
+					"chroma/lift" : 					{
+						"description" : "none",
+						"class" : "parameter",
+						"type" : "decimal",
+						"unit" : "none",
+						"initval" : 0,
+						"repetition" : 1,
+						"range" : [ 0, 0 ],
+						"clipmode" : "none",
+						"ramp" : 1,
+						"rampfunction" : "none",
+						"value" : 0
+					}
+,
+					"chroma/gain" : 					{
+						"description" : "none",
+						"class" : "parameter",
+						"type" : "decimal",
+						"unit" : "none",
+						"initval" : 0,
+						"repetition" : 1,
+						"range" : [ 0, 0 ],
+						"clipmode" : "none",
+						"ramp" : 1,
+						"rampfunction" : "none",
+						"value" : 0
+					}
+,
+					"chroma/hue" : 					{
+						"description" : "none",
+						"class" : "parameter",
+						"type" : "decimal",
+						"unit" : "none",
+						"initval" : 0,
+						"repetition" : 1,
+						"range" : [ 0, 0 ],
+						"clipmode" : "none",
+						"ramp" : 1,
+						"rampfunction" : "none",
+						"value" : 0
+					}
+,
+					"luma/pre-multiplied" : 					{
+						"description" : "none",
+						"class" : "parameter",
+						"type" : "boolean",
+						"unit" : "none",
+						"initval" : 0,
+						"range" : [ 0, 1 ],
+						"repetition" : 1,
+						"clipmode" : "both",
+						"ramp" : 0,
+						"rampfunction" : "none",
+						"value" : 0
+					}
+,
+					"luma/gain" : 					{
+						"description" : "none",
+						"class" : "parameter",
+						"type" : "decimal",
+						"unit" : "none",
+						"initval" : 0,
+						"repetition" : 1,
+						"range" : [ 0, 0 ],
+						"clipmode" : "none",
+						"ramp" : 1,
+						"rampfunction" : "none",
+						"value" : 0
+					}
+,
+					"luma/clip" : 					{
+						"description" : "none",
+						"class" : "parameter",
+						"type" : "decimal",
+						"unit" : "none",
+						"initval" : 0,
+						"repetition" : 1,
+						"range" : [ 0, 0 ],
+						"clipmode" : "none",
+						"ramp" : 1,
+						"rampfunction" : "none",
+						"value" : 0
+					}
+,
+					"luma/inverse" : 					{
+						"description" : "none",
+						"class" : "parameter",
+						"type" : "boolean",
+						"unit" : "none",
+						"initval" : 0,
+						"range" : [ 0, 1 ],
+						"repetition" : 1,
+						"clipmode" : "both",
+						"ramp" : 0,
+						"rampfunction" : "none",
+						"value" : 0
+					}
+,
+					"source/cut" : 					{
+						"description" : "none",
+						"class" : "parameter",
+						"type" : "integer",
+						"unit" : "none",
+						"initval" : 0,
+						"repetition" : 1,
+						"clipmode" : "none",
+						"range" : [ 0, 0 ],
+						"ramp" : 0,
+						"rampfunction" : "none",
+						"value" : 0
+					}
+,
+					"source/fill" : 					{
+						"description" : "none",
+						"class" : "parameter",
+						"type" : "integer",
+						"unit" : "none",
+						"initval" : 0,
+						"repetition" : 1,
+						"clipmode" : "none",
+						"range" : [ 0, 0 ],
+						"ramp" : 0,
+						"rampfunction" : "none",
+						"value" : 0
+					}
+,
+					"type" : 					{
+						"class" : "parameter",
+						"type" : "string",
+						"unit" : "none",
+						"initval" : "<none>",
+						"value" : "dve"
+					}
+,
+					"tie" : 					{
+						"description" : "none",
+						"class" : "parameter",
+						"type" : "boolean",
+						"unit" : "none",
+						"initval" : 0,
+						"range" : [ 0, 1 ],
+						"repetition" : 1,
+						"clipmode" : "both",
+						"ramp" : 0,
+						"rampfunction" : "none",
+						"value" : 0
+					}
+,
+					"on-air" : 					{
+						"description" : "none",
+						"class" : "parameter",
+						"type" : "boolean",
+						"unit" : "none",
+						"initval" : 0,
+						"range" : [ 0, 1 ],
+						"repetition" : 1,
+						"clipmode" : "both",
+						"ramp" : 0,
+						"rampfunction" : "none",
+						"value" : 0
+					}
+,
+					"fly" : 					{
+						"rotation" : 						{
+							"value" : 0.0
+						}
+,
+						"size-y" : 						{
+							"value" : 0.0
+						}
+,
+						"position-y" : 						{
+							"value" : 0.0
+						}
+,
+						"size-x" : 						{
+							"value" : 0.0
+						}
+,
+						"position-x" : 						{
+							"value" : 0.0
+						}
+,
+						"enable" : 						{
+							"value" : 1
+						}
+,
+						"rate" : 						{
+							"value" : 0
+						}
+,
+						"enabled" : 						{
 							"value" : 0
 						}
 
@@ -2126,55 +1626,627 @@
 ,
 					"chroma" : 					{
 						"narrow" : 						{
-							"value" : 1
+							"value" : 0
 						}
 ,
 						"y-suppress" : 						{
-							"value" : 0.592
+							"value" : 0.0
 						}
 ,
 						"lift" : 						{
-							"value" : 0.283
+							"value" : 0.0
 						}
 ,
 						"gain" : 						{
-							"value" : 0.312
+							"value" : 0.0
 						}
 ,
 						"hue" : 						{
-							"value" : 17.201000000000001
+							"value" : 0.0
 						}
 
 					}
 ,
 					"luma" : 					{
 						"pre-multiplied" : 						{
-							"value" : 1
+							"value" : 0
 						}
 ,
 						"gain" : 						{
-							"value" : 0.272
+							"value" : 0.0
 						}
 ,
 						"clip" : 						{
-							"value" : 1.0
+							"value" : 0.0
 						}
 ,
 						"inverse" : 						{
-							"value" : 1
+							"value" : 0
 						}
 
 					}
 ,
 					"source" : 					{
 						"cut" : 						{
-							"value" : 2000
+							"value" : 0
 						}
 ,
 						"fill" : 						{
-							"value" : 1001
+							"value" : 0
 						}
 
+					}
+,
+					"fly/enabled" : 					{
+						"description" : "none",
+						"class" : "parameter",
+						"type" : "boolean",
+						"unit" : "none",
+						"initval" : 0,
+						"range" : [ 0, 1 ],
+						"repetition" : 1,
+						"clipmode" : "both",
+						"ramp" : 0,
+						"rampfunction" : "none",
+						"value" : 0
+					}
+
+				}
+,
+				"4" : 				{
+					"fly/rotation" : 					{
+						"description" : "none",
+						"class" : "parameter",
+						"type" : "decimal",
+						"unit" : "none",
+						"initval" : 0,
+						"repetition" : 1,
+						"range" : [ 0, 0 ],
+						"clipmode" : "none",
+						"ramp" : 1,
+						"rampfunction" : "none",
+						"value" : 0
+					}
+,
+					"fly/size-y" : 					{
+						"description" : "none",
+						"class" : "parameter",
+						"type" : "decimal",
+						"unit" : "none",
+						"initval" : 0,
+						"repetition" : 1,
+						"range" : [ 0, 0 ],
+						"clipmode" : "none",
+						"ramp" : 1,
+						"rampfunction" : "none",
+						"value" : 0
+					}
+,
+					"fly/position-y" : 					{
+						"description" : "none",
+						"class" : "parameter",
+						"type" : "decimal",
+						"unit" : "none",
+						"initval" : 0,
+						"repetition" : 1,
+						"range" : [ 0, 0 ],
+						"clipmode" : "none",
+						"ramp" : 1,
+						"rampfunction" : "none",
+						"value" : 0
+					}
+,
+					"fly/size-x" : 					{
+						"description" : "none",
+						"class" : "parameter",
+						"type" : "decimal",
+						"unit" : "none",
+						"initval" : 0,
+						"repetition" : 1,
+						"range" : [ 0, 0 ],
+						"clipmode" : "none",
+						"ramp" : 1,
+						"rampfunction" : "none",
+						"value" : 0
+					}
+,
+					"fly/position-x" : 					{
+						"description" : "none",
+						"class" : "parameter",
+						"type" : "decimal",
+						"unit" : "none",
+						"initval" : 0,
+						"repetition" : 1,
+						"range" : [ 0, 0 ],
+						"clipmode" : "none",
+						"ramp" : 1,
+						"rampfunction" : "none",
+						"value" : 0
+					}
+,
+					"fly/enable" : 					{
+						"description" : "none",
+						"class" : "parameter",
+						"type" : "boolean",
+						"unit" : "none",
+						"initval" : 0,
+						"range" : [ 0, 1 ],
+						"repetition" : 1,
+						"clipmode" : "both",
+						"ramp" : 0,
+						"rampfunction" : "none",
+						"value" : 0
+					}
+,
+					"fly/rate" : 					{
+						"description" : "none",
+						"class" : "parameter",
+						"type" : "integer",
+						"unit" : "none",
+						"initval" : 0,
+						"repetition" : 1,
+						"clipmode" : "none",
+						"range" : [ 0, 0 ],
+						"ramp" : 0,
+						"rampfunction" : "none",
+						"value" : 0
+					}
+,
+					"dve/border-saturation" : 					{
+						"description" : "none",
+						"class" : "parameter",
+						"type" : "decimal",
+						"unit" : "none",
+						"initval" : 0,
+						"repetition" : 1,
+						"range" : [ 0, 0 ],
+						"clipmode" : "none",
+						"ramp" : 1,
+						"rampfunction" : "none",
+						"value" : 0
+					}
+,
+					"dve/border-luma" : 					{
+						"description" : "none",
+						"class" : "parameter",
+						"type" : "decimal",
+						"unit" : "none",
+						"initval" : 0,
+						"repetition" : 1,
+						"range" : [ 0, 0 ],
+						"clipmode" : "none",
+						"ramp" : 1,
+						"rampfunction" : "none",
+						"value" : 0
+					}
+,
+					"dve/enabled" : 					{
+						"description" : "none",
+						"class" : "parameter",
+						"type" : "boolean",
+						"unit" : "none",
+						"initval" : 0,
+						"range" : [ 0, 1 ],
+						"repetition" : 1,
+						"clipmode" : "both",
+						"ramp" : 0,
+						"rampfunction" : "none",
+						"value" : 0
+					}
+,
+					"dve/border-softness-inner" : 					{
+						"description" : "none",
+						"class" : "parameter",
+						"type" : "decimal",
+						"unit" : "none",
+						"initval" : 0,
+						"repetition" : 1,
+						"range" : [ 0, 0 ],
+						"clipmode" : "none",
+						"ramp" : 1,
+						"rampfunction" : "none",
+						"value" : 0
+					}
+,
+					"dve/border-hue" : 					{
+						"description" : "none",
+						"class" : "parameter",
+						"type" : "decimal",
+						"unit" : "none",
+						"initval" : 0,
+						"repetition" : 1,
+						"range" : [ 0, 0 ],
+						"clipmode" : "none",
+						"ramp" : 1,
+						"rampfunction" : "none",
+						"value" : 0
+					}
+,
+					"dve/border-opacity" : 					{
+						"description" : "none",
+						"class" : "parameter",
+						"type" : "decimal",
+						"unit" : "none",
+						"initval" : 0,
+						"repetition" : 1,
+						"range" : [ 0, 0 ],
+						"clipmode" : "none",
+						"ramp" : 1,
+						"rampfunction" : "none",
+						"value" : 0
+					}
+,
+					"dve/border-width-outer" : 					{
+						"description" : "none",
+						"class" : "parameter",
+						"type" : "decimal",
+						"unit" : "none",
+						"initval" : 0,
+						"repetition" : 1,
+						"range" : [ 0, 0 ],
+						"clipmode" : "none",
+						"ramp" : 1,
+						"rampfunction" : "none",
+						"value" : 0
+					}
+,
+					"dve/border-width-inner" : 					{
+						"description" : "none",
+						"class" : "parameter",
+						"type" : "decimal",
+						"unit" : "none",
+						"initval" : 0,
+						"repetition" : 1,
+						"range" : [ 0, 0 ],
+						"clipmode" : "none",
+						"ramp" : 1,
+						"rampfunction" : "none",
+						"value" : 0
+					}
+,
+					"dve/border-softness-outer" : 					{
+						"description" : "none",
+						"class" : "parameter",
+						"type" : "decimal",
+						"unit" : "none",
+						"initval" : 0,
+						"repetition" : 1,
+						"range" : [ 0, 0 ],
+						"clipmode" : "none",
+						"ramp" : 1,
+						"rampfunction" : "none",
+						"value" : 0
+					}
+,
+					"chroma/narrow" : 					{
+						"description" : "none",
+						"class" : "parameter",
+						"type" : "boolean",
+						"unit" : "none",
+						"initval" : 0,
+						"range" : [ 0, 1 ],
+						"repetition" : 1,
+						"clipmode" : "both",
+						"ramp" : 0,
+						"rampfunction" : "none",
+						"value" : 0
+					}
+,
+					"chroma/y-suppress" : 					{
+						"description" : "none",
+						"class" : "parameter",
+						"type" : "decimal",
+						"unit" : "none",
+						"initval" : 0,
+						"repetition" : 1,
+						"range" : [ 0, 0 ],
+						"clipmode" : "none",
+						"ramp" : 1,
+						"rampfunction" : "none",
+						"value" : 0
+					}
+,
+					"chroma/lift" : 					{
+						"description" : "none",
+						"class" : "parameter",
+						"type" : "decimal",
+						"unit" : "none",
+						"initval" : 0,
+						"repetition" : 1,
+						"range" : [ 0, 0 ],
+						"clipmode" : "none",
+						"ramp" : 1,
+						"rampfunction" : "none",
+						"value" : 0
+					}
+,
+					"chroma/gain" : 					{
+						"description" : "none",
+						"class" : "parameter",
+						"type" : "decimal",
+						"unit" : "none",
+						"initval" : 0,
+						"repetition" : 1,
+						"range" : [ 0, 0 ],
+						"clipmode" : "none",
+						"ramp" : 1,
+						"rampfunction" : "none",
+						"value" : 0
+					}
+,
+					"chroma/hue" : 					{
+						"description" : "none",
+						"class" : "parameter",
+						"type" : "decimal",
+						"unit" : "none",
+						"initval" : 0,
+						"repetition" : 1,
+						"range" : [ 0, 0 ],
+						"clipmode" : "none",
+						"ramp" : 1,
+						"rampfunction" : "none",
+						"value" : 0
+					}
+,
+					"luma/pre-multiplied" : 					{
+						"description" : "none",
+						"class" : "parameter",
+						"type" : "boolean",
+						"unit" : "none",
+						"initval" : 0,
+						"range" : [ 0, 1 ],
+						"repetition" : 1,
+						"clipmode" : "both",
+						"ramp" : 0,
+						"rampfunction" : "none",
+						"value" : 0
+					}
+,
+					"luma/gain" : 					{
+						"description" : "none",
+						"class" : "parameter",
+						"type" : "decimal",
+						"unit" : "none",
+						"initval" : 0,
+						"repetition" : 1,
+						"range" : [ 0, 0 ],
+						"clipmode" : "none",
+						"ramp" : 1,
+						"rampfunction" : "none",
+						"value" : 0
+					}
+,
+					"luma/clip" : 					{
+						"description" : "none",
+						"class" : "parameter",
+						"type" : "decimal",
+						"unit" : "none",
+						"initval" : 0,
+						"repetition" : 1,
+						"range" : [ 0, 0 ],
+						"clipmode" : "none",
+						"ramp" : 1,
+						"rampfunction" : "none",
+						"value" : 0
+					}
+,
+					"luma/inverse" : 					{
+						"description" : "none",
+						"class" : "parameter",
+						"type" : "boolean",
+						"unit" : "none",
+						"initval" : 0,
+						"range" : [ 0, 1 ],
+						"repetition" : 1,
+						"clipmode" : "both",
+						"ramp" : 0,
+						"rampfunction" : "none",
+						"value" : 0
+					}
+,
+					"source/cut" : 					{
+						"description" : "none",
+						"class" : "parameter",
+						"type" : "integer",
+						"unit" : "none",
+						"initval" : 0,
+						"repetition" : 1,
+						"clipmode" : "none",
+						"range" : [ 0, 0 ],
+						"ramp" : 0,
+						"rampfunction" : "none",
+						"value" : 0
+					}
+,
+					"source/fill" : 					{
+						"description" : "none",
+						"class" : "parameter",
+						"type" : "integer",
+						"unit" : "none",
+						"initval" : 0,
+						"repetition" : 1,
+						"clipmode" : "none",
+						"range" : [ 0, 0 ],
+						"ramp" : 0,
+						"rampfunction" : "none",
+						"value" : 0
+					}
+,
+					"type" : 					{
+						"class" : "parameter",
+						"type" : "string",
+						"unit" : "none",
+						"initval" : "<none>",
+						"value" : "luma"
+					}
+,
+					"tie" : 					{
+						"description" : "none",
+						"class" : "parameter",
+						"type" : "boolean",
+						"unit" : "none",
+						"initval" : 0,
+						"range" : [ 0, 1 ],
+						"repetition" : 1,
+						"clipmode" : "both",
+						"ramp" : 0,
+						"rampfunction" : "none",
+						"value" : 0
+					}
+,
+					"on-air" : 					{
+						"description" : "none",
+						"class" : "parameter",
+						"type" : "boolean",
+						"unit" : "none",
+						"initval" : 0,
+						"range" : [ 0, 1 ],
+						"repetition" : 1,
+						"clipmode" : "both",
+						"ramp" : 0,
+						"rampfunction" : "none",
+						"value" : 0
+					}
+,
+					"fly" : 					{
+						"rotation" : 						{
+							"value" : 0.0
+						}
+,
+						"size-y" : 						{
+							"value" : 0.0
+						}
+,
+						"position-y" : 						{
+							"value" : 0.0
+						}
+,
+						"size-x" : 						{
+							"value" : 0.0
+						}
+,
+						"position-x" : 						{
+							"value" : 0.0
+						}
+,
+						"enable" : 						{
+							"value" : 1
+						}
+,
+						"rate" : 						{
+							"value" : 0
+						}
+,
+						"enabled" : 						{
+							"value" : 0
+						}
+
+					}
+,
+					"dve" : 					{
+						"border-saturation" : 						{
+							"value" : 0.0
+						}
+,
+						"border-luma" : 						{
+							"value" : 0.0
+						}
+,
+						"enabled" : 						{
+							"value" : 0
+						}
+,
+						"border-softness-inner" : 						{
+							"value" : 0.0
+						}
+,
+						"border-hue" : 						{
+							"value" : 0.0
+						}
+,
+						"border-opacity" : 						{
+							"value" : 0.0
+						}
+,
+						"border-width-outer" : 						{
+							"value" : 0.0
+						}
+,
+						"border-width-inner" : 						{
+							"value" : 0.0
+						}
+,
+						"border-softness-outer" : 						{
+							"value" : 0.0
+						}
+
+					}
+,
+					"chroma" : 					{
+						"narrow" : 						{
+							"value" : 0
+						}
+,
+						"y-suppress" : 						{
+							"value" : 0.0
+						}
+,
+						"lift" : 						{
+							"value" : 0.0
+						}
+,
+						"gain" : 						{
+							"value" : 0.0
+						}
+,
+						"hue" : 						{
+							"value" : 0.0
+						}
+
+					}
+,
+					"luma" : 					{
+						"pre-multiplied" : 						{
+							"value" : 0
+						}
+,
+						"gain" : 						{
+							"value" : 0.0
+						}
+,
+						"clip" : 						{
+							"value" : 0.0
+						}
+,
+						"inverse" : 						{
+							"value" : 0
+						}
+
+					}
+,
+					"source" : 					{
+						"cut" : 						{
+							"value" : 0
+						}
+,
+						"fill" : 						{
+							"value" : 0
+						}
+
+					}
+,
+					"fly/enabled" : 					{
+						"description" : "none",
+						"class" : "parameter",
+						"type" : "boolean",
+						"unit" : "none",
+						"initval" : 0,
+						"range" : [ 0, 1 ],
+						"repetition" : 1,
+						"clipmode" : "both",
+						"ramp" : 0,
+						"rampfunction" : "none",
+						"value" : 0
 					}
 
 				}
@@ -2186,7 +2258,7 @@
 				"class" : "parameter",
 				"type" : "integer",
 				"unit" : "none",
-				"initval" : 0,
+				"initval" : 3,
 				"repetition" : 1,
 				"clipmode" : "none",
 				"range" : [ 0, 0 ],
@@ -2200,7 +2272,7 @@
 				"class" : "parameter",
 				"type" : "integer",
 				"unit" : "none",
-				"initval" : 0,
+				"initval" : 2,
 				"repetition" : 1,
 				"clipmode" : "none",
 				"range" : [ 0, 0 ],
@@ -2214,7 +2286,7 @@
 				"class" : "parameter",
 				"type" : "integer",
 				"unit" : "none",
-				"initval" : 0,
+				"initval" : 1,
 				"repetition" : 1,
 				"clipmode" : "none",
 				"range" : [ 0, 0 ],
@@ -2234,7 +2306,7 @@
 				"range" : [ 0, 0 ],
 				"ramp" : 0,
 				"rampfunction" : "none",
-				"value" : 2000
+				"value" : 0
 			}
 ,
 			"program" : 			{
@@ -2248,7 +2320,7 @@
 				"range" : [ 0, 0 ],
 				"ramp" : 0,
 				"rampfunction" : "none",
-				"value" : 1001
+				"value" : 0
 			}
 ,
 			"transition/rate" : 			{
@@ -2309,22 +2381,22 @@
 ,
 			"aux" : 			{
 				"3" : 				{
-					"value" : 2000
+					"value" : 3
 				}
 ,
 				"2" : 				{
-					"value" : 1001
+					"value" : 4
 				}
 ,
 				"1" : 				{
-					"value" : 0
+					"value" : 1
 				}
 
 			}
 ,
 			"transition" : 			{
 				"rate" : 				{
-					"value" : 79.0
+					"value" : 1.0
 				}
 ,
 				"ftb" : 				{
@@ -2332,11 +2404,11 @@
 				}
 ,
 				"position" : 				{
-					"value" : 0.703
+					"value" : 0.0
 				}
 ,
 				"bar" : 				{
-					"value" : 0.391
+					"value" : 0.0
 				}
 
 			}
@@ -2400,22 +2472,22 @@
 			"mplayer" : 			{
 				"1" : 				{
 					"still" : 					{
-						"value" : 1.0
+						"value" : 0.0
 					}
 ,
 					"clip" : 					{
-						"value" : 1.0
+						"value" : 0.0
 					}
 
 				}
 ,
 				"2" : 				{
 					"still" : 					{
-						"value" : 1.0
+						"value" : 0.0
 					}
 ,
 					"clip" : 					{
-						"value" : 1.0
+						"value" : 0.0
 					}
 
 				}
@@ -2431,183 +2503,6 @@
 	}
 ,
 	"events" : 	{
-		"all-0" : 		{
-			"tags" : "undefined",
-			"description" : "Describe event here...",
-			"data" : 			{
-				"0" : 				{
-					"// 0" : "---------- /atem/usk/1/fly ----------",
-					"/atem/usk/1/fly/rotation" : 0.0,
-					"/atem/usk/1/fly/size-y" : 0.0,
-					"/atem/usk/1/fly/position-y" : 0.0,
-					"/atem/usk/1/fly/size-x" : 0.0,
-					"/atem/usk/1/fly/position-x" : 0.0,
-					"/atem/usk/1/fly/enable" : 0,
-					"/atem/usk/1/fly/rate" : 1,
-					"// 1" : "---------- /atem/usk/1/dve ----------",
-					"/atem/usk/1/dve/border-saturation" : 0.0,
-					"/atem/usk/1/dve/border-luma" : 0.0,
-					"/atem/usk/1/dve/enabled" : 1,
-					"/atem/usk/1/dve/border-softness-inner" : 0.0,
-					"/atem/usk/1/dve/border-hue" : 0.0,
-					"/atem/usk/1/dve/border-opacity" : 0.0,
-					"/atem/usk/1/dve/border-width-outer" : 0.0,
-					"/atem/usk/1/dve/border-width-inner" : 0.0,
-					"/atem/usk/1/dve/border-softness-outer" : 0.0,
-					"// 2" : "---------- /atem/usk/1/chroma ----------",
-					"/atem/usk/1/chroma/narrow" : 0,
-					"/atem/usk/1/chroma/y-suppress" : 0.0,
-					"/atem/usk/1/chroma/lift" : 0.0,
-					"/atem/usk/1/chroma/gain" : 0.0,
-					"/atem/usk/1/chroma/hue" : 0.0,
-					"// 3" : "---------- /atem/usk/1/luma ----------",
-					"/atem/usk/1/luma/pre-multiplied" : 0,
-					"/atem/usk/1/luma/gain" : 0.0,
-					"/atem/usk/1/luma/clip" : 0.0,
-					"/atem/usk/1/luma/inverse" : 0,
-					"// 4" : "---------- /atem/usk/1/source ----------",
-					"/atem/usk/1/source/cut" : 0,
-					"/atem/usk/1/source/fill" : 0,
-					"// 5" : "---------- /atem/usk/1 ----------",
-					"/atem/usk/1/type" : "pattern",
-					"/atem/usk/1/tie" : 0,
-					"/atem/usk/1/on-air" : 0,
-					"// 6" : "---------- /atem/usk/2/fly ----------",
-					"/atem/usk/2/fly/rotation" : 0.0,
-					"/atem/usk/2/fly/size-y" : 0.0,
-					"/atem/usk/2/fly/position-y" : 0.0,
-					"/atem/usk/2/fly/size-x" : 0.0,
-					"/atem/usk/2/fly/position-x" : 0.0,
-					"/atem/usk/2/fly/enable" : 0,
-					"/atem/usk/2/fly/rate" : 1,
-					"// 7" : "---------- /atem/usk/2/dve ----------",
-					"/atem/usk/2/dve/border-saturation" : 0.0,
-					"/atem/usk/2/dve/border-luma" : 0.0,
-					"/atem/usk/2/dve/enabled" : 1,
-					"/atem/usk/2/dve/border-softness-inner" : 0.0,
-					"/atem/usk/2/dve/border-hue" : 0.0,
-					"/atem/usk/2/dve/border-opacity" : 0.0,
-					"/atem/usk/2/dve/border-width-outer" : 0.0,
-					"/atem/usk/2/dve/border-width-inner" : 0.0,
-					"/atem/usk/2/dve/border-softness-outer" : 0.0,
-					"// 8" : "---------- /atem/usk/2/chroma ----------",
-					"/atem/usk/2/chroma/narrow" : 0,
-					"/atem/usk/2/chroma/y-suppress" : 0.0,
-					"/atem/usk/2/chroma/lift" : 0.0,
-					"/atem/usk/2/chroma/gain" : 0.0,
-					"/atem/usk/2/chroma/hue" : 0.0,
-					"// 9" : "---------- /atem/usk/2/luma ----------",
-					"/atem/usk/2/luma/pre-multiplied" : 0,
-					"/atem/usk/2/luma/gain" : 0.0,
-					"/atem/usk/2/luma/clip" : 0.0,
-					"/atem/usk/2/luma/inverse" : 0,
-					"// 10" : "---------- /atem/usk/2/source ----------",
-					"/atem/usk/2/source/cut" : 0,
-					"/atem/usk/2/source/fill" : 0,
-					"// 11" : "---------- /atem/usk/2 ----------",
-					"/atem/usk/2/type" : "chroma",
-					"/atem/usk/2/tie" : 0,
-					"/atem/usk/2/on-air" : 0,
-					"// 12" : "---------- /atem/usk/3/fly ----------",
-					"/atem/usk/3/fly/rotation" : 0.0,
-					"/atem/usk/3/fly/size-y" : 0.0,
-					"/atem/usk/3/fly/position-y" : 0.0,
-					"/atem/usk/3/fly/size-x" : 0.0,
-					"/atem/usk/3/fly/position-x" : 0.0,
-					"/atem/usk/3/fly/enable" : 0,
-					"/atem/usk/3/fly/rate" : 0,
-					"// 13" : "---------- /atem/usk/3/dve ----------",
-					"/atem/usk/3/dve/border-saturation" : 0.0,
-					"/atem/usk/3/dve/border-luma" : 0.0,
-					"/atem/usk/3/dve/enabled" : 0,
-					"/atem/usk/3/dve/border-softness-inner" : 0.0,
-					"/atem/usk/3/dve/border-hue" : 0.0,
-					"/atem/usk/3/dve/border-opacity" : 0.0,
-					"/atem/usk/3/dve/border-width-outer" : 0.0,
-					"/atem/usk/3/dve/border-width-inner" : 0.0,
-					"/atem/usk/3/dve/border-softness-outer" : 0.0,
-					"// 14" : "---------- /atem/usk/3/chroma ----------",
-					"/atem/usk/3/chroma/narrow" : 0,
-					"/atem/usk/3/chroma/y-suppress" : 0.0,
-					"/atem/usk/3/chroma/lift" : 0.0,
-					"/atem/usk/3/chroma/gain" : 0.0,
-					"/atem/usk/3/chroma/hue" : 0.0,
-					"// 15" : "---------- /atem/usk/3/luma ----------",
-					"/atem/usk/3/luma/pre-multiplied" : 0,
-					"/atem/usk/3/luma/gain" : 0.0,
-					"/atem/usk/3/luma/clip" : 0.0,
-					"/atem/usk/3/luma/inverse" : 0,
-					"// 16" : "---------- /atem/usk/3/source ----------",
-					"/atem/usk/3/source/cut" : 0,
-					"/atem/usk/3/source/fill" : 0,
-					"// 17" : "---------- /atem/usk/3 ----------",
-					"/atem/usk/3/type" : "dve",
-					"/atem/usk/3/tie" : 0,
-					"/atem/usk/3/on-air" : 0,
-					"// 18" : "---------- /atem/usk/4/fly ----------",
-					"/atem/usk/4/fly/rotation" : 0.0,
-					"/atem/usk/4/fly/size-y" : 0.0,
-					"/atem/usk/4/fly/position-y" : 0.0,
-					"/atem/usk/4/fly/size-x" : 0.0,
-					"/atem/usk/4/fly/position-x" : 0.0,
-					"/atem/usk/4/fly/enable" : 0,
-					"/atem/usk/4/fly/rate" : 0,
-					"// 19" : "---------- /atem/usk/4/dve ----------",
-					"/atem/usk/4/dve/border-saturation" : 0.0,
-					"/atem/usk/4/dve/border-luma" : 0.0,
-					"/atem/usk/4/dve/enabled" : 0,
-					"/atem/usk/4/dve/border-softness-inner" : 0.0,
-					"/atem/usk/4/dve/border-hue" : 0.0,
-					"/atem/usk/4/dve/border-opacity" : 0.0,
-					"/atem/usk/4/dve/border-width-outer" : 0.0,
-					"/atem/usk/4/dve/border-width-inner" : 0.0,
-					"/atem/usk/4/dve/border-softness-outer" : 0.0,
-					"// 20" : "---------- /atem/usk/4/chroma ----------",
-					"/atem/usk/4/chroma/narrow" : 0,
-					"/atem/usk/4/chroma/y-suppress" : 0.0,
-					"/atem/usk/4/chroma/lift" : 0.0,
-					"/atem/usk/4/chroma/gain" : 0.0,
-					"/atem/usk/4/chroma/hue" : 0.0,
-					"// 21" : "---------- /atem/usk/4/luma ----------",
-					"/atem/usk/4/luma/pre-multiplied" : 0,
-					"/atem/usk/4/luma/gain" : 0.0,
-					"/atem/usk/4/luma/clip" : 0.0,
-					"/atem/usk/4/luma/inverse" : 0,
-					"// 22" : "---------- /atem/usk/4/source ----------",
-					"/atem/usk/4/source/cut" : 0,
-					"/atem/usk/4/source/fill" : 0,
-					"// 23" : "---------- /atem/usk/4 ----------",
-					"/atem/usk/4/type" : "luma",
-					"/atem/usk/4/tie" : 0,
-					"/atem/usk/4/on-air" : 0,
-					"// 24" : "---------- /atem/aux ----------",
-					"/atem/aux/3" : 0,
-					"/atem/aux/2" : 0,
-					"/atem/aux/1" : 0,
-					"// 25" : "---------- /atem ----------",
-					"/atem/preview" : 0,
-					"/atem/program" : 0,
-					"// 26" : "---------- /atem/transition ----------",
-					"/atem/transition/rate" : 1.0,
-					"/atem/transition/ftb" : 0,
-					"/atem/transition/position" : 0.0,
-					"/atem/transition/bar" : 0.0,
-					"// 27" : "---------- /atem/mplayer/2 ----------",
-					"/atem/mplayer/2/clip" : 0.0,
-					"/atem/mplayer/2/still" : 0.0,
-					"// 28" : "---------- /atem/mplayer/1 ----------",
-					"/atem/mplayer/1/clip" : 0.0,
-					"/atem/mplayer/1/still" : 0.0
-				}
-,
-				"1" : 				{
-					"/atem/transition/bar" : 0.0
-				}
-
-			}
-
-		}
-,
 		"test-all" : 		{
 			"tags" : "undefined",
 			"description" : "Describe event here...",
@@ -2775,6 +2670,549 @@
 					"// 28" : "---------- /atem/mplayer/1 ----------",
 					"/atem/mplayer/1/clip" : 1.0,
 					"/atem/mplayer/1/still" : 1.0
+				}
+
+			}
+
+		}
+,
+		"Q1" : 		{
+			"tags" : "undefined",
+			"description" : "Describe event here...",
+			"data" : 			{
+				"0" : 				{
+					"// 0" : "---------- /atem/usk/1/fly ----------",
+					"/atem/usk/1/fly/rotation" : 0.0,
+					"/atem/usk/1/fly/size-y" : 0.0,
+					"/atem/usk/1/fly/position-y" : 0.0,
+					"/atem/usk/1/fly/size-x" : 0.0,
+					"/atem/usk/1/fly/position-x" : 0.0,
+					"/atem/usk/1/fly/enable" : 1,
+					"/atem/usk/1/fly/rate" : 1,
+					"// 1" : "---------- /atem/usk/1/dve ----------",
+					"/atem/usk/1/dve/border-saturation" : 0.0,
+					"/atem/usk/1/dve/border-luma" : 0.0,
+					"/atem/usk/1/dve/enabled" : 1,
+					"/atem/usk/1/dve/border-softness-inner" : 0.0,
+					"/atem/usk/1/dve/border-hue" : 0.0,
+					"/atem/usk/1/dve/border-opacity" : 0.0,
+					"/atem/usk/1/dve/border-width-outer" : 0.0,
+					"/atem/usk/1/dve/border-width-inner" : 0.0,
+					"/atem/usk/1/dve/border-softness-outer" : 0.0,
+					"// 2" : "---------- /atem/usk/1/chroma ----------",
+					"/atem/usk/1/chroma/narrow" : 0,
+					"/atem/usk/1/chroma/y-suppress" : 0.0,
+					"/atem/usk/1/chroma/lift" : 0.0,
+					"/atem/usk/1/chroma/gain" : 0.0,
+					"/atem/usk/1/chroma/hue" : 0.0,
+					"// 3" : "---------- /atem/usk/1/luma ----------",
+					"/atem/usk/1/luma/pre-multiplied" : 0,
+					"/atem/usk/1/luma/gain" : 0.0,
+					"/atem/usk/1/luma/clip" : 0.0,
+					"/atem/usk/1/luma/inverse" : 0,
+					"// 4" : "---------- /atem/usk/1/source ----------",
+					"/atem/usk/1/source/cut" : 0,
+					"/atem/usk/1/source/fill" : 0,
+					"// 5" : "---------- /atem/usk/1 ----------",
+					"/atem/usk/1/type" : "pattern",
+					"/atem/usk/1/tie" : 0,
+					"/atem/usk/1/on-air" : 0,
+					"// 6" : "---------- /atem/usk/1/fly ----------",
+					"/atem/usk/1/fly/enabled" : 0,
+					"// 7" : "---------- /atem/usk/2/fly ----------",
+					"/atem/usk/2/fly/rotation" : 0.0,
+					"/atem/usk/2/fly/size-y" : 0.0,
+					"/atem/usk/2/fly/position-y" : 0.0,
+					"/atem/usk/2/fly/size-x" : 0.0,
+					"/atem/usk/2/fly/position-x" : 0.0,
+					"/atem/usk/2/fly/enable" : 1,
+					"/atem/usk/2/fly/rate" : 1,
+					"// 8" : "---------- /atem/usk/2/dve ----------",
+					"/atem/usk/2/dve/border-saturation" : 0.0,
+					"/atem/usk/2/dve/border-luma" : 0.0,
+					"/atem/usk/2/dve/enabled" : 1,
+					"/atem/usk/2/dve/border-softness-inner" : 0.0,
+					"/atem/usk/2/dve/border-hue" : 0.0,
+					"/atem/usk/2/dve/border-opacity" : 0.0,
+					"/atem/usk/2/dve/border-width-outer" : 0.0,
+					"/atem/usk/2/dve/border-width-inner" : 0.0,
+					"/atem/usk/2/dve/border-softness-outer" : 0.0,
+					"// 9" : "---------- /atem/usk/2/chroma ----------",
+					"/atem/usk/2/chroma/narrow" : 0,
+					"/atem/usk/2/chroma/y-suppress" : 0.0,
+					"/atem/usk/2/chroma/lift" : 0.0,
+					"/atem/usk/2/chroma/gain" : 0.0,
+					"/atem/usk/2/chroma/hue" : 0.0,
+					"// 10" : "---------- /atem/usk/2/luma ----------",
+					"/atem/usk/2/luma/pre-multiplied" : 0,
+					"/atem/usk/2/luma/gain" : 0.0,
+					"/atem/usk/2/luma/clip" : 0.0,
+					"/atem/usk/2/luma/inverse" : 0,
+					"// 11" : "---------- /atem/usk/2/source ----------",
+					"/atem/usk/2/source/cut" : 0,
+					"/atem/usk/2/source/fill" : 0,
+					"// 12" : "---------- /atem/usk/2 ----------",
+					"/atem/usk/2/type" : "chroma",
+					"/atem/usk/2/tie" : 0,
+					"/atem/usk/2/on-air" : 0,
+					"// 13" : "---------- /atem/usk/2/fly ----------",
+					"/atem/usk/2/fly/enabled" : 0,
+					"// 14" : "---------- /atem/usk/3/fly ----------",
+					"/atem/usk/3/fly/rotation" : 0.0,
+					"/atem/usk/3/fly/size-y" : 0.0,
+					"/atem/usk/3/fly/position-y" : 0.0,
+					"/atem/usk/3/fly/size-x" : 0.0,
+					"/atem/usk/3/fly/position-x" : 0.0,
+					"/atem/usk/3/fly/enable" : 1,
+					"/atem/usk/3/fly/rate" : 0,
+					"// 15" : "---------- /atem/usk/3/dve ----------",
+					"/atem/usk/3/dve/border-saturation" : 0.0,
+					"/atem/usk/3/dve/border-luma" : 0.0,
+					"/atem/usk/3/dve/enabled" : 0,
+					"/atem/usk/3/dve/border-softness-inner" : 0.0,
+					"/atem/usk/3/dve/border-hue" : 0.0,
+					"/atem/usk/3/dve/border-opacity" : 0.0,
+					"/atem/usk/3/dve/border-width-outer" : 0.0,
+					"/atem/usk/3/dve/border-width-inner" : 0.0,
+					"/atem/usk/3/dve/border-softness-outer" : 0.0,
+					"// 16" : "---------- /atem/usk/3/chroma ----------",
+					"/atem/usk/3/chroma/narrow" : 0,
+					"/atem/usk/3/chroma/y-suppress" : 0.0,
+					"/atem/usk/3/chroma/lift" : 0.0,
+					"/atem/usk/3/chroma/gain" : 0.0,
+					"/atem/usk/3/chroma/hue" : 0.0,
+					"// 17" : "---------- /atem/usk/3/luma ----------",
+					"/atem/usk/3/luma/pre-multiplied" : 0,
+					"/atem/usk/3/luma/gain" : 0.0,
+					"/atem/usk/3/luma/clip" : 0.0,
+					"/atem/usk/3/luma/inverse" : 0,
+					"// 18" : "---------- /atem/usk/3/source ----------",
+					"/atem/usk/3/source/cut" : 0,
+					"/atem/usk/3/source/fill" : 0,
+					"// 19" : "---------- /atem/usk/3 ----------",
+					"/atem/usk/3/type" : "dve",
+					"/atem/usk/3/tie" : 0,
+					"/atem/usk/3/on-air" : 0,
+					"// 20" : "---------- /atem/usk/3/fly ----------",
+					"/atem/usk/3/fly/enabled" : 0,
+					"// 21" : "---------- /atem/usk/4/fly ----------",
+					"/atem/usk/4/fly/rotation" : 0.0,
+					"/atem/usk/4/fly/size-y" : 0.0,
+					"/atem/usk/4/fly/position-y" : 0.0,
+					"/atem/usk/4/fly/size-x" : 0.0,
+					"/atem/usk/4/fly/position-x" : 0.0,
+					"/atem/usk/4/fly/enable" : 1,
+					"/atem/usk/4/fly/rate" : 0,
+					"// 22" : "---------- /atem/usk/4/dve ----------",
+					"/atem/usk/4/dve/border-saturation" : 0.0,
+					"/atem/usk/4/dve/border-luma" : 0.0,
+					"/atem/usk/4/dve/enabled" : 0,
+					"/atem/usk/4/dve/border-softness-inner" : 0.0,
+					"/atem/usk/4/dve/border-hue" : 0.0,
+					"/atem/usk/4/dve/border-opacity" : 0.0,
+					"/atem/usk/4/dve/border-width-outer" : 0.0,
+					"/atem/usk/4/dve/border-width-inner" : 0.0,
+					"/atem/usk/4/dve/border-softness-outer" : 0.0,
+					"// 23" : "---------- /atem/usk/4/chroma ----------",
+					"/atem/usk/4/chroma/narrow" : 0,
+					"/atem/usk/4/chroma/y-suppress" : 0.0,
+					"/atem/usk/4/chroma/lift" : 0.0,
+					"/atem/usk/4/chroma/gain" : 0.0,
+					"/atem/usk/4/chroma/hue" : 0.0,
+					"// 24" : "---------- /atem/usk/4/luma ----------",
+					"/atem/usk/4/luma/pre-multiplied" : 0,
+					"/atem/usk/4/luma/gain" : 0.0,
+					"/atem/usk/4/luma/clip" : 0.0,
+					"/atem/usk/4/luma/inverse" : 0,
+					"// 25" : "---------- /atem/usk/4/source ----------",
+					"/atem/usk/4/source/cut" : 0,
+					"/atem/usk/4/source/fill" : 0,
+					"// 26" : "---------- /atem/usk/4 ----------",
+					"/atem/usk/4/type" : "luma",
+					"/atem/usk/4/tie" : 0,
+					"/atem/usk/4/on-air" : 0,
+					"// 27" : "---------- /atem/usk/4/fly ----------",
+					"/atem/usk/4/fly/enabled" : 0,
+					"// 28" : "---------- /atem/aux ----------",
+					"/atem/aux/3" : 3,
+					"/atem/aux/2" : 2,
+					"/atem/aux/1" : 1,
+					"// 29" : "---------- /atem ----------",
+					"/atem/preview" : 0,
+					"/atem/program" : 0,
+					"// 30" : "---------- /atem/transition ----------",
+					"/atem/transition/rate" : 1.0,
+					"/atem/transition/ftb" : 0,
+					"/atem/transition/position" : 0.0,
+					"/atem/transition/bar" : 0.0,
+					"// 31" : "---------- /atem/mplayer/2 ----------",
+					"/atem/mplayer/2/clip" : 0.0,
+					"/atem/mplayer/2/still" : 0.0,
+					"// 32" : "---------- /atem/mplayer/1 ----------",
+					"/atem/mplayer/1/clip" : 0.0,
+					"/atem/mplayer/1/still" : 0.0
+				}
+
+			}
+
+		}
+,
+		"Q40" : 		{
+			"tags" : "undefined",
+			"description" : "Describe event here...",
+			"data" : 			{
+				"0" : 				{
+					"// 0" : "---------- /atem/usk/1/fly ----------",
+					"/atem/usk/1/fly/rotation" : 0.0,
+					"/atem/usk/1/fly/size-y" : 0.0,
+					"/atem/usk/1/fly/position-y" : 0.0,
+					"/atem/usk/1/fly/size-x" : 0.0,
+					"/atem/usk/1/fly/position-x" : 0.0,
+					"/atem/usk/1/fly/enable" : 1,
+					"/atem/usk/1/fly/rate" : 1,
+					"// 1" : "---------- /atem/usk/1/dve ----------",
+					"/atem/usk/1/dve/border-saturation" : 0.0,
+					"/atem/usk/1/dve/border-luma" : 0.0,
+					"/atem/usk/1/dve/enabled" : 1,
+					"/atem/usk/1/dve/border-softness-inner" : 0.0,
+					"/atem/usk/1/dve/border-hue" : 0.0,
+					"/atem/usk/1/dve/border-opacity" : 0.0,
+					"/atem/usk/1/dve/border-width-outer" : 0.0,
+					"/atem/usk/1/dve/border-width-inner" : 0.0,
+					"/atem/usk/1/dve/border-softness-outer" : 0.0,
+					"// 2" : "---------- /atem/usk/1/chroma ----------",
+					"/atem/usk/1/chroma/narrow" : 0,
+					"/atem/usk/1/chroma/y-suppress" : 0.0,
+					"/atem/usk/1/chroma/lift" : 0.0,
+					"/atem/usk/1/chroma/gain" : 0.0,
+					"/atem/usk/1/chroma/hue" : 0.0,
+					"// 3" : "---------- /atem/usk/1/luma ----------",
+					"/atem/usk/1/luma/pre-multiplied" : 0,
+					"/atem/usk/1/luma/gain" : 0.216000005602837,
+					"/atem/usk/1/luma/clip" : 0.580999970436096,
+					"/atem/usk/1/luma/inverse" : 0,
+					"// 4" : "---------- /atem/usk/1/source ----------",
+					"/atem/usk/1/source/cut" : 1,
+					"/atem/usk/1/source/fill" : 4,
+					"// 5" : "---------- /atem/usk/1 ----------",
+					"/atem/usk/1/type" : "luma",
+					"/atem/usk/1/tie" : 1,
+					"/atem/usk/1/on-air" : 0,
+					"// 6" : "---------- /atem/usk/1/fly ----------",
+					"/atem/usk/1/fly/enabled" : 0,
+					"// 7" : "---------- /atem/usk/2/fly ----------",
+					"/atem/usk/2/fly/rotation" : 0.0,
+					"/atem/usk/2/fly/size-y" : 0.0,
+					"/atem/usk/2/fly/position-y" : 0.0,
+					"/atem/usk/2/fly/size-x" : 0.0,
+					"/atem/usk/2/fly/position-x" : 0.0,
+					"/atem/usk/2/fly/enable" : 1,
+					"/atem/usk/2/fly/rate" : 1,
+					"// 8" : "---------- /atem/usk/2/dve ----------",
+					"/atem/usk/2/dve/border-saturation" : 0.0,
+					"/atem/usk/2/dve/border-luma" : 0.0,
+					"/atem/usk/2/dve/enabled" : 1,
+					"/atem/usk/2/dve/border-softness-inner" : 0.0,
+					"/atem/usk/2/dve/border-hue" : 0.0,
+					"/atem/usk/2/dve/border-opacity" : 0.0,
+					"/atem/usk/2/dve/border-width-outer" : 0.0,
+					"/atem/usk/2/dve/border-width-inner" : 0.0,
+					"/atem/usk/2/dve/border-softness-outer" : 0.0,
+					"// 9" : "---------- /atem/usk/2/chroma ----------",
+					"/atem/usk/2/chroma/narrow" : 0,
+					"/atem/usk/2/chroma/y-suppress" : 0.0,
+					"/atem/usk/2/chroma/lift" : 0.0,
+					"/atem/usk/2/chroma/gain" : 0.0,
+					"/atem/usk/2/chroma/hue" : 0.0,
+					"// 10" : "---------- /atem/usk/2/luma ----------",
+					"/atem/usk/2/luma/pre-multiplied" : 0,
+					"/atem/usk/2/luma/gain" : 0.0,
+					"/atem/usk/2/luma/clip" : 0.0,
+					"/atem/usk/2/luma/inverse" : 0,
+					"// 11" : "---------- /atem/usk/2/source ----------",
+					"/atem/usk/2/source/cut" : 0,
+					"/atem/usk/2/source/fill" : 0,
+					"// 12" : "---------- /atem/usk/2 ----------",
+					"/atem/usk/2/type" : "chroma",
+					"/atem/usk/2/tie" : 0,
+					"/atem/usk/2/on-air" : 0,
+					"// 13" : "---------- /atem/usk/2/fly ----------",
+					"/atem/usk/2/fly/enabled" : 0,
+					"// 14" : "---------- /atem/usk/3/fly ----------",
+					"/atem/usk/3/fly/rotation" : 0.0,
+					"/atem/usk/3/fly/size-y" : 0.0,
+					"/atem/usk/3/fly/position-y" : 0.0,
+					"/atem/usk/3/fly/size-x" : 0.0,
+					"/atem/usk/3/fly/position-x" : 0.0,
+					"/atem/usk/3/fly/enable" : 1,
+					"/atem/usk/3/fly/rate" : 0,
+					"// 15" : "---------- /atem/usk/3/dve ----------",
+					"/atem/usk/3/dve/border-saturation" : 0.0,
+					"/atem/usk/3/dve/border-luma" : 0.0,
+					"/atem/usk/3/dve/enabled" : 0,
+					"/atem/usk/3/dve/border-softness-inner" : 0.0,
+					"/atem/usk/3/dve/border-hue" : 0.0,
+					"/atem/usk/3/dve/border-opacity" : 0.0,
+					"/atem/usk/3/dve/border-width-outer" : 0.0,
+					"/atem/usk/3/dve/border-width-inner" : 0.0,
+					"/atem/usk/3/dve/border-softness-outer" : 0.0,
+					"// 16" : "---------- /atem/usk/3/chroma ----------",
+					"/atem/usk/3/chroma/narrow" : 0,
+					"/atem/usk/3/chroma/y-suppress" : 0.0,
+					"/atem/usk/3/chroma/lift" : 0.0,
+					"/atem/usk/3/chroma/gain" : 0.0,
+					"/atem/usk/3/chroma/hue" : 0.0,
+					"// 17" : "---------- /atem/usk/3/luma ----------",
+					"/atem/usk/3/luma/pre-multiplied" : 0,
+					"/atem/usk/3/luma/gain" : 0.0,
+					"/atem/usk/3/luma/clip" : 0.0,
+					"/atem/usk/3/luma/inverse" : 0,
+					"// 18" : "---------- /atem/usk/3/source ----------",
+					"/atem/usk/3/source/cut" : 0,
+					"/atem/usk/3/source/fill" : 0,
+					"// 19" : "---------- /atem/usk/3 ----------",
+					"/atem/usk/3/type" : "dve",
+					"/atem/usk/3/tie" : 0,
+					"/atem/usk/3/on-air" : 0,
+					"// 20" : "---------- /atem/usk/3/fly ----------",
+					"/atem/usk/3/fly/enabled" : 0,
+					"// 21" : "---------- /atem/usk/4/fly ----------",
+					"/atem/usk/4/fly/rotation" : 0.0,
+					"/atem/usk/4/fly/size-y" : 0.0,
+					"/atem/usk/4/fly/position-y" : 0.0,
+					"/atem/usk/4/fly/size-x" : 0.0,
+					"/atem/usk/4/fly/position-x" : 0.0,
+					"/atem/usk/4/fly/enable" : 1,
+					"/atem/usk/4/fly/rate" : 0,
+					"// 22" : "---------- /atem/usk/4/dve ----------",
+					"/atem/usk/4/dve/border-saturation" : 0.0,
+					"/atem/usk/4/dve/border-luma" : 0.0,
+					"/atem/usk/4/dve/enabled" : 0,
+					"/atem/usk/4/dve/border-softness-inner" : 0.0,
+					"/atem/usk/4/dve/border-hue" : 0.0,
+					"/atem/usk/4/dve/border-opacity" : 0.0,
+					"/atem/usk/4/dve/border-width-outer" : 0.0,
+					"/atem/usk/4/dve/border-width-inner" : 0.0,
+					"/atem/usk/4/dve/border-softness-outer" : 0.0,
+					"// 23" : "---------- /atem/usk/4/chroma ----------",
+					"/atem/usk/4/chroma/narrow" : 0,
+					"/atem/usk/4/chroma/y-suppress" : 0.0,
+					"/atem/usk/4/chroma/lift" : 0.0,
+					"/atem/usk/4/chroma/gain" : 0.0,
+					"/atem/usk/4/chroma/hue" : 0.0,
+					"// 24" : "---------- /atem/usk/4/luma ----------",
+					"/atem/usk/4/luma/pre-multiplied" : 0,
+					"/atem/usk/4/luma/gain" : 0.0,
+					"/atem/usk/4/luma/clip" : 0.0,
+					"/atem/usk/4/luma/inverse" : 0,
+					"// 25" : "---------- /atem/usk/4/source ----------",
+					"/atem/usk/4/source/cut" : 0,
+					"/atem/usk/4/source/fill" : 0,
+					"// 26" : "---------- /atem/usk/4 ----------",
+					"/atem/usk/4/type" : "luma",
+					"/atem/usk/4/tie" : 0,
+					"/atem/usk/4/on-air" : 0,
+					"// 27" : "---------- /atem/usk/4/fly ----------",
+					"/atem/usk/4/fly/enabled" : 0,
+					"// 28" : "---------- /atem/aux ----------",
+					"/atem/aux/3" : 3,
+					"/atem/aux/2" : 2,
+					"/atem/aux/1" : 10011,
+					"// 29" : "---------- /atem ----------",
+					"/atem/preview" : 0,
+					"/atem/program" : 0,
+					"// 30" : "---------- /atem/transition ----------",
+					"/atem/transition/rate" : 1.0,
+					"/atem/transition/ftb" : 0,
+					"/atem/transition/position" : 0.0,
+					"/atem/transition/bar" : 0.0,
+					"// 31" : "---------- /atem/mplayer/2 ----------",
+					"/atem/mplayer/2/clip" : 0.0,
+					"/atem/mplayer/2/still" : 0.0,
+					"// 32" : "---------- /atem/mplayer/1 ----------",
+					"/atem/mplayer/1/clip" : 0.0,
+					"/atem/mplayer/1/still" : 0.0
+				}
+
+			}
+
+		}
+,
+		"Q50" : 		{
+			"tags" : "undefined",
+			"description" : "Describe event here...",
+			"data" : 			{
+				"0" : 				{
+					"// 0" : "---------- /atem/usk/1/fly ----------",
+					"/atem/usk/1/fly/rotation" : 0.0,
+					"/atem/usk/1/fly/size-y" : 0.0,
+					"/atem/usk/1/fly/position-y" : 0.0,
+					"/atem/usk/1/fly/size-x" : 0.0,
+					"/atem/usk/1/fly/position-x" : 0.0,
+					"/atem/usk/1/fly/enable" : 1,
+					"/atem/usk/1/fly/rate" : 1,
+					"// 1" : "---------- /atem/usk/1/dve ----------",
+					"/atem/usk/1/dve/border-saturation" : 0.0,
+					"/atem/usk/1/dve/border-luma" : 0.0,
+					"/atem/usk/1/dve/enabled" : 1,
+					"/atem/usk/1/dve/border-softness-inner" : 0.0,
+					"/atem/usk/1/dve/border-hue" : 0.0,
+					"/atem/usk/1/dve/border-opacity" : 0.0,
+					"/atem/usk/1/dve/border-width-outer" : 0.0,
+					"/atem/usk/1/dve/border-width-inner" : 0.0,
+					"/atem/usk/1/dve/border-softness-outer" : 0.0,
+					"// 2" : "---------- /atem/usk/1/chroma ----------",
+					"/atem/usk/1/chroma/narrow" : 0,
+					"/atem/usk/1/chroma/y-suppress" : 0.0,
+					"/atem/usk/1/chroma/lift" : 0.0,
+					"/atem/usk/1/chroma/gain" : 0.0,
+					"/atem/usk/1/chroma/hue" : 0.0,
+					"// 3" : "---------- /atem/usk/1/luma ----------",
+					"/atem/usk/1/luma/pre-multiplied" : 0,
+					"/atem/usk/1/luma/gain" : 0.216000005602837,
+					"/atem/usk/1/luma/clip" : 0.580999970436096,
+					"/atem/usk/1/luma/inverse" : 0,
+					"// 4" : "---------- /atem/usk/1/source ----------",
+					"/atem/usk/1/source/cut" : 1,
+					"/atem/usk/1/source/fill" : 4,
+					"// 5" : "---------- /atem/usk/1 ----------",
+					"/atem/usk/1/type" : "luma",
+					"/atem/usk/1/tie" : 1,
+					"/atem/usk/1/on-air" : 0,
+					"// 6" : "---------- /atem/usk/1/fly ----------",
+					"/atem/usk/1/fly/enabled" : 0,
+					"// 7" : "---------- /atem/usk/2/fly ----------",
+					"/atem/usk/2/fly/rotation" : 0.0,
+					"/atem/usk/2/fly/size-y" : 0.0,
+					"/atem/usk/2/fly/position-y" : 0.0,
+					"/atem/usk/2/fly/size-x" : 0.0,
+					"/atem/usk/2/fly/position-x" : 0.0,
+					"/atem/usk/2/fly/enable" : 1,
+					"/atem/usk/2/fly/rate" : 1,
+					"// 8" : "---------- /atem/usk/2/dve ----------",
+					"/atem/usk/2/dve/border-saturation" : 0.0,
+					"/atem/usk/2/dve/border-luma" : 0.0,
+					"/atem/usk/2/dve/enabled" : 1,
+					"/atem/usk/2/dve/border-softness-inner" : 0.0,
+					"/atem/usk/2/dve/border-hue" : 0.0,
+					"/atem/usk/2/dve/border-opacity" : 0.0,
+					"/atem/usk/2/dve/border-width-outer" : 0.0,
+					"/atem/usk/2/dve/border-width-inner" : 0.0,
+					"/atem/usk/2/dve/border-softness-outer" : 0.0,
+					"// 9" : "---------- /atem/usk/2/chroma ----------",
+					"/atem/usk/2/chroma/narrow" : 0,
+					"/atem/usk/2/chroma/y-suppress" : 0.0,
+					"/atem/usk/2/chroma/lift" : 0.0,
+					"/atem/usk/2/chroma/gain" : 0.0,
+					"/atem/usk/2/chroma/hue" : 0.0,
+					"// 10" : "---------- /atem/usk/2/luma ----------",
+					"/atem/usk/2/luma/pre-multiplied" : 0,
+					"/atem/usk/2/luma/gain" : 0.180000007152557,
+					"/atem/usk/2/luma/clip" : 0.347000002861023,
+					"/atem/usk/2/luma/inverse" : 0,
+					"// 11" : "---------- /atem/usk/2/source ----------",
+					"/atem/usk/2/source/cut" : 3,
+					"/atem/usk/2/source/fill" : 5,
+					"// 12" : "---------- /atem/usk/2 ----------",
+					"/atem/usk/2/type" : "luma",
+					"/atem/usk/2/tie" : 1,
+					"/atem/usk/2/on-air" : 1,
+					"// 13" : "---------- /atem/usk/2/fly ----------",
+					"/atem/usk/2/fly/enabled" : 0,
+					"// 14" : "---------- /atem/usk/3/fly ----------",
+					"/atem/usk/3/fly/rotation" : 0.0,
+					"/atem/usk/3/fly/size-y" : 0.0,
+					"/atem/usk/3/fly/position-y" : 0.0,
+					"/atem/usk/3/fly/size-x" : 0.0,
+					"/atem/usk/3/fly/position-x" : 0.0,
+					"/atem/usk/3/fly/enable" : 1,
+					"/atem/usk/3/fly/rate" : 0,
+					"// 15" : "---------- /atem/usk/3/dve ----------",
+					"/atem/usk/3/dve/border-saturation" : 0.0,
+					"/atem/usk/3/dve/border-luma" : 0.0,
+					"/atem/usk/3/dve/enabled" : 0,
+					"/atem/usk/3/dve/border-softness-inner" : 0.0,
+					"/atem/usk/3/dve/border-hue" : 0.0,
+					"/atem/usk/3/dve/border-opacity" : 0.0,
+					"/atem/usk/3/dve/border-width-outer" : 0.0,
+					"/atem/usk/3/dve/border-width-inner" : 0.0,
+					"/atem/usk/3/dve/border-softness-outer" : 0.0,
+					"// 16" : "---------- /atem/usk/3/chroma ----------",
+					"/atem/usk/3/chroma/narrow" : 0,
+					"/atem/usk/3/chroma/y-suppress" : 0.0,
+					"/atem/usk/3/chroma/lift" : 0.0,
+					"/atem/usk/3/chroma/gain" : 0.0,
+					"/atem/usk/3/chroma/hue" : 0.0,
+					"// 17" : "---------- /atem/usk/3/luma ----------",
+					"/atem/usk/3/luma/pre-multiplied" : 0,
+					"/atem/usk/3/luma/gain" : 0.0,
+					"/atem/usk/3/luma/clip" : 0.0,
+					"/atem/usk/3/luma/inverse" : 0,
+					"// 18" : "---------- /atem/usk/3/source ----------",
+					"/atem/usk/3/source/cut" : 0,
+					"/atem/usk/3/source/fill" : 0,
+					"// 19" : "---------- /atem/usk/3 ----------",
+					"/atem/usk/3/type" : "dve",
+					"/atem/usk/3/tie" : 0,
+					"/atem/usk/3/on-air" : 0,
+					"// 20" : "---------- /atem/usk/3/fly ----------",
+					"/atem/usk/3/fly/enabled" : 0,
+					"// 21" : "---------- /atem/usk/4/fly ----------",
+					"/atem/usk/4/fly/rotation" : 0.0,
+					"/atem/usk/4/fly/size-y" : 0.0,
+					"/atem/usk/4/fly/position-y" : 0.0,
+					"/atem/usk/4/fly/size-x" : 0.0,
+					"/atem/usk/4/fly/position-x" : 0.0,
+					"/atem/usk/4/fly/enable" : 1,
+					"/atem/usk/4/fly/rate" : 0,
+					"// 22" : "---------- /atem/usk/4/dve ----------",
+					"/atem/usk/4/dve/border-saturation" : 0.0,
+					"/atem/usk/4/dve/border-luma" : 0.0,
+					"/atem/usk/4/dve/enabled" : 0,
+					"/atem/usk/4/dve/border-softness-inner" : 0.0,
+					"/atem/usk/4/dve/border-hue" : 0.0,
+					"/atem/usk/4/dve/border-opacity" : 0.0,
+					"/atem/usk/4/dve/border-width-outer" : 0.0,
+					"/atem/usk/4/dve/border-width-inner" : 0.0,
+					"/atem/usk/4/dve/border-softness-outer" : 0.0,
+					"// 23" : "---------- /atem/usk/4/chroma ----------",
+					"/atem/usk/4/chroma/narrow" : 0,
+					"/atem/usk/4/chroma/y-suppress" : 0.0,
+					"/atem/usk/4/chroma/lift" : 0.0,
+					"/atem/usk/4/chroma/gain" : 0.0,
+					"/atem/usk/4/chroma/hue" : 0.0,
+					"// 24" : "---------- /atem/usk/4/luma ----------",
+					"/atem/usk/4/luma/pre-multiplied" : 0,
+					"/atem/usk/4/luma/gain" : 0.0,
+					"/atem/usk/4/luma/clip" : 0.0,
+					"/atem/usk/4/luma/inverse" : 0,
+					"// 25" : "---------- /atem/usk/4/source ----------",
+					"/atem/usk/4/source/cut" : 0,
+					"/atem/usk/4/source/fill" : 0,
+					"// 26" : "---------- /atem/usk/4 ----------",
+					"/atem/usk/4/type" : "luma",
+					"/atem/usk/4/tie" : 0,
+					"/atem/usk/4/on-air" : 0,
+					"// 27" : "---------- /atem/usk/4/fly ----------",
+					"/atem/usk/4/fly/enabled" : 0,
+					"// 28" : "---------- /atem/aux ----------",
+					"/atem/aux/3" : 3,
+					"/atem/aux/2" : 4,
+					"/atem/aux/1" : 1,
+					"// 29" : "---------- /atem ----------",
+					"/atem/preview" : 0,
+					"/atem/program" : 0,
+					"// 30" : "---------- /atem/transition ----------",
+					"/atem/transition/rate" : 1.0,
+					"/atem/transition/ftb" : 0,
+					"/atem/transition/position" : 0.0,
+					"/atem/transition/bar" : 0.0,
+					"// 31" : "---------- /atem/mplayer/2 ----------",
+					"/atem/mplayer/2/clip" : 0.0,
+					"/atem/mplayer/2/still" : 0.0,
+					"// 32" : "---------- /atem/mplayer/1 ----------",
+					"/atem/mplayer/1/clip" : 0.0,
+					"/atem/mplayer/1/still" : 0.0
 				}
 
 			}

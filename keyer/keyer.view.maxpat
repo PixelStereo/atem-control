@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 227.0, 327.0, 1164.0, 761.0 ],
+		"rect" : [ 230.0, 130.0, 1486.0, 476.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -50,19 +50,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 411.0, 71.0, 67.0, 20.0 ],
 					"text" : "y-suppress"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
-					"id" : "obj-3",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 290.5, 13.0, 99.0, 22.0 ],
-					"text" : "r _inputs-list-filler"
 				}
 
 			}
@@ -282,7 +269,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 801.0, 369.5, 299.0, 22.0 ],
-					"text" : "var #1/fly/enable"
+					"text" : "var #1/fly/enabled"
 				}
 
 			}
@@ -1308,22 +1295,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
-					"order" : 1,
-					"source" : [ "obj-3", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-9", 0 ],
-					"order" : 0,
-					"source" : [ "obj-3", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-32", 0 ],
 					"source" : [ "obj-31", 0 ]
 				}
@@ -1665,6 +1636,13 @@
 			}
  ],
 		"dependency_cache" : [ 			{
+				"name" : "span.requests.getval.maxpat",
+				"bootpath" : "~/Documents/GITs/span/span-package/patchers/requests",
+				"patcherrelativepath" : "../../span/span-package/patchers/requests",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "var-inputs.maxpat",
 				"bootpath" : "~/Documents/GITs/atem-control/misc",
 				"patcherrelativepath" : "../misc",
