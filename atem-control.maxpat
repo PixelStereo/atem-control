@@ -296,7 +296,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 281.0, 16.0, 187.75, 49.0 ],
-													"presentation_linecount" : 3,
 													"text" : "/atem/media/0/long-name supa, /atem/media/1/long-name mega, /atem/media/2/long-name pola"
 												}
 
@@ -1636,6 +1635,13 @@
 			}
 , 			{
 				"name" : "span.param.int.maxpat",
+				"bootpath" : "~/Documents/GITs/span/span-package/patchers/params",
+				"patcherrelativepath" : "../span/span-package/patchers/params",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "span.param.maxpat",
 				"bootpath" : "~/Documents/GITs/span/span-package/patchers/params",
 				"patcherrelativepath" : "../span/span-package/patchers/params",
 				"type" : "JSON",

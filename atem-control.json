@@ -2,7 +2,7 @@
 	"projectinfo" : 	{
 		"created" : "2022-02-13T23:28:37",
 		"lastopened" : "2022-02-13T23:28:37",
-		"lastsaved" : "2022-02-14T00:59:16",
+		"lastsaved" : "2022-02-14T01:30:23",
 		"appname" : "span",
 		"appversion" : 		{
 			"major" : 0,
@@ -2234,7 +2234,7 @@
 				"range" : [ 0, 0 ],
 				"ramp" : 0,
 				"rampfunction" : "none",
-				"value" : 2
+				"value" : 2000
 			}
 ,
 			"program" : 			{
@@ -2248,7 +2248,7 @@
 				"range" : [ 0, 0 ],
 				"ramp" : 0,
 				"rampfunction" : "none",
-				"value" : 1
+				"value" : 1001
 			}
 ,
 			"transition/rate" : 			{
@@ -2337,6 +2337,87 @@
 ,
 				"bar" : 				{
 					"value" : 0.391
+				}
+
+			}
+,
+			"mplayer/2/clip" : 			{
+				"description" : "none",
+				"class" : "parameter",
+				"type" : "decimal",
+				"unit" : "none",
+				"initval" : 0,
+				"range" : [ 0, 1 ],
+				"repetition" : 0,
+				"clipmode" : "both",
+				"ramp" : 0,
+				"rampfunction" : "none",
+				"value" : "0"
+			}
+,
+			"mplayer/2/still" : 			{
+				"description" : "none",
+				"class" : "parameter",
+				"type" : "decimal",
+				"unit" : "none",
+				"initval" : 0,
+				"range" : [ 0, 1 ],
+				"repetition" : 0,
+				"clipmode" : "both",
+				"ramp" : 0,
+				"rampfunction" : "none",
+				"value" : "0"
+			}
+,
+			"mplayer/1/clip" : 			{
+				"description" : "none",
+				"class" : "parameter",
+				"type" : "decimal",
+				"unit" : "none",
+				"initval" : 0,
+				"range" : [ 0, 1 ],
+				"repetition" : 0,
+				"clipmode" : "both",
+				"ramp" : 0,
+				"rampfunction" : "none",
+				"value" : "0"
+			}
+,
+			"mplayer/1/still" : 			{
+				"description" : "none",
+				"class" : "parameter",
+				"type" : "decimal",
+				"unit" : "none",
+				"initval" : 0,
+				"range" : [ 0, 1 ],
+				"repetition" : 0,
+				"clipmode" : "both",
+				"ramp" : 0,
+				"rampfunction" : "none",
+				"value" : "0"
+			}
+,
+			"mplayer" : 			{
+				"1" : 				{
+					"still" : 					{
+						"value" : 1.0
+					}
+,
+					"clip" : 					{
+						"value" : 1.0
+					}
+
+				}
+,
+				"2" : 				{
+					"still" : 					{
+						"value" : 1.0
+					}
+,
+					"clip" : 					{
+						"value" : 1.0
+					}
+
 				}
 
 			}
@@ -2493,8 +2574,8 @@
 					"/atem/usk/4/luma/clip" : 0.0,
 					"/atem/usk/4/luma/inverse" : 0,
 					"// 22" : "---------- /atem/usk/4/source ----------",
-					"/atem/usk/4/source/cut" : 1,
-					"/atem/usk/4/source/fill" : 2,
+					"/atem/usk/4/source/cut" : 0,
+					"/atem/usk/4/source/fill" : 0,
 					"// 23" : "---------- /atem/usk/4 ----------",
 					"/atem/usk/4/type" : "luma",
 					"/atem/usk/4/tie" : 0,
@@ -2509,12 +2590,18 @@
 					"// 26" : "---------- /atem/transition ----------",
 					"/atem/transition/rate" : 1.0,
 					"/atem/transition/ftb" : 0,
-					"/atem/transition/position" : 1.0,
-					"/atem/transition/bar" : 1.0
+					"/atem/transition/position" : 0.0,
+					"/atem/transition/bar" : 0.0,
+					"// 27" : "---------- /atem/mplayer/2 ----------",
+					"/atem/mplayer/2/clip" : 0.0,
+					"/atem/mplayer/2/still" : 0.0,
+					"// 28" : "---------- /atem/mplayer/1 ----------",
+					"/atem/mplayer/1/clip" : 0.0,
+					"/atem/mplayer/1/still" : 0.0
 				}
 ,
 				"1" : 				{
-					"/atem/transition/bar" : 0.391
+					"/atem/transition/bar" : 0.0
 				}
 
 			}
@@ -2675,13 +2762,19 @@
 					"/atem/aux/2" : 1001,
 					"/atem/aux/1" : 0,
 					"// 25" : "---------- /atem ----------",
-					"/atem/preview" : 2,
-					"/atem/program" : 1,
+					"/atem/preview" : 2000,
+					"/atem/program" : 1001,
 					"// 26" : "---------- /atem/transition ----------",
 					"/atem/transition/rate" : 79.0,
 					"/atem/transition/ftb" : 0,
 					"/atem/transition/position" : 0.703,
-					"/atem/transition/bar" : 0.391
+					"/atem/transition/bar" : 0.391,
+					"// 27" : "---------- /atem/mplayer/2 ----------",
+					"/atem/mplayer/2/clip" : 1.0,
+					"/atem/mplayer/2/still" : 1.0,
+					"// 28" : "---------- /atem/mplayer/1 ----------",
+					"/atem/mplayer/1/clip" : 1.0,
+					"/atem/mplayer/1/still" : 1.0
 				}
 
 			}
