@@ -344,7 +344,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 549.5, 163.0, 239.0, 22.0 ],
-					"text" : "var-inputs #1/source/cut"
+					"text" : "var-inputs #1 source/cut"
 				}
 
 			}
@@ -373,7 +373,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 549.5, 83.0, 234.0, 22.0 ],
-					"text" : "var-inputs #1/source/fill"
+					"text" : "var-inputs #1 source/fill"
 				}
 
 			}
@@ -705,13 +705,6 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "span.requests.getval.maxpat",
-				"bootpath" : "~/Documents/GITs/span/span-package/patchers/requests",
-				"patcherrelativepath" : "../../span/span-package/patchers/requests",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "var-inputs.maxpat",
 				"bootpath" : "~/Documents/GITs/atem-control/misc",
 				"patcherrelativepath" : "../misc",

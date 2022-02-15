@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 215.0, 79.0, 734.0, 468.0 ],
+		"rect" : [ 215.0, 79.0, 854.0, 463.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,56 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"hidden" : 1,
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 628.0, 139.0, 60.0, 22.0 ],
+					"text" : "loadmess"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 692.0, 168.18310546875, 133.0, 47.0 ],
+					"presentation_linecount" : 3,
+					"text" : "SI LES MENUS DES ENTREES NE SONT PAR REMPLIS"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 692.0, 50.5, 133.0, 20.0 ],
+					"text" : "NOUVELLE MEMOIRE"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-41",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 627.0, 174.18310546875, 61.0, 35.0 ],
+					"text" : ";\r_init bang"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-78",
 					"maxclass" : "newobj",
@@ -757,7 +807,7 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-14",
-													"items" : [ "1.txt", ",", "10.txt", ",", "2 15 2022 21 6 25.txt", ",", "2 15 2022 21 8 41.txt", ",", "2 15 2022 21 8 9.txt", ",", "20.txt", ",", "200.txt", ",", "21.txt", ",", "222.txt", ",", "31.txt", ",", "33.txt", ",", "40.txt", ",", "50.txt", ",", "51.txt" ],
+													"items" : [ "1.txt", ",", "10.txt", ",", "2 15 2022 21 11 57.txt", ",", "2 15 2022 21 12 21.txt", ",", "2 15 2022 21 12 27.txt", ",", "2 15 2022 21 6 25.txt", ",", "2 15 2022 21 8 41.txt", ",", "2 15 2022 21 8 9.txt", ",", "20.txt", ",", "200.txt", ",", "21.txt", ",", "222.txt", ",", "31.txt", ",", "33.txt", ",", "40.txt", ",", "50.txt", ",", "51.txt" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -1844,7 +1894,7 @@
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
-																	"patching_rect" : [ 359.0, 92.0, 49.0, 22.0 ],
+																	"patching_rect" : [ 367.0, 114.0, 49.0, 22.0 ],
 																	"text" : "print >>"
 																}
 
@@ -2771,16 +2821,7 @@
 															}
 , 															{
 																"patchline" : 																{
-																	"destination" : [ "obj-3", 0 ],
-																	"order" : 0,
-																	"source" : [ "obj-21", 0 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
 																	"destination" : [ "obj-4", 0 ],
-																	"order" : 1,
 																	"source" : [ "obj-21", 0 ]
 																}
 
@@ -2788,7 +2829,7 @@
 , 															{
 																"patchline" : 																{
 																	"destination" : [ "obj-19", 1 ],
-																	"order" : 2,
+																	"order" : 3,
 																	"source" : [ "obj-4", 3 ]
 																}
 
@@ -2796,6 +2837,14 @@
 , 															{
 																"patchline" : 																{
 																	"destination" : [ "obj-2", 0 ],
+																	"order" : 1,
+																	"source" : [ "obj-4", 3 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-3", 0 ],
 																	"order" : 0,
 																	"source" : [ "obj-4", 3 ]
 																}
@@ -2804,7 +2853,7 @@
 , 															{
 																"patchline" : 																{
 																	"destination" : [ "obj-70", 0 ],
-																	"order" : 1,
+																	"order" : 2,
 																	"source" : [ "obj-4", 3 ]
 																}
 
@@ -3380,7 +3429,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 627.0, 114.316895000000002, 49.0, 22.0 ],
+					"patching_rect" : [ 627.0, 99.316895000000002, 49.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -3400,7 +3449,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 627.0, 80.0, 24.0, 24.0 ]
+					"patching_rect" : [ 627.0, 30.0, 61.0, 61.0 ]
 				}
 
 			}
@@ -3430,6 +3479,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-78", 0 ],
 					"source" : [ "obj-39", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-41", 0 ],
+					"hidden" : 1,
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}
@@ -3463,13 +3520,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "span.requests.getval.maxpat",
-				"bootpath" : "~/Documents/GITs/span/span-package/patchers/requests",
-				"patcherrelativepath" : "../span/span-package/patchers/requests",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "sparam.maxpat",
 				"bootpath" : "~/Documents/GITs/atem-control",
 				"patcherrelativepath" : ".",
@@ -3491,8 +3541,8 @@
 			}
 , 			{
 				"name" : "var.maxpat",
-				"bootpath" : "~/Documents/GITs/atem-control/misc",
-				"patcherrelativepath" : "./misc",
+				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/max-tricks/send-receive-tricks/lib",
+				"patcherrelativepath" : "../../../Library/Application Support/Cycling '74/Max 8/Examples/max-tricks/send-receive-tricks/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}

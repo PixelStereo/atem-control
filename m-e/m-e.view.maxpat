@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 53.0, 105.0, 798.0, 590.0 ],
+		"rect" : [ 215.0, 105.0, 933.0, 597.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -317,7 +317,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 47.5, 277.0, 147.0, 22.0 ],
-					"text" : "var-inputs #1/aux/1"
+					"text" : "var-inputs #1 aux/1"
 				}
 
 			}
@@ -346,7 +346,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 53.0, 352.0, 147.0, 22.0 ],
-					"text" : "var-inputs #1/aux/3"
+					"text" : "var-inputs #1 aux/3"
 				}
 
 			}
@@ -569,7 +569,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 179.0, 241.0, 147.0, 22.0 ],
-					"text" : "var-inputs #1/aux/2"
+					"text" : "var-inputs #1 aux/2"
 				}
 
 			}
@@ -626,7 +626,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 176.5, 158.0, 136.0, 22.0 ],
-					"text" : "var-inputs #1/preview"
+					"text" : "var-inputs #1 preview"
 				}
 
 			}
@@ -683,7 +683,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 22.125, 160.0, 136.0, 22.0 ],
-					"text" : "var-inputs #1/program"
+					"text" : "var-inputs #1 program"
 				}
 
 			}
@@ -1026,13 +1026,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "span.requests.getval.maxpat",
-				"bootpath" : "~/Documents/GITs/span/span-package/patchers/requests",
-				"patcherrelativepath" : "../../span/span-package/patchers/requests",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "var-inputs.maxpat",
 				"bootpath" : "~/Documents/GITs/atem-control/misc",
 				"patcherrelativepath" : "../misc",
@@ -1041,8 +1034,8 @@
 			}
 , 			{
 				"name" : "var.maxpat",
-				"bootpath" : "~/Documents/GITs/atem-control/misc",
-				"patcherrelativepath" : "../misc",
+				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/max-tricks/send-receive-tricks/lib",
+				"patcherrelativepath" : "../../../../Library/Application Support/Cycling '74/Max 8/Examples/max-tricks/send-receive-tricks/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
