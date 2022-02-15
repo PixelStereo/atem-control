@@ -45,9 +45,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 628.0, 139.0, 60.0, 22.0 ],
-					"text" : "loadmess"
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 628.0, 139.0, 58.0, 22.0 ],
+					"text" : "loadbang"
 				}
 
 			}
@@ -59,7 +59,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 692.0, 168.18310546875, 133.0, 47.0 ],
-					"presentation_linecount" : 3,
 					"text" : "SI LES MENUS DES ENTREES NE SONT PAR REMPLIS"
 				}
 
@@ -1691,31 +1690,6 @@
 									}
 ,
 									"text" : "coll /atem"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-8",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 83.0, 401.18310546875, 100.0, 22.0 ],
-									"text" : "loadmess"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-41",
-									"linecount" : 2,
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 83.0, 430.18310546875, 61.0, 35.0 ],
-									"text" : ";\r_init bang"
 								}
 
 							}
@@ -3400,13 +3374,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-41", 0 ],
-									"source" : [ "obj-8", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-31", 0 ],
 									"source" : [ "obj-9", 1 ]
 								}
@@ -3541,8 +3508,8 @@
 			}
 , 			{
 				"name" : "var.maxpat",
-				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/max-tricks/send-receive-tricks/lib",
-				"patcherrelativepath" : "../../../Library/Application Support/Cycling '74/Max 8/Examples/max-tricks/send-receive-tricks/lib",
+				"bootpath" : "~/Documents/GITs/atem-control/misc",
+				"patcherrelativepath" : "./misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
