@@ -1,8 +1,8 @@
 {
 	"projectinfo" : 	{
 		"created" : "2022-02-13T23:28:37",
-		"lastopened" : "2022-02-15T01:06:11",
-		"lastsaved" : "2022-02-15T01:17:45",
+		"lastopened" : "2022-02-15T17:30:19",
+		"lastsaved" : "2022-02-15T17:30:19",
 		"appname" : "span",
 		"appversion" : 		{
 			"major" : 0,
@@ -127,7 +127,7 @@
 				"range" : [ 0, 0 ],
 				"ramp" : 0,
 				"rampfunction" : "none",
-				"value" : 0
+				"value" : 1
 			}
 ,
 			"program" : 			{
@@ -141,7 +141,7 @@
 				"range" : [ 0, 0 ],
 				"ramp" : 0,
 				"rampfunction" : "none",
-				"value" : 0
+				"value" : 1
 			}
 ,
 			"usk" : 			{
@@ -528,7 +528,8 @@
 						"class" : "parameter",
 						"type" : "string",
 						"unit" : "none",
-						"initval" : "<none>"
+						"initval" : "<none>",
+						"value" : "luma"
 					}
 ,
 					"tie" : 					{
@@ -542,7 +543,7 @@
 						"clipmode" : "both",
 						"ramp" : 0,
 						"rampfunction" : "none",
-						"value" : 0
+						"value" : 1
 					}
 ,
 					"on-air" : 					{
@@ -557,6 +558,59 @@
 						"ramp" : 0,
 						"rampfunction" : "none",
 						"value" : 0
+					}
+,
+					"source" : 					{
+						"cut" : 						{
+							"value" : 3
+						}
+,
+						"fill" : 						{
+							"value" : 4
+						}
+
+					}
+,
+					"luma" : 					{
+						"clip" : 						{
+							"value" : 0.5
+						}
+,
+						"gain" : 						{
+							"value" : 0.316
+						}
+,
+						"pre-multiplied" : 						{
+							"value" : 0
+						}
+,
+						"inverse" : 						{
+							"value" : 0
+						}
+
+					}
+,
+					"chroma" : 					{
+						"narrow" : 						{
+							"value" : 0
+						}
+,
+						"y-suppress" : 						{
+							"value" : 0.0
+						}
+,
+						"gain" : 						{
+							"value" : 0.0
+						}
+,
+						"hue" : 						{
+							"value" : 0.0
+						}
+,
+						"lift" : 						{
+							"value" : 0.0
+						}
+
 					}
 
 				}
@@ -944,7 +998,8 @@
 						"class" : "parameter",
 						"type" : "string",
 						"unit" : "none",
-						"initval" : "<none>"
+						"initval" : "<none>",
+						"value" : "luma"
 					}
 ,
 					"tie" : 					{
@@ -973,6 +1028,129 @@
 						"ramp" : 0,
 						"rampfunction" : "none",
 						"value" : 0
+					}
+,
+					"source" : 					{
+						"cut" : 						{
+							"value" : 3010
+						}
+,
+						"fill" : 						{
+							"value" : 5
+						}
+
+					}
+,
+					"luma" : 					{
+						"clip" : 						{
+							"value" : 0.0
+						}
+,
+						"gain" : 						{
+							"value" : 0.233999997377396
+						}
+,
+						"pre-multiplied" : 						{
+							"value" : 0
+						}
+,
+						"inverse" : 						{
+							"value" : 0
+						}
+
+					}
+,
+					"chroma" : 					{
+						"narrow" : 						{
+							"value" : 0
+						}
+,
+						"y-suppress" : 						{
+							"value" : 0.0
+						}
+,
+						"gain" : 						{
+							"value" : 0.0
+						}
+,
+						"hue" : 						{
+							"value" : 0.0
+						}
+,
+						"lift" : 						{
+							"value" : 0.0
+						}
+
+					}
+,
+					"fly" : 					{
+						"rotation" : 						{
+							"value" : 0.0
+						}
+,
+						"size-y" : 						{
+							"value" : 0.0
+						}
+,
+						"position-y" : 						{
+							"value" : 0.0
+						}
+,
+						"size-x" : 						{
+							"value" : 0.0
+						}
+,
+						"position-x" : 						{
+							"value" : 0.0
+						}
+,
+						"rate" : 						{
+							"value" : 1
+						}
+,
+						"enabled" : 						{
+							"value" : 0
+						}
+
+					}
+,
+					"dve" : 					{
+						"border-saturation" : 						{
+							"value" : 0.0
+						}
+,
+						"border-luma" : 						{
+							"value" : 0.0
+						}
+,
+						"enabled" : 						{
+							"value" : 1
+						}
+,
+						"border-softness-inner" : 						{
+							"value" : 0.0
+						}
+,
+						"border-hue" : 						{
+							"value" : 0.0
+						}
+,
+						"border-opacity" : 						{
+							"value" : 0.0
+						}
+,
+						"border-width-outer" : 						{
+							"value" : 0.0
+						}
+,
+						"border-width-inner" : 						{
+							"value" : 0.0
+						}
+,
+						"border-softness-outer" : 						{
+							"value" : 0.0
+						}
+
 					}
 
 				}
@@ -1360,7 +1538,8 @@
 						"class" : "parameter",
 						"type" : "string",
 						"unit" : "none",
-						"initval" : "<none>"
+						"initval" : "<none>",
+						"value" : "dve"
 					}
 ,
 					"tie" : 					{
@@ -1389,6 +1568,129 @@
 						"ramp" : 0,
 						"rampfunction" : "none",
 						"value" : 0
+					}
+,
+					"source" : 					{
+						"cut" : 						{
+							"value" : 0
+						}
+,
+						"fill" : 						{
+							"value" : 0
+						}
+
+					}
+,
+					"luma" : 					{
+						"clip" : 						{
+							"value" : 0.0
+						}
+,
+						"gain" : 						{
+							"value" : 0.0
+						}
+,
+						"pre-multiplied" : 						{
+							"value" : 0
+						}
+,
+						"inverse" : 						{
+							"value" : 0
+						}
+
+					}
+,
+					"chroma" : 					{
+						"narrow" : 						{
+							"value" : 0
+						}
+,
+						"y-suppress" : 						{
+							"value" : 0.0
+						}
+,
+						"gain" : 						{
+							"value" : 0.0
+						}
+,
+						"hue" : 						{
+							"value" : 0.0
+						}
+,
+						"lift" : 						{
+							"value" : 0.0
+						}
+
+					}
+,
+					"fly" : 					{
+						"rotation" : 						{
+							"value" : 0.0
+						}
+,
+						"size-y" : 						{
+							"value" : 0.0
+						}
+,
+						"position-y" : 						{
+							"value" : 0.0
+						}
+,
+						"size-x" : 						{
+							"value" : 0.0
+						}
+,
+						"position-x" : 						{
+							"value" : 0.0
+						}
+,
+						"rate" : 						{
+							"value" : 0
+						}
+,
+						"enabled" : 						{
+							"value" : 0
+						}
+
+					}
+,
+					"dve" : 					{
+						"border-saturation" : 						{
+							"value" : 0.0
+						}
+,
+						"border-luma" : 						{
+							"value" : 0.0
+						}
+,
+						"enabled" : 						{
+							"value" : 0
+						}
+,
+						"border-softness-inner" : 						{
+							"value" : 0.0
+						}
+,
+						"border-hue" : 						{
+							"value" : 0.0
+						}
+,
+						"border-opacity" : 						{
+							"value" : 0.0
+						}
+,
+						"border-width-outer" : 						{
+							"value" : 0.0
+						}
+,
+						"border-width-inner" : 						{
+							"value" : 0.0
+						}
+,
+						"border-softness-outer" : 						{
+							"value" : 0.0
+						}
+
 					}
 
 				}
@@ -1776,7 +2078,8 @@
 						"class" : "parameter",
 						"type" : "string",
 						"unit" : "none",
-						"initval" : "<none>"
+						"initval" : "<none>",
+						"value" : "luma"
 					}
 ,
 					"tie" : 					{
@@ -1804,6 +2107,169 @@
 						"clipmode" : "both",
 						"ramp" : 0,
 						"rampfunction" : "none",
+						"value" : 0
+					}
+,
+					"source" : 					{
+						"cut" : 						{
+							"value" : 0
+						}
+,
+						"fill" : 						{
+							"value" : 0
+						}
+
+					}
+,
+					"luma" : 					{
+						"clip" : 						{
+							"value" : 0.0
+						}
+,
+						"gain" : 						{
+							"value" : 0.0
+						}
+,
+						"pre-multiplied" : 						{
+							"value" : 0
+						}
+,
+						"inverse" : 						{
+							"value" : 0
+						}
+
+					}
+,
+					"chroma" : 					{
+						"narrow" : 						{
+							"value" : 0
+						}
+,
+						"y-suppress" : 						{
+							"value" : 0.0
+						}
+,
+						"gain" : 						{
+							"value" : 0.0
+						}
+,
+						"hue" : 						{
+							"value" : 0.0
+						}
+,
+						"lift" : 						{
+							"value" : 0.0
+						}
+
+					}
+,
+					"fly" : 					{
+						"rotation" : 						{
+							"value" : 0.0
+						}
+,
+						"size-y" : 						{
+							"value" : 0.0
+						}
+,
+						"position-y" : 						{
+							"value" : 0.0
+						}
+,
+						"size-x" : 						{
+							"value" : 0.0
+						}
+,
+						"position-x" : 						{
+							"value" : 0.0
+						}
+,
+						"rate" : 						{
+							"value" : 0
+						}
+,
+						"enabled" : 						{
+							"value" : 0
+						}
+
+					}
+,
+					"dve" : 					{
+						"border-saturation" : 						{
+							"value" : 0.0
+						}
+,
+						"border-luma" : 						{
+							"value" : 0.0
+						}
+,
+						"enabled" : 						{
+							"value" : 0
+						}
+,
+						"border-softness-inner" : 						{
+							"value" : 0.0
+						}
+,
+						"border-hue" : 						{
+							"value" : 0.0
+						}
+,
+						"border-opacity" : 						{
+							"value" : 0.0
+						}
+,
+						"border-width-outer" : 						{
+							"value" : 0.0
+						}
+,
+						"border-width-inner" : 						{
+							"value" : 0.0
+						}
+,
+						"border-softness-outer" : 						{
+							"value" : 0.0
+						}
+
+					}
+
+				}
+
+			}
+,
+			"aux" : 			{
+				"1" : 				{
+					"value" : 10011
+				}
+,
+				"2" : 				{
+					"value" : 2
+				}
+,
+				"3" : 				{
+					"value" : 3
+				}
+
+			}
+,
+			"mplayer" : 			{
+				"2" : 				{
+					"clip" : 					{
+						"value" : 0
+					}
+,
+					"still" : 					{
+						"value" : 0
+					}
+
+				}
+,
+				"1" : 				{
+					"clip" : 					{
+						"value" : 0
+					}
+,
+					"still" : 					{
 						"value" : 0
 					}
 
@@ -1998,176 +2464,29 @@
 			"description" : "Describe event here...",
 			"data" : 			{
 				"0" : 				{
-					"// 0" : "---------- /atem/usk/1/fly ----------",
-					"/atem/usk/1/fly/rotation" : 0.0,
-					"/atem/usk/1/fly/size-y" : 0.0,
-					"/atem/usk/1/fly/position-y" : 0.0,
-					"/atem/usk/1/fly/size-x" : 0.0,
-					"/atem/usk/1/fly/position-x" : 0.0,
-					"/atem/usk/1/fly/enable" : 1,
-					"/atem/usk/1/fly/rate" : 1,
-					"// 1" : "---------- /atem/usk/1/dve ----------",
-					"/atem/usk/1/dve/border-saturation" : 0.0,
-					"/atem/usk/1/dve/border-luma" : 0.0,
-					"/atem/usk/1/dve/enabled" : 1,
-					"/atem/usk/1/dve/border-softness-inner" : 0.0,
-					"/atem/usk/1/dve/border-hue" : 0.0,
-					"/atem/usk/1/dve/border-opacity" : 0.0,
-					"/atem/usk/1/dve/border-width-outer" : 0.0,
-					"/atem/usk/1/dve/border-width-inner" : 0.0,
-					"/atem/usk/1/dve/border-softness-outer" : 0.0,
-					"// 2" : "---------- /atem/usk/1/chroma ----------",
-					"/atem/usk/1/chroma/narrow" : 0,
-					"/atem/usk/1/chroma/y-suppress" : 0.0,
-					"/atem/usk/1/chroma/lift" : 0.0,
-					"/atem/usk/1/chroma/gain" : 0.0,
-					"/atem/usk/1/chroma/hue" : 0.0,
-					"// 3" : "---------- /atem/usk/1/luma ----------",
-					"/atem/usk/1/luma/pre-multiplied" : 0,
-					"/atem/usk/1/luma/gain" : 0.0,
-					"/atem/usk/1/luma/clip" : 0.0,
-					"/atem/usk/1/luma/inverse" : 0,
-					"// 4" : "---------- /atem/usk/1/source ----------",
-					"/atem/usk/1/source/cut" : 0,
-					"/atem/usk/1/source/fill" : 0,
-					"// 5" : "---------- /atem/usk/1 ----------",
-					"/atem/usk/1/type" : "pattern",
-					"/atem/usk/1/tie" : 0,
-					"/atem/usk/1/on-air" : 0,
-					"// 6" : "---------- /atem/usk/1/fly ----------",
-					"/atem/usk/1/fly/enabled" : 0,
-					"// 7" : "---------- /atem/usk/2/fly ----------",
-					"/atem/usk/2/fly/rotation" : 0.0,
-					"/atem/usk/2/fly/size-y" : 0.0,
-					"/atem/usk/2/fly/position-y" : 0.0,
-					"/atem/usk/2/fly/size-x" : 0.0,
-					"/atem/usk/2/fly/position-x" : 0.0,
-					"/atem/usk/2/fly/enable" : 1,
-					"/atem/usk/2/fly/rate" : 1,
-					"// 8" : "---------- /atem/usk/2/dve ----------",
-					"/atem/usk/2/dve/border-saturation" : 0.0,
-					"/atem/usk/2/dve/border-luma" : 0.0,
-					"/atem/usk/2/dve/enabled" : 1,
-					"/atem/usk/2/dve/border-softness-inner" : 0.0,
-					"/atem/usk/2/dve/border-hue" : 0.0,
-					"/atem/usk/2/dve/border-opacity" : 0.0,
-					"/atem/usk/2/dve/border-width-outer" : 0.0,
-					"/atem/usk/2/dve/border-width-inner" : 0.0,
-					"/atem/usk/2/dve/border-softness-outer" : 0.0,
-					"// 9" : "---------- /atem/usk/2/chroma ----------",
-					"/atem/usk/2/chroma/narrow" : 0,
-					"/atem/usk/2/chroma/y-suppress" : 0.0,
-					"/atem/usk/2/chroma/lift" : 0.0,
-					"/atem/usk/2/chroma/gain" : 0.0,
-					"/atem/usk/2/chroma/hue" : 0.0,
-					"// 10" : "---------- /atem/usk/2/luma ----------",
-					"/atem/usk/2/luma/pre-multiplied" : 0,
-					"/atem/usk/2/luma/gain" : 0.0,
-					"/atem/usk/2/luma/clip" : 0.0,
-					"/atem/usk/2/luma/inverse" : 0,
-					"// 11" : "---------- /atem/usk/2/source ----------",
-					"/atem/usk/2/source/cut" : 0,
-					"/atem/usk/2/source/fill" : 0,
-					"// 12" : "---------- /atem/usk/2 ----------",
-					"/atem/usk/2/type" : "chroma",
-					"/atem/usk/2/tie" : 0,
-					"/atem/usk/2/on-air" : 0,
-					"// 13" : "---------- /atem/usk/2/fly ----------",
-					"/atem/usk/2/fly/enabled" : 0,
-					"// 14" : "---------- /atem/usk/3/fly ----------",
-					"/atem/usk/3/fly/rotation" : 0.0,
-					"/atem/usk/3/fly/size-y" : 0.0,
-					"/atem/usk/3/fly/position-y" : 0.0,
-					"/atem/usk/3/fly/size-x" : 0.0,
-					"/atem/usk/3/fly/position-x" : 0.0,
-					"/atem/usk/3/fly/enable" : 1,
-					"/atem/usk/3/fly/rate" : 0,
-					"// 15" : "---------- /atem/usk/3/dve ----------",
-					"/atem/usk/3/dve/border-saturation" : 0.0,
-					"/atem/usk/3/dve/border-luma" : 0.0,
-					"/atem/usk/3/dve/enabled" : 0,
-					"/atem/usk/3/dve/border-softness-inner" : 0.0,
-					"/atem/usk/3/dve/border-hue" : 0.0,
-					"/atem/usk/3/dve/border-opacity" : 0.0,
-					"/atem/usk/3/dve/border-width-outer" : 0.0,
-					"/atem/usk/3/dve/border-width-inner" : 0.0,
-					"/atem/usk/3/dve/border-softness-outer" : 0.0,
-					"// 16" : "---------- /atem/usk/3/chroma ----------",
-					"/atem/usk/3/chroma/narrow" : 0,
-					"/atem/usk/3/chroma/y-suppress" : 0.0,
-					"/atem/usk/3/chroma/lift" : 0.0,
-					"/atem/usk/3/chroma/gain" : 0.0,
-					"/atem/usk/3/chroma/hue" : 0.0,
-					"// 17" : "---------- /atem/usk/3/luma ----------",
-					"/atem/usk/3/luma/pre-multiplied" : 0,
-					"/atem/usk/3/luma/gain" : 0.0,
-					"/atem/usk/3/luma/clip" : 0.0,
-					"/atem/usk/3/luma/inverse" : 0,
-					"// 18" : "---------- /atem/usk/3/source ----------",
-					"/atem/usk/3/source/cut" : 0,
-					"/atem/usk/3/source/fill" : 0,
-					"// 19" : "---------- /atem/usk/3 ----------",
-					"/atem/usk/3/type" : "dve",
-					"/atem/usk/3/tie" : 0,
-					"/atem/usk/3/on-air" : 0,
-					"// 20" : "---------- /atem/usk/3/fly ----------",
-					"/atem/usk/3/fly/enabled" : 0,
-					"// 21" : "---------- /atem/usk/4/fly ----------",
-					"/atem/usk/4/fly/rotation" : 0.0,
-					"/atem/usk/4/fly/size-y" : 0.0,
-					"/atem/usk/4/fly/position-y" : 0.0,
-					"/atem/usk/4/fly/size-x" : 0.0,
-					"/atem/usk/4/fly/position-x" : 0.0,
-					"/atem/usk/4/fly/enable" : 1,
-					"/atem/usk/4/fly/rate" : 0,
-					"// 22" : "---------- /atem/usk/4/dve ----------",
-					"/atem/usk/4/dve/border-saturation" : 0.0,
-					"/atem/usk/4/dve/border-luma" : 0.0,
-					"/atem/usk/4/dve/enabled" : 0,
-					"/atem/usk/4/dve/border-softness-inner" : 0.0,
-					"/atem/usk/4/dve/border-hue" : 0.0,
-					"/atem/usk/4/dve/border-opacity" : 0.0,
-					"/atem/usk/4/dve/border-width-outer" : 0.0,
-					"/atem/usk/4/dve/border-width-inner" : 0.0,
-					"/atem/usk/4/dve/border-softness-outer" : 0.0,
-					"// 23" : "---------- /atem/usk/4/chroma ----------",
-					"/atem/usk/4/chroma/narrow" : 0,
-					"/atem/usk/4/chroma/y-suppress" : 0.0,
-					"/atem/usk/4/chroma/lift" : 0.0,
-					"/atem/usk/4/chroma/gain" : 0.0,
-					"/atem/usk/4/chroma/hue" : 0.0,
-					"// 24" : "---------- /atem/usk/4/luma ----------",
-					"/atem/usk/4/luma/pre-multiplied" : 0,
-					"/atem/usk/4/luma/gain" : 0.0,
-					"/atem/usk/4/luma/clip" : 0.0,
-					"/atem/usk/4/luma/inverse" : 0,
-					"// 25" : "---------- /atem/usk/4/source ----------",
-					"/atem/usk/4/source/cut" : 0,
-					"/atem/usk/4/source/fill" : 0,
-					"// 26" : "---------- /atem/usk/4 ----------",
-					"/atem/usk/4/type" : "luma",
-					"/atem/usk/4/tie" : 0,
-					"/atem/usk/4/on-air" : 0,
-					"// 27" : "---------- /atem/usk/4/fly ----------",
-					"/atem/usk/4/fly/enabled" : 0,
-					"// 28" : "---------- /atem/aux ----------",
+					"// 0" : "---------- /atem/aux ----------",
 					"/atem/aux/3" : 3,
 					"/atem/aux/2" : 2,
 					"/atem/aux/1" : 1,
-					"// 29" : "---------- /atem ----------",
+					"// 1" : "---------- /atem ----------",
 					"/atem/preview" : 0,
 					"/atem/program" : 0,
-					"// 30" : "---------- /atem/transition ----------",
-					"/atem/transition/rate" : 1.0,
-					"/atem/transition/ftb" : 0,
-					"/atem/transition/position" : 0.0,
-					"/atem/transition/bar" : 0.0,
-					"// 31" : "---------- /atem/mplayer/2 ----------",
-					"/atem/mplayer/2/clip" : 0.0,
-					"/atem/mplayer/2/still" : 0.0,
-					"// 32" : "---------- /atem/mplayer/1 ----------",
-					"/atem/mplayer/1/clip" : 0.0,
-					"/atem/mplayer/1/still" : 0.0
+					"// 2" : "---------- /atem/usk/1 ----------",
+					"/atem/usk/1/tie" : 0,
+					"/atem/usk/1/on-air" : 0,
+					"// 3" : "---------- /atem/usk/2 ----------",
+					"/atem/usk/2/tie" : 0,
+					"/atem/usk/2/on-air" : 0,
+					"// 4" : "---------- /atem/usk/3 ----------",
+					"/atem/usk/3/tie" : 0,
+					"/atem/usk/3/on-air" : 0,
+					"// 5" : "---------- /atem/usk/4 ----------",
+					"/atem/usk/4/tie" : 0,
+					"/atem/usk/4/on-air" : 0
+				}
+,
+				"1" : 				{
+					"/atem/usk/4/on-air" : 0
 				}
 
 			}
@@ -2726,176 +3045,25 @@
 			"description" : "Describe event here...",
 			"data" : 			{
 				"0" : 				{
-					"// 0" : "---------- /atem/usk/1/fly ----------",
-					"/atem/usk/1/fly/rotation" : 0.0,
-					"/atem/usk/1/fly/size-y" : 0.0,
-					"/atem/usk/1/fly/position-y" : 0.0,
-					"/atem/usk/1/fly/size-x" : 0.0,
-					"/atem/usk/1/fly/position-x" : 0.0,
-					"/atem/usk/1/fly/enable" : 1,
-					"/atem/usk/1/fly/rate" : 1,
-					"// 1" : "---------- /atem/usk/1/dve ----------",
-					"/atem/usk/1/dve/border-saturation" : 0.0,
-					"/atem/usk/1/dve/border-luma" : 0.0,
-					"/atem/usk/1/dve/enabled" : 1,
-					"/atem/usk/1/dve/border-softness-inner" : 0.0,
-					"/atem/usk/1/dve/border-hue" : 0.0,
-					"/atem/usk/1/dve/border-opacity" : 0.0,
-					"/atem/usk/1/dve/border-width-outer" : 0.0,
-					"/atem/usk/1/dve/border-width-inner" : 0.0,
-					"/atem/usk/1/dve/border-softness-outer" : 0.0,
-					"// 2" : "---------- /atem/usk/1/chroma ----------",
-					"/atem/usk/1/chroma/narrow" : 0,
-					"/atem/usk/1/chroma/y-suppress" : 0.0,
-					"/atem/usk/1/chroma/lift" : 0.0,
-					"/atem/usk/1/chroma/gain" : 0.0,
-					"/atem/usk/1/chroma/hue" : 0.0,
-					"// 3" : "---------- /atem/usk/1/luma ----------",
-					"/atem/usk/1/luma/pre-multiplied" : 0,
-					"/atem/usk/1/luma/gain" : 0.216000005602837,
-					"/atem/usk/1/luma/clip" : 0.580999970436096,
-					"/atem/usk/1/luma/inverse" : 0,
-					"// 4" : "---------- /atem/usk/1/source ----------",
-					"/atem/usk/1/source/cut" : 1,
-					"/atem/usk/1/source/fill" : 4,
-					"// 5" : "---------- /atem/usk/1 ----------",
-					"/atem/usk/1/type" : "luma",
-					"/atem/usk/1/tie" : 1,
+					"// 0" : "---------- /atem/aux ----------",
+					"/atem/aux/3" : 3,
+					"/atem/aux/2" : 10010,
+					"/atem/aux/1" : 1,
+					"// 1" : "---------- /atem ----------",
+					"/atem/preview" : 2,
+					"/atem/program" : 4,
+					"// 2" : "---------- /atem/usk/1 ----------",
+					"/atem/usk/1/tie" : 0,
 					"/atem/usk/1/on-air" : 0,
-					"// 6" : "---------- /atem/usk/1/fly ----------",
-					"/atem/usk/1/fly/enabled" : 0,
-					"// 7" : "---------- /atem/usk/2/fly ----------",
-					"/atem/usk/2/fly/rotation" : 0.0,
-					"/atem/usk/2/fly/size-y" : 0.0,
-					"/atem/usk/2/fly/position-y" : 0.0,
-					"/atem/usk/2/fly/size-x" : 0.0,
-					"/atem/usk/2/fly/position-x" : 0.0,
-					"/atem/usk/2/fly/enable" : 1,
-					"/atem/usk/2/fly/rate" : 1,
-					"// 8" : "---------- /atem/usk/2/dve ----------",
-					"/atem/usk/2/dve/border-saturation" : 0.0,
-					"/atem/usk/2/dve/border-luma" : 0.0,
-					"/atem/usk/2/dve/enabled" : 1,
-					"/atem/usk/2/dve/border-softness-inner" : 0.0,
-					"/atem/usk/2/dve/border-hue" : 0.0,
-					"/atem/usk/2/dve/border-opacity" : 0.0,
-					"/atem/usk/2/dve/border-width-outer" : 0.0,
-					"/atem/usk/2/dve/border-width-inner" : 0.0,
-					"/atem/usk/2/dve/border-softness-outer" : 0.0,
-					"// 9" : "---------- /atem/usk/2/chroma ----------",
-					"/atem/usk/2/chroma/narrow" : 0,
-					"/atem/usk/2/chroma/y-suppress" : 0.0,
-					"/atem/usk/2/chroma/lift" : 0.0,
-					"/atem/usk/2/chroma/gain" : 0.0,
-					"/atem/usk/2/chroma/hue" : 0.0,
-					"// 10" : "---------- /atem/usk/2/luma ----------",
-					"/atem/usk/2/luma/pre-multiplied" : 0,
-					"/atem/usk/2/luma/gain" : 0.180000007152557,
-					"/atem/usk/2/luma/clip" : 0.347000002861023,
-					"/atem/usk/2/luma/inverse" : 0,
-					"// 11" : "---------- /atem/usk/2/source ----------",
-					"/atem/usk/2/source/cut" : 3,
-					"/atem/usk/2/source/fill" : 5,
-					"// 12" : "---------- /atem/usk/2 ----------",
-					"/atem/usk/2/type" : "luma",
-					"/atem/usk/2/tie" : 1,
-					"/atem/usk/2/on-air" : 1,
-					"// 13" : "---------- /atem/usk/2/fly ----------",
-					"/atem/usk/2/fly/enabled" : 0,
-					"// 14" : "---------- /atem/usk/3/fly ----------",
-					"/atem/usk/3/fly/rotation" : 0.0,
-					"/atem/usk/3/fly/size-y" : 0.0,
-					"/atem/usk/3/fly/position-y" : 0.0,
-					"/atem/usk/3/fly/size-x" : 0.0,
-					"/atem/usk/3/fly/position-x" : 0.0,
-					"/atem/usk/3/fly/enable" : 1,
-					"/atem/usk/3/fly/rate" : 0,
-					"// 15" : "---------- /atem/usk/3/dve ----------",
-					"/atem/usk/3/dve/border-saturation" : 0.0,
-					"/atem/usk/3/dve/border-luma" : 0.0,
-					"/atem/usk/3/dve/enabled" : 0,
-					"/atem/usk/3/dve/border-softness-inner" : 0.0,
-					"/atem/usk/3/dve/border-hue" : 0.0,
-					"/atem/usk/3/dve/border-opacity" : 0.0,
-					"/atem/usk/3/dve/border-width-outer" : 0.0,
-					"/atem/usk/3/dve/border-width-inner" : 0.0,
-					"/atem/usk/3/dve/border-softness-outer" : 0.0,
-					"// 16" : "---------- /atem/usk/3/chroma ----------",
-					"/atem/usk/3/chroma/narrow" : 0,
-					"/atem/usk/3/chroma/y-suppress" : 0.0,
-					"/atem/usk/3/chroma/lift" : 0.0,
-					"/atem/usk/3/chroma/gain" : 0.0,
-					"/atem/usk/3/chroma/hue" : 0.0,
-					"// 17" : "---------- /atem/usk/3/luma ----------",
-					"/atem/usk/3/luma/pre-multiplied" : 0,
-					"/atem/usk/3/luma/gain" : 0.0,
-					"/atem/usk/3/luma/clip" : 0.0,
-					"/atem/usk/3/luma/inverse" : 0,
-					"// 18" : "---------- /atem/usk/3/source ----------",
-					"/atem/usk/3/source/cut" : 0,
-					"/atem/usk/3/source/fill" : 0,
-					"// 19" : "---------- /atem/usk/3 ----------",
-					"/atem/usk/3/type" : "dve",
+					"// 3" : "---------- /atem/usk/2 ----------",
+					"/atem/usk/2/tie" : 0,
+					"/atem/usk/2/on-air" : 0,
+					"// 4" : "---------- /atem/usk/3 ----------",
 					"/atem/usk/3/tie" : 0,
 					"/atem/usk/3/on-air" : 0,
-					"// 20" : "---------- /atem/usk/3/fly ----------",
-					"/atem/usk/3/fly/enabled" : 0,
-					"// 21" : "---------- /atem/usk/4/fly ----------",
-					"/atem/usk/4/fly/rotation" : 0.0,
-					"/atem/usk/4/fly/size-y" : 0.0,
-					"/atem/usk/4/fly/position-y" : 0.0,
-					"/atem/usk/4/fly/size-x" : 0.0,
-					"/atem/usk/4/fly/position-x" : 0.0,
-					"/atem/usk/4/fly/enable" : 1,
-					"/atem/usk/4/fly/rate" : 0,
-					"// 22" : "---------- /atem/usk/4/dve ----------",
-					"/atem/usk/4/dve/border-saturation" : 0.0,
-					"/atem/usk/4/dve/border-luma" : 0.0,
-					"/atem/usk/4/dve/enabled" : 0,
-					"/atem/usk/4/dve/border-softness-inner" : 0.0,
-					"/atem/usk/4/dve/border-hue" : 0.0,
-					"/atem/usk/4/dve/border-opacity" : 0.0,
-					"/atem/usk/4/dve/border-width-outer" : 0.0,
-					"/atem/usk/4/dve/border-width-inner" : 0.0,
-					"/atem/usk/4/dve/border-softness-outer" : 0.0,
-					"// 23" : "---------- /atem/usk/4/chroma ----------",
-					"/atem/usk/4/chroma/narrow" : 0,
-					"/atem/usk/4/chroma/y-suppress" : 0.0,
-					"/atem/usk/4/chroma/lift" : 0.0,
-					"/atem/usk/4/chroma/gain" : 0.0,
-					"/atem/usk/4/chroma/hue" : 0.0,
-					"// 24" : "---------- /atem/usk/4/luma ----------",
-					"/atem/usk/4/luma/pre-multiplied" : 0,
-					"/atem/usk/4/luma/gain" : 0.0,
-					"/atem/usk/4/luma/clip" : 0.0,
-					"/atem/usk/4/luma/inverse" : 0,
-					"// 25" : "---------- /atem/usk/4/source ----------",
-					"/atem/usk/4/source/cut" : 0,
-					"/atem/usk/4/source/fill" : 0,
-					"// 26" : "---------- /atem/usk/4 ----------",
-					"/atem/usk/4/type" : "luma",
+					"// 5" : "---------- /atem/usk/4 ----------",
 					"/atem/usk/4/tie" : 0,
-					"/atem/usk/4/on-air" : 0,
-					"// 27" : "---------- /atem/usk/4/fly ----------",
-					"/atem/usk/4/fly/enabled" : 0,
-					"// 28" : "---------- /atem/aux ----------",
-					"/atem/aux/3" : 3,
-					"/atem/aux/2" : 4,
-					"/atem/aux/1" : 1,
-					"// 29" : "---------- /atem ----------",
-					"/atem/preview" : 0,
-					"/atem/program" : 4,
-					"// 30" : "---------- /atem/transition ----------",
-					"/atem/transition/rate" : 1.0,
-					"/atem/transition/ftb" : 0,
-					"/atem/transition/position" : 0.0,
-					"/atem/transition/bar" : 0.0,
-					"// 31" : "---------- /atem/mplayer/2 ----------",
-					"/atem/mplayer/2/clip" : 0.0,
-					"/atem/mplayer/2/still" : 0.0,
-					"// 32" : "---------- /atem/mplayer/1 ----------",
-					"/atem/mplayer/1/clip" : 0.0,
-					"/atem/mplayer/1/still" : 0.0
+					"/atem/usk/4/on-air" : 0
 				}
 
 			}
@@ -2907,216 +3075,7 @@
 			"description" : "Describe event here...",
 			"data" : 			{
 				"0" : 				{
-					"// 0" : "---------- /atem/usk/1/fly ----------",
-					"/atem/usk/1/fly/rotation" : 0.0,
-					"/atem/usk/1/fly/size-y" : 0.0,
-					"/atem/usk/1/fly/position-y" : 0.0,
-					"/atem/usk/1/fly/size-x" : 0.0,
-					"/atem/usk/1/fly/position-x" : 0.0,
-					"/atem/usk/1/fly/enable" : 1,
-					"/atem/usk/1/fly/rate" : 1,
-					"// 1" : "---------- /atem/usk/1/dve ----------",
-					"/atem/usk/1/dve/border-saturation" : 0.0,
-					"/atem/usk/1/dve/border-luma" : 0.0,
-					"/atem/usk/1/dve/enabled" : 1,
-					"/atem/usk/1/dve/border-softness-inner" : 0.0,
-					"/atem/usk/1/dve/border-hue" : 0.0,
-					"/atem/usk/1/dve/border-opacity" : 0.0,
-					"/atem/usk/1/dve/border-width-outer" : 0.0,
-					"/atem/usk/1/dve/border-width-inner" : 0.0,
-					"/atem/usk/1/dve/border-softness-outer" : 0.0,
-					"// 2" : "---------- /atem/usk/1/chroma ----------",
-					"/atem/usk/1/chroma/narrow" : 0,
-					"/atem/usk/1/chroma/y-suppress" : 0.0,
-					"/atem/usk/1/chroma/lift" : 0.0,
-					"/atem/usk/1/chroma/gain" : 0.0,
-					"/atem/usk/1/chroma/hue" : 0.0,
-					"// 3" : "---------- /atem/usk/1/luma ----------",
-					"/atem/usk/1/luma/pre-multiplied" : 0,
-					"/atem/usk/1/luma/gain" : 0.216000005602837,
-					"/atem/usk/1/luma/clip" : 0.580999970436096,
-					"/atem/usk/1/luma/inverse" : 0,
-					"// 4" : "---------- /atem/usk/1/source ----------",
-					"/atem/usk/1/source/cut" : 1,
-					"/atem/usk/1/source/fill" : 4,
-					"// 5" : "---------- /atem/usk/1 ----------",
-					"/atem/usk/1/type" : "luma",
-					"/atem/usk/1/tie" : 1,
-					"/atem/usk/1/on-air" : 0,
-					"// 6" : "---------- /atem/usk/1/fly ----------",
-					"/atem/usk/1/fly/enabled" : 0,
-					"// 7" : "---------- /atem/usk/2/fly ----------",
-					"/atem/usk/2/fly/rotation" : 0.0,
-					"/atem/usk/2/fly/size-y" : 0.0,
-					"/atem/usk/2/fly/position-y" : 0.0,
-					"/atem/usk/2/fly/size-x" : 0.0,
-					"/atem/usk/2/fly/position-x" : 0.0,
-					"/atem/usk/2/fly/enable" : 1,
-					"/atem/usk/2/fly/rate" : 1,
-					"// 8" : "---------- /atem/usk/2/dve ----------",
-					"/atem/usk/2/dve/border-saturation" : 0.0,
-					"/atem/usk/2/dve/border-luma" : 0.0,
-					"/atem/usk/2/dve/enabled" : 1,
-					"/atem/usk/2/dve/border-softness-inner" : 0.0,
-					"/atem/usk/2/dve/border-hue" : 0.0,
-					"/atem/usk/2/dve/border-opacity" : 0.0,
-					"/atem/usk/2/dve/border-width-outer" : 0.0,
-					"/atem/usk/2/dve/border-width-inner" : 0.0,
-					"/atem/usk/2/dve/border-softness-outer" : 0.0,
-					"// 9" : "---------- /atem/usk/2/chroma ----------",
-					"/atem/usk/2/chroma/narrow" : 0,
-					"/atem/usk/2/chroma/y-suppress" : 0.0,
-					"/atem/usk/2/chroma/lift" : 0.0,
-					"/atem/usk/2/chroma/gain" : 0.0,
-					"/atem/usk/2/chroma/hue" : 0.0,
-					"// 10" : "---------- /atem/usk/2/luma ----------",
-					"/atem/usk/2/luma/pre-multiplied" : 0,
-					"/atem/usk/2/luma/gain" : 0.180000007152557,
-					"/atem/usk/2/luma/clip" : 0.347000002861023,
-					"/atem/usk/2/luma/inverse" : 0,
-					"// 11" : "---------- /atem/usk/2/source ----------",
-					"/atem/usk/2/source/cut" : 3,
-					"/atem/usk/2/source/fill" : 5,
-					"// 12" : "---------- /atem/usk/2 ----------",
-					"/atem/usk/2/type" : "luma",
-					"/atem/usk/2/tie" : 1,
-					"/atem/usk/2/on-air" : 1,
-					"// 13" : "---------- /atem/usk/2/fly ----------",
-					"/atem/usk/2/fly/enabled" : 0,
-					"// 14" : "---------- /atem/usk/3/fly ----------",
-					"/atem/usk/3/fly/rotation" : 0.0,
-					"/atem/usk/3/fly/size-y" : 0.0,
-					"/atem/usk/3/fly/position-y" : 0.0,
-					"/atem/usk/3/fly/size-x" : 0.0,
-					"/atem/usk/3/fly/position-x" : 0.0,
-					"/atem/usk/3/fly/enable" : 1,
-					"/atem/usk/3/fly/rate" : 0,
-					"// 15" : "---------- /atem/usk/3/dve ----------",
-					"/atem/usk/3/dve/border-saturation" : 0.0,
-					"/atem/usk/3/dve/border-luma" : 0.0,
-					"/atem/usk/3/dve/enabled" : 0,
-					"/atem/usk/3/dve/border-softness-inner" : 0.0,
-					"/atem/usk/3/dve/border-hue" : 0.0,
-					"/atem/usk/3/dve/border-opacity" : 0.0,
-					"/atem/usk/3/dve/border-width-outer" : 0.0,
-					"/atem/usk/3/dve/border-width-inner" : 0.0,
-					"/atem/usk/3/dve/border-softness-outer" : 0.0,
-					"// 16" : "---------- /atem/usk/3/chroma ----------",
-					"/atem/usk/3/chroma/narrow" : 0,
-					"/atem/usk/3/chroma/y-suppress" : 0.0,
-					"/atem/usk/3/chroma/lift" : 0.0,
-					"/atem/usk/3/chroma/gain" : 0.0,
-					"/atem/usk/3/chroma/hue" : 0.0,
-					"// 17" : "---------- /atem/usk/3/luma ----------",
-					"/atem/usk/3/luma/pre-multiplied" : 0,
-					"/atem/usk/3/luma/gain" : 0.0,
-					"/atem/usk/3/luma/clip" : 0.0,
-					"/atem/usk/3/luma/inverse" : 0,
-					"// 18" : "---------- /atem/usk/3/source ----------",
-					"/atem/usk/3/source/cut" : 0,
-					"/atem/usk/3/source/fill" : 0,
-					"// 19" : "---------- /atem/usk/3 ----------",
-					"/atem/usk/3/type" : "dve",
-					"/atem/usk/3/tie" : 0,
-					"/atem/usk/3/on-air" : 0,
-					"// 20" : "---------- /atem/usk/3/fly ----------",
-					"/atem/usk/3/fly/enabled" : 0,
-					"// 21" : "---------- /atem/usk/4/fly ----------",
-					"/atem/usk/4/fly/rotation" : 0.0,
-					"/atem/usk/4/fly/size-y" : 0.0,
-					"/atem/usk/4/fly/position-y" : 0.0,
-					"/atem/usk/4/fly/size-x" : 0.0,
-					"/atem/usk/4/fly/position-x" : 0.0,
-					"/atem/usk/4/fly/enable" : 1,
-					"/atem/usk/4/fly/rate" : 0,
-					"// 22" : "---------- /atem/usk/4/dve ----------",
-					"/atem/usk/4/dve/border-saturation" : 0.0,
-					"/atem/usk/4/dve/border-luma" : 0.0,
-					"/atem/usk/4/dve/enabled" : 0,
-					"/atem/usk/4/dve/border-softness-inner" : 0.0,
-					"/atem/usk/4/dve/border-hue" : 0.0,
-					"/atem/usk/4/dve/border-opacity" : 0.0,
-					"/atem/usk/4/dve/border-width-outer" : 0.0,
-					"/atem/usk/4/dve/border-width-inner" : 0.0,
-					"/atem/usk/4/dve/border-softness-outer" : 0.0,
-					"// 23" : "---------- /atem/usk/4/chroma ----------",
-					"/atem/usk/4/chroma/narrow" : 0,
-					"/atem/usk/4/chroma/y-suppress" : 0.0,
-					"/atem/usk/4/chroma/lift" : 0.0,
-					"/atem/usk/4/chroma/gain" : 0.0,
-					"/atem/usk/4/chroma/hue" : 0.0,
-					"// 24" : "---------- /atem/usk/4/luma ----------",
-					"/atem/usk/4/luma/pre-multiplied" : 0,
-					"/atem/usk/4/luma/gain" : 0.0,
-					"/atem/usk/4/luma/clip" : 0.0,
-					"/atem/usk/4/luma/inverse" : 0,
-					"// 25" : "---------- /atem/usk/4/source ----------",
-					"/atem/usk/4/source/cut" : 0,
-					"/atem/usk/4/source/fill" : 0,
-					"// 26" : "---------- /atem/usk/4 ----------",
-					"/atem/usk/4/type" : "luma",
-					"/atem/usk/4/tie" : 0,
-					"/atem/usk/4/on-air" : 0,
-					"// 27" : "---------- /atem/usk/4/fly ----------",
-					"/atem/usk/4/fly/enabled" : 0,
-					"// 28" : "---------- /atem/aux ----------",
-					"/atem/aux/3" : 0,
-					"/atem/aux/2" : 2,
-					"/atem/aux/1" : 1,
-					"// 29" : "---------- /atem ----------",
-					"/atem/preview" : 0,
-					"/atem/program" : 4,
-					"// 30" : "---------- /atem/transition ----------",
-					"/atem/transition/rate" : 1.0,
-					"/atem/transition/ftb" : 0,
-					"/atem/transition/position" : 0.0,
-					"/atem/transition/bar" : 0.0,
-					"// 31" : "---------- /atem/mplayer/2 ----------",
-					"/atem/mplayer/2/clip" : 0.0,
-					"/atem/mplayer/2/still" : 0.0,
-					"// 32" : "---------- /atem/mplayer/1 ----------",
-					"/atem/mplayer/1/clip" : 0.0,
-					"/atem/mplayer/1/still" : 0.0
-				}
-
-			}
-
-		}
-,
-		"Q30" : 		{
-			"tags" : "undefined",
-			"description" : "Describe event here...",
-			"data" : 			{
-				"0" : 				{
-					"// 0" : "---------- /atem ----------",
-					"/atem/preview" : 1,
-					"// 1" : "---------- /atem/usk/1/luma ----------",
-					"/atem/usk/1/luma/pre-multiplied" : 0,
-					"/atem/usk/1/luma/gain" : 0.636,
-					"/atem/usk/1/luma/clip" : 0.183,
-					"/atem/usk/1/luma/inverse" : 0,
-					"// 2" : "---------- /atem/usk/1/source ----------",
-					"/atem/usk/1/source/cut" : 3,
-					"/atem/usk/1/source/fill" : 4,
-					"// 3" : "---------- /atem/usk/1 ----------",
-					"/atem/usk/1/type" : "luma",
-					"/atem/usk/1/tie" : 1,
-					"/atem/usk/1/on-air" : 0,
-					"// 4" : "---------- /atem/usk/2 ----------",
-					"/atem/usk/2/tie" : 0,
-					"/atem/usk/2/on-air" : 0,
-					"// 5" : "---------- /atem/aux ----------",
-					"/atem/aux/3" : 3,
-					"/atem/aux/2" : 2,
-					"/atem/aux/1" : 10011
-				}
-,
-				"1" : 				{
-					"/atem/aux/1" : 10011
-				}
-,
-				"2" : 				{
-					"/atem/aux/1" : 10011
+					"_udpsend" : "/atem/transition/auto"
 				}
 
 			}
@@ -3395,23 +3354,53 @@
 			"description" : "Describe event here...",
 			"data" : 			{
 				"0" : 				{
+					"// 0" : "---------- /atem/usk/1 ----------",
+					"/atem/usk/2/tie" : 1
+				}
+,
+				"1" : 				{
+					"/atem/usk/2/tie" : 1
+				}
+,
+				"2" : 				{
+					"/atem/usk/2/tie" : 1
+				}
+
+			}
+
+		}
+,
+		"Q21" : 		{
+			"tags" : "undefined",
+			"description" : "Describe event here...",
+			"data" : 			{
+				"0" : 				{
 					"// 0" : "---------- /atem/aux ----------",
-					"/atem/aux/3" : 0,
-					"/atem/aux/2" : 0,
-					"/atem/aux/1" : 0,
+					"/atem/aux/3" : 3,
+					"/atem/aux/2" : 2,
+					"/atem/aux/1" : 10011,
 					"// 1" : "---------- /atem ----------",
-					"/atem/preview" : 0,
-					"/atem/program" : 0,
-					"// 2" : "---------- /atem/usk/1 ----------",
-					"/atem/usk/1/tie" : 0,
+					"/atem/preview" : 1,
+					"/atem/program" : 1,
+					"// 2" : "---------- /atem/usk/1/luma ----------",
+					"/atem/usk/1/luma/pre-multiplied" : 0,
+					"/atem/usk/1/luma/clip" : 0.5,
+					"/atem/usk/1/luma/gain" : 0.316,
+					"/atem/usk/1/luma/inverse" : 0,
+					"// 3" : "---------- /atem/usk/1/source ----------",
+					"/atem/usk/1/source/cut" : 3,
+					"/atem/usk/1/source/fill" : 4,
+					"// 4" : "---------- /atem/usk/1 ----------",
+					"/atem/usk/1/type" : "luma",
+					"/atem/usk/1/tie" : 1,
 					"/atem/usk/1/on-air" : 0,
-					"// 3" : "---------- /atem/usk/2 ----------",
+					"// 5" : "---------- /atem/usk/2 ----------",
 					"/atem/usk/2/tie" : 0,
 					"/atem/usk/2/on-air" : 0,
-					"// 4" : "---------- /atem/usk/3 ----------",
+					"// 6" : "---------- /atem/usk/3 ----------",
 					"/atem/usk/3/tie" : 0,
 					"/atem/usk/3/on-air" : 0,
-					"// 5" : "---------- /atem/usk/4 ----------",
+					"// 7" : "---------- /atem/usk/4 ----------",
 					"/atem/usk/4/tie" : 0,
 					"/atem/usk/4/on-air" : 0
 				}

@@ -1,0 +1,19 @@
+// "---------- /atem/aux ----------"
+/atem/aux/3 3
+/atem/aux/2 10010
+/atem/aux/1 1
+// "---------- /atem ----------"
+/atem/preview 2
+/atem/program 4
+// "---------- /atem/usk/1 ----------"
+/atem/usk/1/tie 0
+/atem/usk/1/on-air 0
+// "---------- /atem/usk/2 ----------"
+/atem/usk/2/tie 0
+/atem/usk/2/on-air 0
+// "---------- /atem/usk/3 ----------"
+/atem/usk/3/tie 0
+/atem/usk/3/on-air 0
+// "---------- /atem/usk/4 ----------"
+/atem/usk/4/tie 0
+/atem/usk/4/on-air 0

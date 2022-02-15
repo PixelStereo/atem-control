@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 105.0, 1724.0, 721.0 ],
+		"rect" : [ 53.0, 105.0, 798.0, 590.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -54,9 +54,9 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 167.916666626930237, 343.666673481464386, 204.0, 127.0 ],
+					"patching_rect" : [ 575.916666686534882, 165.5, 204.0, 127.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 169.25, 345.0, 841.313559000000055, 115.0 ],
+					"presentation_rect" : [ 169.25, 334.454148471615724, 412.313559000000055, 113.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -77,9 +77,9 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 167.916666626930237, 228.666673481464386, 204.0, 127.0 ],
+					"patching_rect" : [ 348.0, 165.5, 204.0, 127.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 169.25, 230.0, 841.313559000000055, 115.0 ],
+					"presentation_rect" : [ 169.25, 222.969432314410483, 412.313559000000055, 113.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -100,9 +100,9 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 169.916666686534882, 112.000003337860107, 204.0, 127.0 ],
+					"patching_rect" : [ 575.916666686534882, 12.0, 204.0, 127.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 169.25, 115.0, 841.313559000000055, 115.0 ],
+					"presentation_rect" : [ 169.25, 111.484716157205241, 412.313559000000055, 113.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -116,7 +116,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 289.0, 393.5, 29.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 224.0, 44.0, 22.0 ],
+					"presentation_rect" : [ 8.0, 244.0, 44.0, 22.0 ],
 					"text" : "still"
 				}
 
@@ -130,7 +130,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 546.5, 412.5, 33.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 73.0, 339.664753142467248, 33.0, 22.0 ],
+					"presentation_rect" : [ 73.0, 326.454148471615667, 33.0, 22.0 ],
 					"text" : "rate"
 				}
 
@@ -143,7 +143,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 571.0, 503.0, 119.0, 22.0 ],
-					"text" : "s #1/transition/cut"
+					"text" : "s #1/transition/ftb"
 				}
 
 			}
@@ -157,7 +157,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 460.5, 497.0, 89.0, 28.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 73.0, 427.664753142467248, 87.0, 28.0 ],
+					"presentation_rect" : [ 73.0, 414.454148471615667, 87.0, 28.0 ],
 					"text" : "Fade 2 Black"
 				}
 
@@ -187,7 +187,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 468.0, 383.5, 56.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 104.0, 337.664753142467248, 56.0, 26.0 ]
+					"presentation_rect" : [ 104.0, 324.454148471615667, 56.0, 26.0 ]
 				}
 
 			}
@@ -200,7 +200,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 668.75, 352.0, 29.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 24.375, 441.164753142467248, 29.0, 22.0 ],
+					"presentation_rect" : [ 24.375, 427.954148471615667, 29.0, 22.0 ],
 					"text" : "bar"
 				}
 
@@ -214,7 +214,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 527.0, 352.0, 136.0, 22.0 ],
-					"text" : "variline #1/transition/bar"
+					"text" : "var #1/transition/bar"
 				}
 
 			}
@@ -222,6 +222,7 @@
 				"box" : 				{
 					"floatoutput" : 1,
 					"id" : "obj-28",
+					"ignoreclick" : 1,
 					"maxclass" : "slider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -229,7 +230,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 467.25, 350.0, 51.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 20.375, 331.164753142467248, 37.0, 114.0 ],
+					"presentation_rect" : [ 20.375, 317.954148471615667, 37.0, 114.0 ],
 					"size" : 1.0
 				}
 
@@ -268,7 +269,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 592.5, 425.0, 76.0, 28.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 73.0, 398.664753142467248, 87.0, 28.0 ],
+					"presentation_rect" : [ 73.0, 385.454148471615667, 87.0, 28.0 ],
 					"text" : "CUT"
 				}
 
@@ -283,7 +284,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 460.5, 425.0, 76.0, 28.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 73.0, 369.664753142467248, 87.0, 28.0 ],
+					"presentation_rect" : [ 73.0, 356.454148471615667, 87.0, 28.0 ],
 					"text" : "AUTO"
 				}
 
@@ -301,7 +302,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 460.5, 343.0, 267.0, 191.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 327.664753142467248, 168.25, 133.0 ],
+					"presentation_rect" : [ 1.0, 314.454148471615667, 168.25, 133.0 ],
 					"proportion" : 0.5,
 					"rounded" : 12
 				}
@@ -373,7 +374,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 289.25, 484.0, 22.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 131.0, 200.0, 22.0, 24.0 ],
+					"presentation_rect" : [ 131.0, 220.0, 22.0, 24.0 ],
 					"text" : "2"
 				}
 
@@ -387,7 +388,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 323.25, 415.0, 22.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 82.0, 200.0, 48.0, 24.0 ],
+					"presentation_rect" : [ 82.0, 220.0, 48.0, 24.0 ],
 					"text" : "1"
 				}
 
@@ -401,7 +402,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 289.0, 429.5, 30.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 251.0, 44.0, 22.0 ],
+					"presentation_rect" : [ 8.0, 271.0, 44.0, 22.0 ],
 					"text" : "clip"
 				}
 
@@ -416,7 +417,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 347.25, 393.5, 78.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 197.0, 91.0, 27.0 ],
+					"presentation_rect" : [ 1.0, 217.0, 91.0, 27.0 ],
 					"text" : "mplayer"
 				}
 
@@ -431,7 +432,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 8.5, 497.5, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 108.0, 251.0, 50.0, 22.0 ]
+					"presentation_rect" : [ 108.0, 271.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -445,7 +446,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 8.5, 466.5, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 108.0, 224.0, 50.0, 22.0 ]
+					"presentation_rect" : [ 108.0, 244.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -485,7 +486,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 8.5, 429.5, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 51.0, 251.0, 50.0, 22.0 ]
+					"presentation_rect" : [ 51.0, 271.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -499,7 +500,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 8.5, 398.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 51.0, 224.0, 50.0, 22.0 ]
+					"presentation_rect" : [ 51.0, 244.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -759,7 +760,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 348.0, 12.0, 204.0, 127.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 169.25, 0.0, 841.313559000000055, 115.0 ],
+					"presentation_rect" : [ 169.25, 0.0, 412.313559000000055, 113.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -777,7 +778,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1.0, 197.0, 335.0, 185.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 200.0, 168.25, 77.0 ],
+					"presentation_rect" : [ 1.0, 220.0, 168.25, 77.0 ],
 					"proportion" : 0.5,
 					"rounded" : 12
 				}
@@ -1040,15 +1041,15 @@
 			}
 , 			{
 				"name" : "var.maxpat",
-				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/max-tricks/send-receive-tricks/lib",
-				"patcherrelativepath" : "../../../../Library/Application Support/Cycling '74/Max 8/Examples/max-tricks/send-receive-tricks/lib",
+				"bootpath" : "~/Documents/GITs/atem-control/misc",
+				"patcherrelativepath" : "../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "variline.maxpat",
-				"bootpath" : "~/Dropbox/SPANNN",
-				"patcherrelativepath" : "../../../../Dropbox/SPANNN",
+				"bootpath" : "~/Documents/GITs/atem-control/misc",
+				"patcherrelativepath" : "../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
