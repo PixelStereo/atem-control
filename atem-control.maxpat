@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 1616.0, 496.0 ],
+		"rect" : [ 34.0, 79.0, 1491.0, 477.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,124 +40,30 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-55",
-					"maxclass" : "dict.view",
+					"id" : "obj-3",
+					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1152.0, 363.0, 100.0, 100.0 ],
+					"patching_rect" : [ 598.0, 67.0, 150.0, 34.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1229.0, 228.0, 278.0, 136.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-54",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1186.0, 246.0, 100.0, 22.0 ],
-					"text" : "zl slice 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-53",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 4,
-					"outlettype" : [ "dictionary", "", "", "" ],
-					"patching_rect" : [ 1167.0, 311.0, 50.5, 22.0 ],
-					"saved_object_attributes" : 					{
-						"embed" : 0,
-						"parameter_enable" : 0,
-						"parameter_mappable" : 0
-					}
-,
-					"text" : "dict"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-52",
-					"linecount" : 3,
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1224.0, 136.0, 50.0, 49.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1229.0, 197.0, 91.0, 22.0 ],
-					"text" : "get namespace"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-50",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 4,
-					"outlettype" : [ "dictionary", "", "", "" ],
-					"patching_rect" : [ 1230.0, 225.0, 100.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"embed" : 0,
-						"parameter_enable" : 0,
-						"parameter_mappable" : 0
-					}
-,
-					"text" : "dict span"
+					"presentation_rect" : [ 1270.0, 241.0, 150.0, 34.0 ],
+					"text" : "led greren\n"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-49",
-					"linecount" : 21,
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1280.0, 396.0, 50.0, 290.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 10,
-					"presentation_rect" : [ 1057.0, 317.0, 120.0, 143.0 ],
-					"text" : ";\r/span/events/create toto only /atem/usk/*/tie /atem/usk/*/on-air /atem/aux/1 /atem/aux/2 /atem/aux/3 /atem/preview /atem/program"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-46",
-					"linecount" : 8,
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1281.0, 347.0, 50.0, 116.0 ],
+					"patching_rect" : [ 385.0, 312.0, 438.0, 35.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 1190.0, 425.0, 403.0, 35.0 ],
-					"text" : ";\r/span/events/create toto only /atem/aux/1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-45",
-					"linecount" : 8,
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1280.0, 279.0, 50.0, 116.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 1190.0, 373.0, 231.0, 35.0 ],
-					"text" : ";\r/span/events/create toto only /atem/usk/1"
+					"presentation_rect" : [ 1040.0, 315.0, 438.0, 35.0 ],
+					"text" : ";\r/span/events/create toto only /atem/usk/*/tie /atem/usk/*/on-air /atem/aux /atem/p"
 				}
 
 			}
@@ -169,7 +75,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 437.0, 227.5, 61.0, 35.0 ],
+					"patching_rect" : [ 418.0, 16.5, 61.0, 35.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 1057.0, 189.5, 61.0, 35.0 ],
@@ -224,7 +130,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
@@ -1558,7 +1463,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 437.0, 272.0, 78.0, 29.0 ],
+					"patching_rect" : [ 418.0, 61.0, 78.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1057.0, 243.0, 78.0, 29.0 ],
 					"saved_object_attributes" : 					{
@@ -1588,9 +1493,9 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 404.0, 333.0, 450.0, 150.0 ],
+					"patching_rect" : [ 385.0, 122.0, 450.0, 150.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1057.0, 16.0, 450.0, 150.0 ],
+					"presentation_rect" : [ 1011.0, 0.0, 450.0, 150.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -1611,7 +1516,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 7.0, 7.0, 385.0, 476.0 ],
+					"patching_rect" : [ 2.0, -1.0, 372.0, 462.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 1009.0, 460.0 ],
 					"viewvisibility" : 1
@@ -1619,35 +1524,7 @@
 
 			}
  ],
-		"lines" : [ 			{
-				"patchline" : 				{
-					"destination" : [ "obj-54", 0 ],
-					"source" : [ "obj-50", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-50", 0 ],
-					"source" : [ "obj-52", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-55", 0 ],
-					"source" : [ "obj-53", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-53", 0 ],
-					"source" : [ "obj-54", 1 ]
-				}
-
-			}
- ],
+		"lines" : [  ],
 		"dependency_cache" : [ 			{
 				"name" : "bangbasedqueue.maxpat",
 				"bootpath" : "~/Documents/GITs/span/span-package/misc/reno",
@@ -1843,15 +1720,15 @@
 			}
 , 			{
 				"name" : "var.maxpat",
-				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/max-tricks/send-receive-tricks/lib",
-				"patcherrelativepath" : "../../../Library/Application Support/Cycling '74/Max 8/Examples/max-tricks/send-receive-tricks/lib",
+				"bootpath" : "~/Documents/GITs/atem-control/misc",
+				"patcherrelativepath" : "./misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "variline.maxpat",
-				"bootpath" : "~/Dropbox/SPANNN",
-				"patcherrelativepath" : "../../../Dropbox/SPANNN",
+				"bootpath" : "~/Documents/GITs/atem-control/misc",
+				"patcherrelativepath" : "./misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
