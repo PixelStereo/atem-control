@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 846.0, 368.0 ],
+		"rect" : [ 34.0, 79.0, 841.0, 341.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -2287,7 +2287,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ -13.0, 243.0, 817.0, 672.0 ],
+										"rect" : [ 34.0, 243.0, 817.0, 672.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -3296,8 +3296,8 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 208.5, 96.0, 145.0, 22.0 ],
-													"text" : "udpsend 10.10.10.2 3333"
+													"patching_rect" : [ 208.5, 96.0, 138.0, 22.0 ],
+													"text" : "udpsend 127.0.0.1 3333"
 												}
 
 											}
