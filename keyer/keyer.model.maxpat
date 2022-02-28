@@ -58,7 +58,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 248.0, 462.0, 231.0, 129.0 ],
+					"patching_rect" : [ 237.0, 505.0, 231.0, 129.0 ],
 					"text" : ";\n#1/on-air 0;\n#1/tie 0;\n#1/type luma;\n#1/source/fill 4;\n#1/source/cut 5;\n#1/luma/inverse 0;\n#1/luma/clip 0.5;\n#1/luma/gain 0.36"
 				}
 
@@ -151,6 +151,7 @@
 								"box" : 								{
 									"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
 									"id" : "obj-8",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -164,6 +165,7 @@
 								"box" : 								{
 									"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
 									"id" : "obj-7",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -177,6 +179,7 @@
 								"box" : 								{
 									"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
 									"id" : "obj-4",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -289,7 +292,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 48.0, 110.0, 132.0, 22.0 ],
+					"patching_rect" : [ 48.0, 110.0, 160.0, 22.0 ],
 					"text" : "sparam #1 tie"
 				}
 
@@ -362,7 +365,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 74.0, 167.0, 140.0, 22.0 ],
+					"patching_rect" : [ 74.0, 167.0, 170.0, 22.0 ],
 					"text" : "sparam #1 type"
 				}
 
@@ -375,7 +378,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 106.0, 229.0, 168.0, 22.0 ],
+					"patching_rect" : [ 106.0, 229.0, 198.0, 22.0 ],
 					"text" : "sparam #1 source/fill"
 				}
 
@@ -388,7 +391,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 134.0, 289.0, 173.0, 22.0 ],
+					"patching_rect" : [ 134.0, 289.0, 203.0, 22.0 ],
 					"text" : "sparam #1 source/cut"
 				}
 
@@ -401,7 +404,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 22.0, 50.0, 148.0, 22.0 ],
+					"patching_rect" : [ 22.0, 50.0, 178.0, 22.0 ],
 					"text" : "sparam #1 on-air"
 				}
 
@@ -453,13 +456,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
 					"source" : [ "obj-19", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-22", 0 ],
-					"source" : [ "obj-2", 0 ]
 				}
 
 			}

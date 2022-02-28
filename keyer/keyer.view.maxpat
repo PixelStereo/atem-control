@@ -274,7 +274,7 @@
 				"box" : 				{
 					"fontsize" : 16.0,
 					"id" : "obj-9",
-					"items" : "<empty>",
+					"items" : [ 0, "BLK", ",", 1, "FACE", ",", 2, "CYC1", ",", 3, "CYC2", ",", 4, "CAMC", ",", 5, "CAMZ", ",", 6, "LUT", ",", 7, "", ",", 8, "", ",", 9, "", ",", 10, "", ",", 11, "", ",", 12, "", ",", 13, "", ",", 14, "", ",", 15, "", ",", 16, "", ",", 17, "", ",", 18, "", ",", 19, "", ",", 20, "", ",", 1000, "BARS", ",", 2001, "COL1", ",", 2002, "COL2", ",", 3010, "MP1", ",", 3011, "MP1K", ",", 3020, "MP2", ",", 3021, "MP2K", ",", 4010, "M1K1", ",", 4020, "M1K2", ",", 4030, "M2K1", ",", 4040, "M2K2", ",", 5010, "DK1M", ",", 5020, "DK2M", ",", 6000, "SSRC", ",", 7001, "CFD1", ",", 7002, "CFD2", ",", 8001, "FACE", ",", 8002, "CYCF", ",", 8003, "CYCR", ",", 8004, "AUX4", ",", 8005, "AUX5", ",", 8006, "AUX6", ",", 10010, "M/E1", ",", 10011, "PVW1", ",", 10020, "M/E2", ",", 10021, "PVW2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -303,7 +303,7 @@
 				"box" : 				{
 					"fontsize" : 16.0,
 					"id" : "obj-5",
-					"items" : "<empty>",
+					"items" : [ 0, "BLK", ",", 1, "FACE", ",", 2, "CYC1", ",", 3, "CYC2", ",", 4, "CAMC", ",", 5, "CAMZ", ",", 6, "LUT", ",", 7, "", ",", 8, "", ",", 9, "", ",", 10, "", ",", 11, "", ",", 12, "", ",", 13, "", ",", 14, "", ",", 15, "", ",", 16, "", ",", 17, "", ",", 18, "", ",", 19, "", ",", 20, "", ",", 1000, "BARS", ",", 2001, "COL1", ",", 2002, "COL2", ",", 3010, "MP1", ",", 3011, "MP1K", ",", 3020, "MP2", ",", 3021, "MP2K", ",", 4010, "M1K1", ",", 4020, "M1K2", ",", 4030, "M2K1", ",", 4040, "M2K2", ",", 5010, "DK1M", ",", 5020, "DK2M", ",", 6000, "SSRC", ",", 7001, "CFD1", ",", 7002, "CFD2", ",", 8001, "FACE", ",", 8002, "CYCF", ",", 8003, "CYCR", ",", 8004, "AUX4", ",", 8005, "AUX5", ",", 8006, "AUX6", ",", 10010, "M/E1", ",", 10011, "PVW1", ",", 10020, "M/E2", ",", 10021, "PVW2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -358,10 +358,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 68.0, 29.0, 27.0 ],
+					"patching_rect" : [ 8.0, 169.5, 247.0, 27.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.0, 2.0, 160.0, 27.0 ],
-					"text" : "#1"
+					"text" : "/atem/me/1/usk/2"
 				}
 
 			}
@@ -597,29 +597,6 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "var-inputs.maxpat",
-				"bootpath" : "~/Documents/GITs/atem-control/misc",
-				"patcherrelativepath" : "../misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "var.maxpat",
-				"bootpath" : "~/Documents/GITs/atem-control/misc",
-				"patcherrelativepath" : "../misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "variline.maxpat",
-				"bootpath" : "~/Documents/GITs/atem-control/misc",
-				"patcherrelativepath" : "../misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
