@@ -1875,7 +1875,7 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-14",
-													"items" : [ "1.txt", ",", "10.txt", ",", "2 28 2022 20 30 50.txt", ",", "2 28 2022 20 30 59.txt", ",", "2 28 2022 20 31 22.txt", ",", "20.txt", ",", "200.txt", ",", "21.txt", ",", "31.txt", ",", "33.txt", ",", "40.txt", ",", "50.txt", ",", "51.txt" ],
+													"items" : [ "1.txt", ",", "10.txt", ",", "20.txt", ",", "200.txt", ",", "21.txt", ",", "31.txt", ",", "33.txt", ",", "40.txt", ",", "50.txt", ",", "51.txt" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -2287,7 +2287,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 135.0, 442.0, 750.0, 531.0 ],
+										"rect" : [ -13.0, 243.0, 817.0, 672.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -2316,6 +2316,18 @@
 										"subpatcher_template" : "",
 										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
+												"box" : 												{
+													"id" : "obj-56",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "" ],
+													"patching_rect" : [ 418.25, 458.0, 249.0, 22.0 ],
+													"text" : "combine /atem/me/1/ MESSAGE @triggers 1"
+												}
+
+											}
+, 											{
 												"box" : 												{
 													"id" : "obj-12",
 													"linecount" : 2,
@@ -2373,7 +2385,7 @@
 														}
 ,
 														"classnamespace" : "box",
-														"rect" : [ 59.0, 104.0, 640.0, 480.0 ],
+														"rect" : [ 59.0, 104.0, 326.0, 278.0 ],
 														"bglocked" : 0,
 														"openinpresentation" : 0,
 														"default_fontsize" : 12.0,
@@ -2409,8 +2421,8 @@
 																	"numinlets" : 3,
 																	"numoutlets" : 2,
 																	"outlettype" : [ "", "" ],
-																	"patching_rect" : [ 49.0, 181.0, 148.0, 35.0 ],
-																	"text" : "combine /atem/me/0/usk/ INDEX /on-air @triggers 1"
+																	"patching_rect" : [ 14.75, 142.0, 166.0, 35.0 ],
+																	"text" : "combine /atem/me/1/usk/ INDEX /on-air @triggers 1"
 																}
 
 															}
@@ -2421,7 +2433,7 @@
 																	"numinlets" : 1,
 																	"numoutlets" : 5,
 																	"outlettype" : [ "", "", "", "", "" ],
-																	"patching_rect" : [ 148.25, 83.0, 160.0, 22.0 ],
+																	"patching_rect" : [ 29.25, 62.0, 255.0, 22.0 ],
 																	"text" : "regexp /atem/usk/(.+)/on-air"
 																}
 
@@ -2435,7 +2447,7 @@
 																	"numinlets" : 0,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 148.25, 23.0, 30.0, 30.0 ]
+																	"patching_rect" : [ 29.25, 11.0, 30.0, 30.0 ]
 																}
 
 															}
@@ -2447,7 +2459,7 @@
 																	"maxclass" : "outlet",
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
-																	"patching_rect" : [ 254.0, 361.0, 30.0, 30.0 ]
+																	"patching_rect" : [ 206.25, 217.0, 30.0, 30.0 ]
 																}
 
 															}
@@ -2521,7 +2533,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 584.0, 425.0, 107.25, 22.0 ],
+													"patching_rect" : [ 589.0, 539.0, 107.25, 22.0 ],
 													"text" : "zl join"
 												}
 
@@ -3239,7 +3251,7 @@
  ]
 													}
 ,
-													"patching_rect" : [ 584.25, 465.5, 120.0, 29.0 ],
+													"patching_rect" : [ 589.25, 579.5, 120.0, 29.0 ],
 													"saved_object_attributes" : 													{
 														"description" : "",
 														"digest" : "",
@@ -3365,6 +3377,13 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-56", 1 ],
+													"source" : [ "obj-24", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-59", 0 ],
 													"source" : [ "obj-35", 0 ]
 												}
@@ -3388,6 +3407,13 @@
 												"patchline" : 												{
 													"destination" : [ "obj-1", 0 ],
 													"source" : [ "obj-4", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-36", 0 ],
+													"source" : [ "obj-56", 0 ]
 												}
 
 											}
