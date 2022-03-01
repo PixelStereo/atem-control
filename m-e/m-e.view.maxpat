@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 2,
-			"revision" : 2,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 215.0, 105.0, 580.0, 435.0 ],
+		"rect" : [ 215.0, 105.0, 784.0, 491.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -42,7 +42,7 @@
 				"box" : 				{
 					"args" : [ "#1/usk/2" ],
 					"bgmode" : 1,
-					"border" : 1,
+					"border" : 0,
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
@@ -56,7 +56,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 343.916666686534882, 201.0, 204.0, 127.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 169.25, 111.484716157205241, 412.313559000000055, 113.0 ],
+					"presentation_rect" : [ 169.25, 108.801974475643988, 631.878772203430231, 110.82608699798584 ],
 					"viewvisibility" : 1
 				}
 
@@ -70,7 +70,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 125.5, 261.5, 33.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 72.0, 104.454148471615667, 33.0, 22.0 ],
+					"presentation_rect" : [ 76.0, 98.454148471615667, 33.0, 22.0 ],
 					"text" : "rate"
 				}
 
@@ -97,7 +97,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 39.5, 346.0, 89.0, 28.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 72.0, 192.454148471615667, 87.0, 28.0 ],
+					"presentation_rect" : [ 11.375, 175.454148471615667, 145.5, 37.0 ],
 					"text" : "Fade 2 Black"
 				}
 
@@ -127,51 +127,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 47.0, 232.5, 56.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 103.0, 102.454148471615667, 56.0, 26.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontsize" : 14.0,
-					"id" : "obj-36",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 247.75, 201.0, 29.0, 22.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 23.375, 205.954148471615667, 29.0, 22.0 ],
-					"text" : "bar"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
-					"id" : "obj-29",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 106.0, 201.0, 136.0, 22.0 ],
-					"text" : "var #1/transition/bar"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"floatoutput" : 1,
-					"id" : "obj-28",
-					"ignoreclick" : 1,
-					"maxclass" : "slider",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 46.25, 199.0, 51.0, 26.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 19.375, 95.954148471615667, 37.0, 114.0 ],
-					"size" : 1.0
+					"presentation_rect" : [ 107.0, 96.454148471615667, 56.0, 26.0 ]
 				}
 
 			}
@@ -209,7 +165,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 171.5, 274.0, 76.0, 28.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 72.0, 163.454148471615667, 87.0, 28.0 ],
+					"presentation_rect" : [ 11.375, 132.454148471615667, 66.0, 28.0 ],
 					"text" : "CUT"
 				}
 
@@ -224,7 +180,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 39.5, 274.0, 76.0, 28.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 72.0, 134.454148471615667, 87.0, 28.0 ],
+					"presentation_rect" : [ 90.875, 132.454148471615667, 66.0, 28.0 ],
 					"text" : "AUTO"
 				}
 
@@ -242,7 +198,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 39.5, 192.0, 267.0, 191.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 92.454148471615667, 168.25, 133.0 ],
+					"presentation_rect" : [ 0.0, 92.454148471615667, 168.25, 125.0 ],
 					"proportion" : 0.5,
 					"rounded" : 12
 				}
@@ -377,7 +333,7 @@
 				"box" : 				{
 					"args" : [ "#1/usk/1" ],
 					"bgmode" : 1,
-					"border" : 1,
+					"border" : 0,
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
@@ -391,7 +347,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 348.0, 12.0, 204.0, 127.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 169.25, 0.0, 412.313559000000055, 113.0 ],
+					"presentation_rect" : [ 169.25, 0.0, 631.878772203430231, 110.82608699798584 ],
 					"viewvisibility" : 1
 				}
 
@@ -442,20 +398,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-29", 0 ],
-					"source" : [ "obj-28", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-28", 0 ],
-					"source" : [ "obj-29", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
 					"midpoints" : [ 186.0, 182.0, 157.5, 182.0, 157.5, 116.0, 172.0, 116.0 ],
 					"source" : [ "obj-32", 0 ]
@@ -499,14 +441,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "var-inputs.maxpat",
-				"bootpath" : "~/Documents/GITs/atem-control/misc",
-				"patcherrelativepath" : "../misc",
+				"name" : "var.maxpat",
+				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/max-tricks/send-receive-tricks/lib",
+				"patcherrelativepath" : "../../../../Library/Application Support/Cycling '74/Max 8/Examples/max-tricks/send-receive-tricks/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "var.maxpat",
+				"name" : "var-inputs.maxpat",
 				"bootpath" : "~/Documents/GITs/atem-control/misc",
 				"patcherrelativepath" : "../misc",
 				"type" : "JSON",

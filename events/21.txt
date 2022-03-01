@@ -3,24 +3,18 @@
 /atem/aux/2 2
 /atem/aux/1 10011
 // "---------- /atem ----------"
-/atem/preview 1
-/atem/program 1
-// "---------- /atem/usk/1/luma ----------"
-/atem/usk/1/luma/clip 0.500
-/atem/usk/1/luma/gain 0.316
-/atem/usk/1/luma/inverse 0
-// "---------- /atem/usk/1/source ----------"
-/atem/usk/1/source/cut 3
-/atem/usk/1/source/fill 4
-// "---------- /atem/usk/1 ----------"
-/atem/usk/1/tie 1
-/atem/usk/1/on-air 0
-// "---------- /atem/usk/2 ----------"
-/atem/usk/2/tie 0
-/atem/usk/2/on-air 0
-// "---------- /atem/usk/3 ----------"
-/atem/usk/3/tie 0
-/atem/usk/3/on-air 0
-// "---------- /atem/usk/4 ----------"
-/atem/usk/4/tie 0
-/atem/usk/4/on-air 0
+/atem/me/1/preview 1
+/atem/me/1/program 1
+// "---------- /atem/me/1/usk/1/luma ----------"
+/atem/me/1/usk/1/luma/clip 0.500
+/atem/me/1/usk/1/luma/gain 0.316
+/atem/me/1/usk/1/luma/inverse 0
+// "---------- /atem/me/1/usk/1/source ----------"
+/atem/me/1/usk/1/source/cut 3
+/atem/me/1/usk/1/source/fill 4
+// "---------- /atem/me/1/usk/1 ----------"
+/atem/me/1/usk/1/tie 1
+/atem/me/1/usk/1/on-air 0
+// "---------- /atem/me/1/usk/2 ----------"
+/atem/me/1/usk/2/tie 0
+/atem/me/1/usk/2/on-air 0
