@@ -40,22 +40,6 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"fontsize" : 14.0,
-					"id" : "obj-12",
-					"maxclass" : "textbutton",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 568.0, 299.0, 95.0, 37.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 272.341016949152561, 57.0, 83.658983050847439, 29.0 ],
-					"text" : "Smile"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-29",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -138,7 +122,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 420.5, 299.0, 95.0, 37.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 182.310677966101707, 57.0, 83.658983050847439, 29.0 ],
+					"presentation_rect" : [ 15.25, 110.0, 171.658983050847439, 29.0 ],
 					"text" : "Edit"
 				}
 
@@ -154,7 +138,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 72.5, 250.0, 95.0, 37.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 92.280338983050854, 57.0, 83.658983050847439, 29.0 ],
+					"presentation_rect" : [ 15.25, 77.0, 171.658983050847439, 29.0 ],
 					"text" : "Play"
 				}
 
@@ -182,7 +166,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 388.0, 171.0, 198.0, 37.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.25, 57.0, 83.658983050847439, 29.0 ],
+					"presentation_rect" : [ 15.25, 44.0, 171.658983050847439, 29.0 ],
 					"text" : "New"
 				}
 
@@ -288,7 +272,7 @@
 , 			{
 				"box" : 				{
 					"align" : 1,
-					"fontsize" : 18.0,
+					"fontsize" : 12.0,
 					"id" : "obj-14",
 					"items" : "<empty>",
 					"maxclass" : "umenu",
@@ -296,10 +280,10 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 172.0, 250.0, 223.0, 29.0 ],
+					"patching_rect" : [ 172.0, 250.0, 223.0, 22.0 ],
 					"prefix" : "~/Documents/GITs/atem-control/events/",
 					"presentation" : 1,
-					"presentation_rect" : [ 4.25, 5.816894999999931, 351.75, 29.0 ],
+					"presentation_rect" : [ 4.25, 5.816894999999931, 190.75, 22.0 ],
 					"textjustification" : 1
 				}
 
@@ -329,7 +313,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 361.0, 22.0, 224.0, 43.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 361.0, 102.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 201.939322033898293, 144.0 ],
 					"proportion" : 0.5,
 					"rounded" : 12
 				}
