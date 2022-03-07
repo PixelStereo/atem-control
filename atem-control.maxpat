@@ -3908,22 +3908,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-19",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 638.0, 168.316894999999988, 115.0, 33.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 792.0, 289.0, 115.0, 33.0 ],
-					"text" : "atem-control v0.6\n© 2022 Pixel Stereo",
-					"textjustification" : 2
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"bgmode" : 1,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -3941,6 +3925,22 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 733.0, 169.0, 174.0, 92.0 ],
 					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-19",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 638.0, 168.316894999999988, 115.0, 33.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 792.0, 289.0, 115.0, 33.0 ],
+					"text" : "atem-control v0.7\n© 2022 Pixel Stereo",
+					"textjustification" : 2
 				}
 
 			}
