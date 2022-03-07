@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 902.0, 439.0, 1536.0, 818.0 ],
+		"rect" : [ 222.0, 439.0, 1536.0, 818.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -815,7 +815,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 816.0, 61.75, 299.0, 22.0 ],
-					"text" : "var #1/fly/enable"
+					"text" : "var #1/fly/enabled"
 				}
 
 			}
