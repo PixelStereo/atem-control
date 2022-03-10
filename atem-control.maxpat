@@ -257,7 +257,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-21",
@@ -4069,6 +4068,13 @@
 				"name" : "m-e.view.maxpat",
 				"bootpath" : "~/Documents/GITs/atem-control/m-e",
 				"patcherrelativepath" : "./m-e",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "scontrol.maxpat",
+				"bootpath" : "~/Documents/GITs/atem-control",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
