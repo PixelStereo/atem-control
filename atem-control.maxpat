@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 45.0, 79.0, 927.0, 331.0 ],
+		"rect" : [ 117.0, 85.0, 931.0, 347.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -229,7 +229,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1051.0, 83.0, 517.0, 319.0 ],
+						"rect" : [ 1169.0, 85.0, 517.0, 319.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3163,7 +3163,7 @@
 														}
 ,
 														"classnamespace" : "box",
-														"rect" : [ 59.0, 104.0, 397.0, 237.0 ],
+														"rect" : [ 712.0, 501.0, 586.0, 343.0 ],
 														"bglocked" : 0,
 														"openinpresentation" : 0,
 														"default_fontsize" : 12.0,
@@ -3198,7 +3198,7 @@
 																	"numinlets" : 2,
 																	"numoutlets" : 2,
 																	"outlettype" : [ "", "" ],
-																	"patching_rect" : [ 12.25, 112.0, 249.0, 22.0 ],
+																	"patching_rect" : [ 9.869043827056885, 113.058199286460876, 249.0, 22.0 ],
 																	"text" : "combine /atem/me/1/ MESSAGE @triggers 1"
 																}
 
@@ -3210,7 +3210,7 @@
 																	"numinlets" : 1,
 																	"numoutlets" : 5,
 																	"outlettype" : [ "", "", "", "", "" ],
-																	"patching_rect" : [ 214.5, 75.0, 130.0, 22.0 ],
+																	"patching_rect" : [ 212.119043827056885, 76.058199286460876, 130.0, 22.0 ],
 																	"text" : "regexp /atem/me/0/(.+)"
 																}
 
@@ -3224,7 +3224,7 @@
 																	"numinlets" : 0,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 214.5, 15.0, 30.0, 30.0 ]
+																	"patching_rect" : [ 212.119043827056885, 16.058199286460876, 30.0, 30.0 ]
 																}
 
 															}
@@ -3236,7 +3236,7 @@
 																	"maxclass" : "outlet",
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
-																	"patching_rect" : [ 297.75, 176.0, 30.0, 30.0 ]
+																	"patching_rect" : [ 295.369043827056885, 177.058199286460876, 30.0, 30.0 ]
 																}
 
 															}
