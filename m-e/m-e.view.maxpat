@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1297.0, 367.0, 807.0, 449.0 ],
+		"rect" : [ 1295.0, 366.0, 807.0, 449.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -71,7 +71,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 94.5, 273.0, 136.0, 22.0 ],
-					"text" : "var #1/black"
+					"text" : "svar #1/black"
 				}
 
 			}
@@ -320,6 +320,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "svar.maxpat",
+				"bootpath" : "~/Documents/GITs/atem-control",
+				"patcherrelativepath" : "..",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "var-inputs.maxpat",
 				"bootpath" : "~/Documents/GITs/atem-control/misc",
 				"patcherrelativepath" : "../misc",
@@ -327,14 +334,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "var.maxpat",
-				"bootpath" : "~/Documents/GITs/atem-control/misc",
-				"patcherrelativepath" : "../misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "variline.maxpat",
+				"name" : "svariline.maxpat",
 				"bootpath" : "~/Documents/GITs/atem-control/misc",
 				"patcherrelativepath" : "../misc",
 				"type" : "JSON",

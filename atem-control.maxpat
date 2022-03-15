@@ -3040,7 +3040,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 34.0, 243.0, 513.0, 597.0 ],
+										"rect" : [ 34.0, 523.0, 517.0, 596.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -3068,6 +3068,7 @@
 										"style" : "",
 										"subpatcher_template" : "",
 										"assistshowspatchername" : 0,
+										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
@@ -3128,18 +3129,6 @@
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 119.000000166666609, 431.0, 104.0, 22.0 ],
 													"text" : "udpreceive 22222"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-10",
-													"maxclass" : "newobj",
-													"numinlets" : 7,
-													"numoutlets" : 7,
-													"outlettype" : [ "", "", "", "", "", "", "" ],
-													"patching_rect" : [ 34.75, 124.0, 432.0, 22.0 ],
-													"text" : "route /atem/aux/1 /atem/aux/2 /atem/aux/3 /atem/aux/4 /atem/aux/5 /atem/aux/6"
 												}
 
 											}
@@ -3773,7 +3762,7 @@
 														}
 ,
 														"classnamespace" : "box",
-														"rect" : [ 873.0, 83.0, 278.0, 347.0 ],
+														"rect" : [ 620.0, 583.0, 239.0, 317.0 ],
 														"bglocked" : 0,
 														"openinpresentation" : 0,
 														"default_fontsize" : 12.0,
@@ -3803,17 +3792,6 @@
 														"assistshowspatchername" : 0,
 														"boxes" : [ 															{
 																"box" : 																{
-																	"id" : "obj-1",
-																	"maxclass" : "newobj",
-																	"numinlets" : 1,
-																	"numoutlets" : 0,
-																	"patching_rect" : [ 137.0, 303.0, 63.0, 22.0 ],
-																	"text" : "print >>>>"
-																}
-
-															}
-, 															{
-																"box" : 																{
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
 																	"id" : "obj-7",
@@ -3821,7 +3799,7 @@
 																	"numinlets" : 2,
 																	"numoutlets" : 2,
 																	"outlettype" : [ "", "" ],
-																	"patching_rect" : [ 29.0, 150.0, 77.0, 22.0 ],
+																	"patching_rect" : [ 17.0, 131.0, 77.0, 22.0 ],
 																	"text" : "route symbol"
 																}
 
@@ -3835,7 +3813,7 @@
 																	"numinlets" : 1,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 87.0, 232.75, 57.0, 22.0 ],
+																	"patching_rect" : [ 75.0, 213.75, 57.0, 22.0 ],
 																	"text" : "tosymbol"
 																}
 
@@ -3849,7 +3827,7 @@
 																	"numinlets" : 3,
 																	"numoutlets" : 3,
 																	"outlettype" : [ "", "", "" ],
-																	"patching_rect" : [ 28.0, 194.75, 78.0, 22.0 ],
+																	"patching_rect" : [ 16.0, 175.75, 78.0, 22.0 ],
 																	"text" : "route int float"
 																}
 
@@ -3863,7 +3841,7 @@
 																	"numinlets" : 0,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 29.0, 30.5, 30.0, 30.0 ]
+																	"patching_rect" : [ 17.0, 11.5, 30.0, 30.0 ]
 																}
 
 															}
@@ -3876,7 +3854,7 @@
 																	"numinlets" : 2,
 																	"numoutlets" : 2,
 																	"outlettype" : [ "", "" ],
-																	"patching_rect" : [ 29.0, 118.75, 160.0, 22.0 ],
+																	"patching_rect" : [ 17.0, 99.75, 146.0, 22.0 ],
 																	"text" : "zl ecils 1"
 																}
 
@@ -3890,20 +3868,21 @@
 																	"numinlets" : 1,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 171.0, 243.583333333333314, 84.0, 22.0 ],
+																	"patching_rect" : [ 144.0, 213.75, 84.0, 22.0 ],
 																	"text" : "prepend send"
 																}
 
 															}
 , 															{
 																"box" : 																{
+																	"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
 																	"id" : "obj-5",
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
-																	"patching_rect" : [ 29.0, 289.0, 57.0, 22.0 ],
+																	"patching_rect" : [ 16.0, 281.0, 57.0, 22.0 ],
 																	"text" : "forward"
 																}
 
@@ -3917,7 +3896,7 @@
 																	"numinlets" : 2,
 																	"numoutlets" : 2,
 																	"outlettype" : [ "", "" ],
-																	"patching_rect" : [ 29.0, 81.333333333333329, 57.0, 22.0 ],
+																	"patching_rect" : [ 17.0, 62.333333333333329, 57.0, 22.0 ],
 																	"text" : "zl rot -1"
 																}
 
@@ -3954,7 +3933,6 @@
 , 															{
 																"patchline" : 																{
 																	"destination" : [ "obj-4", 0 ],
-																	"midpoints" : [ 179.5, 219.0, 180.5, 219.0 ],
 																	"source" : [ "obj-3", 1 ]
 																}
 
@@ -3969,7 +3947,7 @@
 , 															{
 																"patchline" : 																{
 																	"destination" : [ "obj-5", 0 ],
-																	"midpoints" : [ 180.5, 280.0, 38.5, 280.0 ],
+																	"midpoints" : [ 153.5, 261.0, 25.5, 261.0 ],
 																	"source" : [ "obj-4", 0 ]
 																}
 
@@ -4454,7 +4432,7 @@
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 792.0, 289.0, 115.0, 33.0 ],
-					"text" : "atem-control v0.8\n© 2022 Pixel Stereo",
+					"text" : "atem-control v0.9\n© 2022 Pixel Stereo",
 					"textjustification" : 2
 				}
 
@@ -4601,6 +4579,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "svar.maxpat",
+				"bootpath" : "~/Documents/GITs/atem-control",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "var-inputs.maxpat",
 				"bootpath" : "~/Documents/GITs/atem-control/misc",
 				"patcherrelativepath" : "./misc",
@@ -4608,14 +4593,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "var.maxpat",
-				"bootpath" : "~/Documents/GITs/atem-control/misc",
-				"patcherrelativepath" : "./misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "variline.maxpat",
+				"name" : "svariline.maxpat",
 				"bootpath" : "~/Documents/GITs/atem-control/misc",
 				"patcherrelativepath" : "./misc",
 				"type" : "JSON",
