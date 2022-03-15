@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 45.0, 105.0, 1493.0, 760.0 ],
+		"rect" : [ 45.0, 105.0, 1070.0, 760.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -73,8 +73,8 @@
 					"format" : 6,
 					"id" : "obj-87",
 					"maxclass" : "flonum",
-					"maximum" : 359.990000000000009,
-					"minimum" : 0.0,
+					"maximum" : 20.0,
+					"minimum" : -20.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -777,8 +777,8 @@
 					"format" : 6,
 					"id" : "obj-75",
 					"maxclass" : "flonum",
-					"maximum" : 1.0,
-					"minimum" : 0.0,
+					"maximum" : 20.0,
+					"minimum" : -20.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -823,8 +823,8 @@
 					"format" : 6,
 					"id" : "obj-71",
 					"maxclass" : "flonum",
-					"maximum" : 1.0,
-					"minimum" : 0.0,
+					"maximum" : 20.0,
+					"minimum" : -20.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -854,8 +854,8 @@
 					"format" : 6,
 					"id" : "obj-67",
 					"maxclass" : "flonum",
-					"maximum" : 1.0,
-					"minimum" : -1.0,
+					"maximum" : 20.0,
+					"minimum" : -20.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -901,8 +901,8 @@
 					"format" : 6,
 					"id" : "obj-63",
 					"maxclass" : "flonum",
-					"maximum" : 1.0,
-					"minimum" : -1.0,
+					"maximum" : 20.0,
+					"minimum" : -20.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -1876,20 +1876,6 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "svar.maxpat",
-				"bootpath" : "~/Documents/GITs/atem-control",
-				"patcherrelativepath" : "..",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ssvariline.maxpat",
-				"bootpath" : "~/Documents/GITs/atem-control/misc",
-				"patcherrelativepath" : "../misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "var-inputs.maxpat",
 				"bootpath" : "~/Documents/GITs/atem-control/misc",
 				"patcherrelativepath" : "../misc",
 				"type" : "JSON",
@@ -1897,6 +1883,13 @@
 			}
 , 			{
 				"name" : "svariline.maxpat",
+				"bootpath" : "~/Documents/GITs/atem-control/misc",
+				"patcherrelativepath" : "../misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "var-inputs.maxpat",
 				"bootpath" : "~/Documents/GITs/atem-control/misc",
 				"patcherrelativepath" : "../misc",
 				"type" : "JSON",
