@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 117.0, 85.0, 931.0, 347.0 ],
+		"rect" : [ 38.0, 79.0, 927.0, 326.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -3068,7 +3068,6 @@
 										"style" : "",
 										"subpatcher_template" : "",
 										"assistshowspatchername" : 0,
-										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
@@ -4566,27 +4565,20 @@
 			}
 , 			{
 				"name" : "scontrol.maxpat",
-				"bootpath" : "~/Documents/GITs/atem-control",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/GITs/atem-control/misc",
+				"patcherrelativepath" : "./misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sparam.maxpat",
-				"bootpath" : "~/Documents/GITs/atem-control",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/GITs/atem-control/misc",
+				"patcherrelativepath" : "./misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "svar.maxpat",
-				"bootpath" : "~/Documents/GITs/atem-control",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "var-inputs.maxpat",
 				"bootpath" : "~/Documents/GITs/atem-control/misc",
 				"patcherrelativepath" : "./misc",
 				"type" : "JSON",
@@ -4594,6 +4586,13 @@
 			}
 , 			{
 				"name" : "svariline.maxpat",
+				"bootpath" : "~/Documents/GITs/atem-control/misc",
+				"patcherrelativepath" : "./misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "var-inputs.maxpat",
 				"bootpath" : "~/Documents/GITs/atem-control/misc",
 				"patcherrelativepath" : "./misc",
 				"type" : "JSON",
