@@ -71,7 +71,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 94.5, 273.0, 136.0, 22.0 ],
-					"text" : "svar #1/black"
+					"text" : "pxst.var #1/black"
 				}
 
 			}
@@ -320,7 +320,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "svar.maxpat",
+				"name" : "pxst.var.maxpat",
 				"bootpath" : "~/Documents/GITs/atem-control",
 				"patcherrelativepath" : "..",
 				"type" : "JSON",
@@ -334,7 +334,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "svariline.maxpat",
+				"name" : "pxst.variline.maxpat",
 				"bootpath" : "~/Documents/GITs/atem-control/misc",
 				"patcherrelativepath" : "../misc",
 				"type" : "JSON",

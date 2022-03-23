@@ -59,7 +59,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 85.5, 215.0, 239.0, 22.0 ],
-					"text" : "sparam #1 aux/4"
+					"text" : "pxst.param #1 aux/4"
 				}
 
 			}
@@ -84,7 +84,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 128.5, 342.0, 239.0, 22.0 ],
-					"text" : "sparam #1 aux/6"
+					"text" : "pxst.param #1 aux/6"
 				}
 
 			}
@@ -109,7 +109,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 107.5, 280.0, 239.0, 22.0 ],
-					"text" : "sparam #1 aux/5"
+					"text" : "pxst.param #1 aux/5"
 				}
 
 			}
@@ -146,7 +146,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 18.0, 13.0, 145.0, 22.0 ],
-					"text" : "sparam #1 aux/1"
+					"text" : "pxst.param #1 aux/1"
 				}
 
 			}
@@ -171,7 +171,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 61.0, 140.0, 145.0, 22.0 ],
-					"text" : "sparam #1 aux/3"
+					"text" : "pxst.param #1 aux/3"
 				}
 
 			}
@@ -196,7 +196,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 40.0, 78.0, 145.0, 22.0 ],
-					"text" : "sparam #1 aux/2"
+					"text" : "pxst.param #1 aux/2"
 				}
 
 			}

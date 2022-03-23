@@ -63,7 +63,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 834.0, 516.75, 299.0, 22.0 ],
-					"text" : "svariline #1/fly/rotation"
+					"text" : "pxst.variline #1/fly/rotation"
 				}
 
 			}
@@ -168,7 +168,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 470.0, 460.5, 281.0, 22.0 ],
-					"text" : "svar #1/luma/pre-multiplied "
+					"text" : "pxst.var #1/luma/pre-multiplied "
 				}
 
 			}
@@ -223,7 +223,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 55.0, 724.0, 299.0, 22.0 ],
-					"text" : "svar #1/pattern/style"
+					"text" : "pxst.var #1/pattern/style"
 				}
 
 			}
@@ -251,7 +251,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 32.0, 653.0, 299.0, 22.0 ],
-					"text" : "svariline #1/pattern/position-y"
+					"text" : "pxst.variline #1/pattern/position-y"
 				}
 
 			}
@@ -282,7 +282,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 95.5, 169.5, 278.0, 22.0 ],
-					"text" : "svar #1/type"
+					"text" : "pxst.var #1/type"
 				}
 
 			}
@@ -310,7 +310,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 32.0, 590.0, 299.0, 22.0 ],
-					"text" : "svariline #1/pattern/position-x"
+					"text" : "pxst.variline #1/pattern/position-x"
 				}
 
 			}
@@ -356,7 +356,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 32.0, 529.0, 299.0, 22.0 ],
-					"text" : "svariline #1/pattern/softness"
+					"text" : "pxst.variline #1/pattern/softness"
 				}
 
 			}
@@ -402,7 +402,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 32.0, 468.0, 299.0, 22.0 ],
-					"text" : "svariline #1/pattern/symmetry"
+					"text" : "pxst.variline #1/pattern/symmetry"
 				}
 
 			}
@@ -433,7 +433,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 11.0, 332.5, 299.0, 22.0 ],
-					"text" : "svar #1/pattern/inverse"
+					"text" : "pxst.var #1/pattern/inverse"
 				}
 
 			}
@@ -485,7 +485,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 32.0, 407.0, 299.0, 22.0 ],
-					"text" : "svariline #1/pattern/size"
+					"text" : "pxst.variline #1/pattern/size"
 				}
 
 			}
@@ -546,7 +546,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1190.0, 313.0, 299.0, 22.0 ],
-					"text" : "svariline #1/mask/bottom"
+					"text" : "pxst.variline #1/mask/bottom"
 				}
 
 			}
@@ -592,7 +592,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1190.0, 252.0, 299.0, 22.0 ],
-					"text" : "svariline #1/mask/top"
+					"text" : "pxst.variline #1/mask/top"
 				}
 
 			}
@@ -638,7 +638,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1190.0, 191.0, 299.0, 22.0 ],
-					"text" : "svariline #1/mask/right"
+					"text" : "pxst.variline #1/mask/right"
 				}
 
 			}
@@ -669,7 +669,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1169.0, 55.5, 299.0, 22.0 ],
-					"text" : "svar #1/mask/enabled"
+					"text" : "pxst.var #1/mask/enabled"
 				}
 
 			}
@@ -721,7 +721,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1190.0, 130.0, 299.0, 22.0 ],
-					"text" : "svariline #1/mask/left"
+					"text" : "pxst.variline #1/mask/left"
 				}
 
 			}
@@ -767,7 +767,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 824.0, 407.75, 299.0, 22.0 ],
-					"text" : "svariline #1/fly/size-x"
+					"text" : "pxst.variline #1/fly/size-x"
 				}
 
 			}
@@ -813,7 +813,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 824.0, 321.75, 299.0, 22.0 ],
-					"text" : "svariline #1/fly/size-y"
+					"text" : "pxst.variline #1/fly/size-y"
 				}
 
 			}
@@ -844,7 +844,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 824.0, 232.75, 299.0, 22.0 ],
-					"text" : "svariline #1/fly/position-y"
+					"text" : "pxst.variline #1/fly/position-y"
 				}
 
 			}
@@ -891,7 +891,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 824.0, 146.75, 299.0, 22.0 ],
-					"text" : "svariline #1/fly/position-x"
+					"text" : "pxst.variline #1/fly/position-x"
 				}
 
 			}
@@ -922,7 +922,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 816.0, 61.75, 299.0, 22.0 ],
-					"text" : "svar #1/fly/enabled"
+					"text" : "pxst.var #1/fly/enabled"
 				}
 
 			}
@@ -986,7 +986,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1.0, 204.5, 299.0, 22.0 ],
-					"text" : "svar #1/luma/inverse"
+					"text" : "pxst.var #1/luma/inverse"
 				}
 
 			}
@@ -1047,7 +1047,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 86.0, 99.75, 260.0, 22.0 ],
-					"text" : "svar #1/tie"
+					"text" : "pxst.var #1/tie"
 				}
 
 			}
@@ -1075,7 +1075,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 399.0, 354.0, 299.0, 22.0 ],
-					"text" : "svariline #1/luma/clip"
+					"text" : "pxst.variline #1/luma/clip"
 				}
 
 			}
@@ -1151,7 +1151,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 399.0, 263.5, 299.0, 22.0 ],
-					"text" : "svariline #1/luma/gain"
+					"text" : "pxst.variline #1/luma/gain"
 				}
 
 			}
@@ -1263,7 +1263,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 154.5, 69.0, 278.0, 22.0 ],
-					"text" : "svar #1/on-air"
+					"text" : "pxst.var #1/on-air"
 				}
 
 			}
@@ -1875,14 +1875,14 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "svar.maxpat",
+				"name" : "pxst.var.maxpat",
 				"bootpath" : "~/Documents/GITs/atem-control/misc",
 				"patcherrelativepath" : "../misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "svariline.maxpat",
+				"name" : "pxst.variline.maxpat",
 				"bootpath" : "~/Documents/GITs/atem-control/misc",
 				"patcherrelativepath" : "../misc",
 				"type" : "JSON",

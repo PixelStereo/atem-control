@@ -1,0 +1,3 @@
+[submodule "pxst"]
+	path = pxst
+	url = https://github.com/PixelStereo/pxst.max.git

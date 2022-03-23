@@ -47,7 +47,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 57.0, 9.0, 325.0, 22.0 ],
-					"text" : "sparam #1 program "
+					"text" : "pxst.param #1 program "
 				}
 
 			}
@@ -60,7 +60,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 10.0, 68.0, 294.0, 22.0 ],
-					"text" : "sparam #1 ftb"
+					"text" : "pxst.param #1 ftb"
 				}
 
 			}
@@ -85,7 +85,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 21.0, 38.0, 322.0, 22.0 ],
-					"text" : "sparam #1 preview "
+					"text" : "pxst.param #1 preview "
 				}
 
 			}
